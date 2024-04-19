@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc897358-41ee-48b2-ade6-518e78140930">
+  <name>КонтрольНесогласованныхИзменений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль несогласованных изменений</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

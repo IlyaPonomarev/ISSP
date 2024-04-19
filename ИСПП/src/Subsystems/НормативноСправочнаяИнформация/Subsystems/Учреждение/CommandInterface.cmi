@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.Организации.Command.ДобавитьОрганизацию</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Организации.Command.ДобавитьОрганизацию</commands>
+      <commands>Catalog.Организации.Command.Организации</commands>
+      <commands>Catalog.Организации.Command.РеквизитыОрганизации</commands>
+      <commands>Catalog.ПодразделенияОрганизаций.StandardCommand.OpenList</commands>
+      <commands>Catalog.Склады.StandardCommand.OpenList</commands>
+      <commands>Catalog.Валюты.StandardCommand.OpenList</commands>
+      <commands>Catalog.Грифы.StandardCommand.OpenList</commands>
+      <commands>Catalog.Центры.StandardCommand.OpenList</commands>
+      <commands>Catalog.ПостоянноДействующиеКомиссии.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

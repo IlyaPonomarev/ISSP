@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d8f8699-c11d-46f1-9c56-2efc19844688">
+  <name>ОбъектыВводимыеНаОсновании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объекты вводимые на основании</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+</mdclass:SessionParameter>

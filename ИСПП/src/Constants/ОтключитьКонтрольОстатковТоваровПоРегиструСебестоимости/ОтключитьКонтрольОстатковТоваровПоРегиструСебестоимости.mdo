@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09d87f79-81dd-4ac8-b11b-eb3bffa8adeb">
+  <producedTypes>
+    <managerType typeId="956a8f98-1313-4f58-a19b-0a1faf59ad95" valueTypeId="8aba5a6e-bdcb-4d29-9a6a-5890ab3a4b91"/>
+    <valueManagerType typeId="63438835-80e1-44d6-8705-e91de6c7b534" valueTypeId="2e73aa9f-eaf5-4934-adb6-049e1dac7a2d"/>
+    <valueKeyType typeId="9da01b1b-0c4b-5c5f-a5a5-6f83094394a5" valueTypeId="562eb1e4-c591-5bde-9a68-58a2a8c6263c"/>
+  </producedTypes>
+  <name>ОтключитьКонтрольОстатковТоваровПоРегиструСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отключить контроль остатков товаров по регистру себестоимости</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

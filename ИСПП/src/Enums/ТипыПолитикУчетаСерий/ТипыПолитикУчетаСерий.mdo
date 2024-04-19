@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffaae369-ab0d-4ddc-a706-6da8b2b911a8">
+  <producedTypes>
+    <refType typeId="f0d3eb6c-470c-478f-b08a-711b1f79669e" valueTypeId="9fbfd794-1855-4f3e-a255-9c0eeb7413e3"/>
+    <listType typeId="2bb4ed25-c990-411e-9e9c-26929e5e1e22" valueTypeId="29dda798-18f2-432e-8261-7b8fda62fa5b"/>
+    <managerType typeId="0e36264e-5a45-4079-9368-8521459df306" valueTypeId="4da64682-ea30-41bc-81b3-ea55291c4b96"/>
+  </producedTypes>
+  <name>ТипыПолитикУчетаСерий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы политик учета серий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0d8d93b2-f87d-40c0-a8d2-c8195f92d506">
+    <name>СправочноеУказаниеСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочное указание серий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c675db24-9b5c-4226-b95b-b97066c2425e">
+    <name>УправлениеОстаткамиСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление остатками серий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4adebe24-e680-4474-91e6-ed27ff115b3b">
+    <name>УчетСебестоимостиПоСериям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет себестоимости по сериям</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0278407-2323-4661-b8f3-67eb892b5fe0">
+    <name>НеУчитывать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитывать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

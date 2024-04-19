@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37d2dcdd-2295-424b-a81e-81432bd2b7b0">
+  <name>Выбытие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выбытие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.УстановкаУничтожениеМСИ</content>
+  <content>Document.ПередачаТоваровНаСторону</content>
+  <content>Document.БракМСИ</content>
+  <parentSubsystem>Subsystem.ПоддержкаПроектов</parentSubsystem>
+</mdclass:Subsystem>

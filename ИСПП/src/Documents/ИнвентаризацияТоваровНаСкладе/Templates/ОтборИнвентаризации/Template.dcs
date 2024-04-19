@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>ЗаполнениеПоОтборам</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоПоДаннымУчета</dataPath>
+			<field>КоличествоПоДаннымУчета</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Партия</dataPath>
+			<field>Партия</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерияНоменклатуры</dataPath>
+			<field>СерияНоменклатуры</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕдиницаИзмерения</dataPath>
+			<field>ЕдиницаИзмерения</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+			<useRestriction>
+				<condition>true</condition>
+			</useRestriction>
+			<attributeUseRestriction>
+				<condition>true</condition>
+			</attributeUseRestriction>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ПолитикиУчета.Ссылка КАК ВидНоменклатуры,
+	ПолитикиУчета.ПолитикаУчетаСерий КАК ПолитикаУчетаСерий,
+	ВЫБОР
+		КОГДА ПолитикиУчета.ПолитикаУчетаСерий = ЗНАЧЕНИЕ(Перечисление.ТипыПолитикУчетаСерий.УправлениеОстаткамиСерий)
+				ИЛИ ПолитикиУчета.ПолитикаУчетаСерий = ЗНАЧЕНИЕ(Перечисление.ТипыПолитикУчетаСерий.УчетСебестоимостиПоСериям)
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ВестиУчетПоСериям,
+	ПолитикиУчета.ПолитикаУчетаПартий КАК ПолитикаУчетаПартий,
+	ВЫБОР
+		КОГДА ПолитикиУчета.ПолитикаУчетаПартий = ЗНАЧЕНИЕ(Перечисление.ТипыПолитикУчетаПартий.УправлениеОстаткамиПартий)
+				ИЛИ ПолитикиУчета.ПолитикаУчетаПартий = ЗНАЧЕНИЕ(Перечисление.ТипыПолитикУчетаПартий.УчетСебестоимостиПоПартиям)
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ВестиУчетПоПартиям
+ПОМЕСТИТЬ ПараметрыУчета
+ИЗ
+	Справочник.ВидыНоменклатуры КАК ПолитикиУчета
+
+ИНДЕКСИРОВАТЬ ПО
+	ВидНоменклатуры
+;
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	СправочникНоменклатура.Ссылка КАК Номенклатура,
+	СправочникНоменклатура.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	ЕСТЬNULL(ПараметрыУчета.ВестиУчетПоСериям, ЛОЖЬ) КАК ВестиУчетПоСериям,
+	ЕСТЬNULL(ПараметрыУчета.ВестиУчетПоПартиям, ЛОЖЬ) КАК ВестиУчетПоПартиям
+ПОМЕСТИТЬ Товары
+ИЗ
+	Справочник.Номенклатура КАК СправочникНоменклатура
+	ЛЕВОЕ СОЕДИНЕНИЕ ПараметрыУчета
+	ПО
+		ПараметрыУчета.ВидНоменклатуры = СправочникНоменклатура.ВидНоменклатуры
+ГДЕ
+	(НЕ СправочникНоменклатура.ПометкаУдаления)
+	И (НЕ СправочникНоменклатура.ЭтоГруппа)
+	И ТипНоменклатуры = ЗНАЧЕНИЕ(Перечисление.ТипыНоменклатуры.Товар)
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	Товары.Номенклатура КАК Номенклатура,
+	Товары.ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+	ЕСТЬNULL(ТоварыНаСкладах.СерияНоменклатуры, ЗНАЧЕНИЕ(Справочник.СерииНоменклатуры.ПустаяСсылка)) КАК СерияНоменклатуры,
+	ЕСТЬNULL(ТоварыНаСкладах.Партия, ЗНАЧЕНИЕ(Справочник.ПартииНоменклатуры.ПустаяСсылка)) КАК Партия,
+	ЕСТЬNULL(ТоварыНаСкладах.КоличествоОстаток, 0) КАК КоличествоПоДаннымУчета
+ИЗ
+	Товары КАК Товары
+	ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ТоварыНаСкладах.Остатки(
+			&amp;ДатаОстатков,
+			Организация = &amp;Организация
+				И Склад = &amp;Склад) КАК ТоварыНаСкладах
+	ПО
+		Товары.Номенклатура = ТоварыНаСкладах.Номенклатура
+ГДЕ
+	(НЕ Товары.ВестиУчетПоСериям ИЛИ ЕСТЬNULL(ТоварыНаСкладах.СерияНоменклатуры, ЗНАЧЕНИЕ(Справочник.СерииНоменклатуры.ПустаяСсылка)) &lt;&gt; ЗНАЧЕНИЕ(Справочник.СерииНоменклатуры.ПустаяСсылка))
+	И (НЕ Товары.ВестиУчетПоПартиям ИЛИ ЕСТЬNULL(ТоварыНаСкладах.Партия, ЗНАЧЕНИЕ(Справочник.ПартииНоменклатуры.ПустаяСсылка)) &lt;&gt; ЗНАЧЕНИЕ(Справочник.ПартииНоменклатуры.ПустаяСсылка))</query>
+	</dataSet>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Организация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Организации</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Организации.ПустаяСсылка</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Склад</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Склад</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.Склады</v8:Type>
+		</valueType>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.Склады.ПустаяСсылка</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ДатаОстатков</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата остатков</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ИсточникФинансирования</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Источник финансирования</v8:content>
+			</v8:item>
+		</title>
+		<value xsi:type="dcscor:DesignTimeValue">Справочник.ИсточникиФинансирования.ПустаяСсылка</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СерияНоменклатуры</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Партия</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЕдиницаИзмерения</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоПоДаннымУчета</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">КоличествоПоДаннымУчета</dcsset:left>
+					<dcsset:comparisonType>NotEqual</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>По остаткам</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номенклатура</dcsset:left>
+					<dcsset:comparisonType>InHierarchy</dcsset:comparisonType>
+					<dcsset:right xsi:type="dcscor:DesignTimeValue">Справочник.Номенклатура.ПустаяСсылка</dcsset:right>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Номенклатура.Наименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>СерияНоменклатуры.Наименование</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

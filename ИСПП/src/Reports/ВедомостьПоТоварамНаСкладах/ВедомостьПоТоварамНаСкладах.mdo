@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fb277bc-a4a7-427d-8f66-0224a92498bd">
+  <producedTypes>
+    <objectType typeId="e6037671-41f0-4870-b060-cc6e73b446db" valueTypeId="d9b5b08e-e45a-4878-afe8-a4b3e189189d"/>
+    <managerType typeId="324cb5df-5fa4-43d6-aae9-d498479ca96e" valueTypeId="3ae6e9be-7230-4660-9206-6c71d5471818"/>
+  </producedTypes>
+  <name>ВедомостьПоТоварамНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по МСИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ВедомостьПоТоварамНаСкладах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Отчет предназначен для анализа движений товаров по складам.</value>
+  </explanation>
+  <templates uuid="8a00267b-f5d6-4b88-a2ac-ddc1b05165b7">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

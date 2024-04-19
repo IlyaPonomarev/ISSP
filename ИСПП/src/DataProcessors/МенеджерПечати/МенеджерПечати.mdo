@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49259124-1f68-473c-b2e2-309188485214">
+  <producedTypes>
+    <objectType typeId="a9201223-16b6-42b3-8482-4813ba513e7b" valueTypeId="c1494cc7-81ef-492d-ab56-111ee0155eaf"/>
+    <managerType typeId="9c5140e6-6ef3-41a6-bc8e-7c2d8676a1ea" valueTypeId="101776f5-ce16-40db-ae5d-f3b0da7b14f3"/>
+  </producedTypes>
+  <name>МенеджерПечати</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер печати</value>
+  </synonym>
+</mdclass:DataProcessor>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="38f81510-cab8-4710-b77c-4e16610c8d49">
+  <name>ИспользоватьПартииСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать партии склад</value>
+  </synonym>
+  <location>Catalog.Склады.Attribute.ИспользоватьПартии</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.Партия</content>
+</mdclass:FunctionalOption>

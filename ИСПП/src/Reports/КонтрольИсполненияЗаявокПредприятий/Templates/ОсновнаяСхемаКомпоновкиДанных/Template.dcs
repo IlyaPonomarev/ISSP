@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпецификацияКДоговору</dataPath>
+			<field>СпецификацияКДоговору</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предприятие</dataPath>
+			<field>Предприятие</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипОперации</dataPath>
+			<field>ТипОперации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Поступило</dataPath>
+			<field>Поступило</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поступило</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заявлено</dataPath>
+			<field>Заявлено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заявлено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Списано</dataPath>
+			<field>Списано</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Списано</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипСписания</dataPath>
+			<field>ТипСписания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Образец</dataPath>
+			<field>Образец</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Изделие</dataPath>
+			<field>Изделие</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Брак</dataPath>
+			<field>Брак</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Брак</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерияНоменклатуры</dataPath>
+			<field>СерияНоменклатуры</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ИсполнениеЗаявокПредприятийОбороты.СпецификацияКДоговору КАК СпецификацияКДоговору,
+	ИсполнениеЗаявокПредприятийОбороты.Предприятие КАК Предприятие,
+	ИсполнениеЗаявокПредприятийОбороты.Номенклатура КАК Номенклатура,
+	ИсполнениеЗаявокПредприятийОбороты.КоличествоОборот КАК Заявлено
+ПОМЕСТИТЬ ВТ_Заявлено
+ИЗ
+	РегистрНакопления.ИсполнениеЗаявокПредприятий.Обороты(
+			,
+			,
+			,
+			ТипОперации = ЗНАЧЕНИЕ(Перечисление.ТипОперацииИсполненияЗаявкиПредприятия.Заявление)
+				И СпецификацияКДоговору.ПроектЗадания = &amp;ПроектЗадания) КАК ИсполнениеЗаявокПредприятийОбороты
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ИсполнениеЗаявокПредприятийОбороты.СпецификацияКДоговору КАК СпецификацияКДоговору,
+	ИсполнениеЗаявокПредприятийОбороты.Предприятие КАК Предприятие,
+	ИсполнениеЗаявокПредприятийОбороты.Номенклатура КАК Номенклатура,
+	ИсполнениеЗаявокПредприятийОбороты.КоличествоОборот КАК Поступило
+ПОМЕСТИТЬ ВТ_Поступило
+ИЗ
+	РегистрНакопления.ИсполнениеЗаявокПредприятий.Обороты(
+			,
+			,
+			,
+			(ТипОперации = ЗНАЧЕНИЕ(Перечисление.ТипОперацииИсполненияЗаявкиПредприятия.Поступление)
+				ИЛИ ТипОперации = ЗНАЧЕНИЕ(Перечисление.ТипОперацииИсполненияЗаявкиПредприятия.Перемещение))
+				И (СпецификацияКДоговору, Предприятие) В
+					(ВЫБРАТЬ
+						ВТ_Заявлено.СпецификацияКДоговору КАК СпецификацияКДоговору,
+						ВТ_Заявлено.Предприятие КАК Предприятие
+					ИЗ
+						ВТ_Заявлено КАК ВТ_Заявлено)) КАК ИсполнениеЗаявокПредприятийОбороты
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДетализацияСписанияМСИПоТипамОбороты.СпецификацияКДоговору КАК СпецификацияКДоговору,
+	ДетализацияСписанияМСИПоТипамОбороты.Предприятие КАК Предприятие,
+	ДетализацияСписанияМСИПоТипамОбороты.Номенклатура КАК Номенклатура,
+	ДетализацияСписанияМСИПоТипамОбороты.КоличествоОборот КАК Списано
+ПОМЕСТИТЬ ВТ_Списано
+ИЗ
+	РегистрНакопления.ДетализацияСписанияМСИПоТипам.Обороты(
+			,
+			,
+			,
+			СпецификацияКДоговору В
+					(ВЫБРАТЬ
+						ВТ_Заявлено.СпецификацияКДоговору КАК СпецификацияКДоговору
+					ИЗ
+						ВТ_Заявлено КАК ВТ_Заявлено)
+				И ТипСписания В (ЗНАЧЕНИЕ(Перечисление.ВидыАктовСписаний.УстановкаВИзделие), ЗНАЧЕНИЕ(Перечисление.ВидыАктовСписаний.ПередачаНаСторону))) КАК ДетализацияСписанияМСИПоТипамОбороты
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ДетализацияСписанияМСИПоТипамОбороты.СпецификацияКДоговору КАК СпецификацияКДоговору,
+	ДетализацияСписанияМСИПоТипамОбороты.Предприятие КАК Предприятие,
+	ДетализацияСписанияМСИПоТипамОбороты.Номенклатура КАК Номенклатура,
+	ДетализацияСписанияМСИПоТипамОбороты.КоличествоОборот КАК Брак
+ПОМЕСТИТЬ ВТ_Брак
+ИЗ
+	РегистрНакопления.ДетализацияСписанияМСИПоТипам.Обороты(
+			,
+			,
+			,
+			СпецификацияКДоговору В
+					(ВЫБРАТЬ
+						ВТ_Заявлено.СпецификацияКДоговору КАК СпецификацияКДоговору
+					ИЗ
+						ВТ_Заявлено КАК ВТ_Заявлено)
+				И ТипСписания В (ЗНАЧЕНИЕ(Перечисление.ВидыАктовСписаний.БракВходнойКОнтроль), ЗНАЧЕНИЕ(Перечисление.ВидыАктовСписаний.БракВИзделии))) КАК ДетализацияСписанияМСИПоТипамОбороты
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_Заявлено.СпецификацияКДоговору КАК СпецификацияКДоговору,
+	ВТ_Заявлено.Предприятие КАК Предприятие,
+	ВТ_Заявлено.Номенклатура КАК Номенклатура,
+	ВТ_Заявлено.Заявлено КАК Заявлено,
+	ЕСТЬNULL(ВТ_Поступило.Поступило, 0) КАК Поступило,
+	ЕСТЬNULL(ВТ_Списано.Списано, 0) КАК Списано,
+	ЕСТЬNULL(ВТ_Брак.Брак, 0) КАК Брак
+ИЗ
+	ВТ_Заявлено КАК ВТ_Заявлено
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_Поступило КАК ВТ_Поступило
+		ПО ВТ_Заявлено.СпецификацияКДоговору = ВТ_Поступило.СпецификацияКДоговору
+			И ВТ_Заявлено.Предприятие = ВТ_Поступило.Предприятие
+			И ВТ_Заявлено.Номенклатура = ВТ_Поступило.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_Списано КАК ВТ_Списано
+		ПО ВТ_Заявлено.СпецификацияКДоговору = ВТ_Списано.СпецификацияКДоговору
+			И ВТ_Заявлено.Предприятие = ВТ_Списано.Предприятие
+			И ВТ_Заявлено.Номенклатура = ВТ_Списано.Номенклатура
+		ЛЕВОЕ СОЕДИНЕНИЕ ВТ_Брак КАК ВТ_Брак
+		ПО ВТ_Заявлено.СпецификацияКДоговору = ВТ_Брак.СпецификацияКДоговору
+			И ВТ_Заявлено.Предприятие = ВТ_Брак.Предприятие
+			И ВТ_Заявлено.Номенклатура = ВТ_Брак.Номенклатура</query>
+	</dataSet>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПроектЗадания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Проект задания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:DocumentRef.ПроектЗадания</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<denyIncompleteValues>true</denyIncompleteValues>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исполнение заявок предприятий</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СпецификацияКДоговору</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Предприятие</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Заявлено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Поступило</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Списание</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Списано</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Брак</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ПроектЗадания</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>76d5b149-1d1c-4ff7-a59d-09903c4e7274</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>СпецификацияКДоговору.ПроектЗадания</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>СпецификацияКДоговору</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Предприятие</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

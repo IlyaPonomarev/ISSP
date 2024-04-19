@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a9c5f97-2f93-408b-83e6-bd507e00e167">
+  <producedTypes>
+    <objectType typeId="03ed76d8-98dd-4a67-b251-1c8f887ca9c8" valueTypeId="dbc5c099-f46a-4c25-b6e6-f718ea6b3d0d"/>
+    <managerType typeId="3d723b02-245b-4233-84d8-d723f67043ad" valueTypeId="ad33071d-c1ea-4a77-b4d7-86f32599f78d"/>
+  </producedTypes>
+  <name>ПечатьНакладнаяНаОтпускМатериалов0504205</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать накладная на отпуск материалов (ф.0504205)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="2aae6e48-313c-4d01-9428-5fd0024d8dc9">
+    <name>ПФ_MXL_НакладнаяНаОтпускМатериалов0504205</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накладная на отпуск материалов на сторону (ф.0504205)</value>
+    </synonym>
+    <comment>Накладная на отпуск материалов (материальных ценностей) на сторону (ф.0504205)</comment>
+  </templates>
+</mdclass:DataProcessor>

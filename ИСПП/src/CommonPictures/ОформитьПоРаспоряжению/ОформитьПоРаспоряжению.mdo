@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9a12511-fc2c-4bae-a9be-327da98b34c8">
+  <name>ОформитьПоРаспоряжению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оформить по распоряжению</value>
+  </synonym>
+</mdclass:CommonPicture>

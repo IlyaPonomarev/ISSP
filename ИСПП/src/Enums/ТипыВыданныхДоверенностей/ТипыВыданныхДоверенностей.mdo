@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ee6714c-eebe-4a0e-8665-1a3941bd1cab">
+  <producedTypes>
+    <refType typeId="47331041-7f44-4010-90c9-e6bd6b5c0973" valueTypeId="30bfbf2c-d105-4313-8042-1645c2822a9a"/>
+    <listType typeId="cb79c92f-cfd2-4717-857b-f0faf8521063" valueTypeId="aa0c9005-b7a3-4f76-8496-f2ced9edb24a"/>
+    <managerType typeId="9c50a617-7972-4904-971a-efd459d42ad9" valueTypeId="a70b9e4f-ee6d-48ef-9127-287a4c9ab1d5"/>
+  </producedTypes>
+  <name>ТипыВыданныхДоверенностей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы выданных доверенностей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ccf57ce0-aff9-494e-83f9-d90fbda5bf89">
+    <name>НаПолучениеПрочихМатериальныхЦенностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>На получение прочих МЦ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

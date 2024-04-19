@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1e924bd-a056-4ec7-a0cf-3eb45ed02ad3">
+  <name>ФильтрыСписков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильтры списков</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

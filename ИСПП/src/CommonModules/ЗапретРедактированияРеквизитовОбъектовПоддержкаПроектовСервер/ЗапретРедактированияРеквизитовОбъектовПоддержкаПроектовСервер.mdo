@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11e01361-d8cb-40a5-9755-d29488758070">
+  <name>ЗапретРедактированияРеквизитовОбъектовПоддержкаПроектовСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрет редактирования реквизитов объектов поддержка проектов сервер</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

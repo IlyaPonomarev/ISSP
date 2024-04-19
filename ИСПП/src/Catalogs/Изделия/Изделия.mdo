@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="783c9008-f7ed-465e-ac03-3d665b6666d4">
+  <producedTypes>
+    <objectType typeId="8f34f2f4-09c2-482e-8a4b-00eb294facd7" valueTypeId="85e8922b-33f4-484c-a16d-7b3d83ddbcf4"/>
+    <refType typeId="42eded27-f515-4435-a63f-eb55d16f6dd7" valueTypeId="64379ee3-7f67-41ba-a5b1-c7daff93a526"/>
+    <selectionType typeId="10a4c6eb-9b0a-4a40-8391-763741ed8207" valueTypeId="8fd3d82c-ac82-4232-9ecb-2b21a0ece875"/>
+    <listType typeId="75ca3734-e018-42b5-a201-12d897561b6a" valueTypeId="f4dc1e13-008f-43ef-87c3-9efed6e6e646"/>
+    <managerType typeId="7c38488b-1fd3-41af-bee0-fd7f1aee8a39" valueTypeId="b1c614c5-81d6-4159-ad10-39cf867e4bfe"/>
+  </producedTypes>
+  <name>Изделия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изделия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Изделия.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Изделия.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Изделие</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1ac297b1-b191-43d1-893d-608d2d0f611f">
+    <name>Индекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

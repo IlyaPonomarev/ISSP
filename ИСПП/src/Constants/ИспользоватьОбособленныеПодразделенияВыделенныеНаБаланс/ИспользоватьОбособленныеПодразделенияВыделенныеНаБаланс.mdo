@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25c98254-5079-46d9-8f71-8d0862814bc7">
+  <producedTypes>
+    <managerType typeId="64ee3075-4abf-4b92-9a12-f427635085c6" valueTypeId="71184f04-d29a-478f-a921-c18d8a696010"/>
+    <valueManagerType typeId="258c837d-d22b-4fc6-8b03-03017c8402fd" valueTypeId="bad6533e-bf86-42d3-bbbc-f9645e3784d8"/>
+    <valueKeyType typeId="76056f14-6362-54fb-bb67-3e98d09e1f4b" valueTypeId="8370f0dd-ce6b-5186-873a-57ba375a2a55"/>
+  </producedTypes>
+  <name>ИспользоватьОбособленныеПодразделенияВыделенныеНаБаланс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обособленные подразделения, выделенные на отдельный баланс</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Использовать операции по межхозяйственным расчетам обособленных подразделений (филиалов, представительств и т.д.), выделенных на отдельный баланс.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

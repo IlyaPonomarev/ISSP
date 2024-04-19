@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="affaa538-3ef4-45a7-af5f-1df24ee88536">
+  <producedTypes>
+    <refType typeId="04c1fccc-1a26-4056-b3da-cf9682706916" valueTypeId="d24f9358-6db4-42e1-a6a1-c200c1a99c60"/>
+    <listType typeId="d92c2ade-1ea0-4537-b823-9b313a74030e" valueTypeId="d62d1c36-708c-4cd0-ba07-400942a3714c"/>
+    <managerType typeId="4da1805b-4249-47e5-b161-e228adfd4e96" valueTypeId="1a1641d4-81cc-4404-8ba3-b1b8be61d274"/>
+  </producedTypes>
+  <name>ПравилаРаспределенияНаСебестоимостьТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ распределения на себестоимость товаров</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Определяет способы распределения затрат на себестоимость тоаров.</value>
+  </explanation>
+  <enumValues uuid="3ecbec6c-9189-46c0-b775-0c12849f3ff0">
+    <name>ПропорциональноКоличеству</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропорционально количеству</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab49de4a-535a-49f1-bfdd-5eea9fe5dd1a">
+    <name>ПропорциональноСумме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропорционально сумме</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

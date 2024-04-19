@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f6f97ad-b694-4968-b9d3-d253dc658c79">
+  <producedTypes>
+    <selectionType typeId="045ae07d-f068-4110-af68-bd78856dbe43" valueTypeId="31a8ec2f-02f6-4656-9fa9-695f909246e1"/>
+    <listType typeId="f9119899-e4cb-4e1c-88ed-e4f1eddd9a1c" valueTypeId="39c5f174-827b-4b73-8ea9-5af03f72821b"/>
+    <managerType typeId="68aeaed1-099a-478a-9f8b-3f882563ce7b" valueTypeId="5ba2a888-2b74-4923-a269-a27239e1baba"/>
+    <recordSetType typeId="2670b1ab-55c5-44b1-80ba-70628fe3e50f" valueTypeId="847922cd-c9c8-4ed0-8d9d-9b717bafab96"/>
+    <recordKeyType typeId="572b974c-bcc0-4d58-9423-ca26e461d572" valueTypeId="32526d28-0299-44f1-8fa0-7efebe6f024a"/>
+    <recordType typeId="bb4c3e4c-d440-47d0-84b7-00ebb2095f6d" valueTypeId="55023f63-3d67-4a9d-bf7e-4740bd33b998"/>
+  </producedTypes>
+  <name>ЗаказыПоставщикам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы поставщикам</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="eb32a1da-b31d-4189-9535-41f0f1b7664d">
+    <name>ПоСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>По спецификации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество товаров по спецификации к договору.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="f9b2c250-686e-4371-b732-822e7416e0e4">
+    <name>Заказано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество заказанных товаров.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="4ab77eb6-d374-4f6e-a430-404968338aa4">
+    <name>КОформлению</name>
+    <synonym>
+      <key>ru</key>
+      <value>К оформлению</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество товаров к поступлению.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="f1786b94-cca3-43a0-a8f3-c1070bcef441">
+    <name>ПричинаОтмены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина отмены</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет причину, которая привела к отказу от номенклатурной позиции.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="9c6aa47a-8460-4b57-a8a8-dd63544ec574">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c5c3bec6-d9b2-4455-b287-4962fe8502d4">
+    <name>Спецификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СпецификацияКДоговору</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Спецификация к договору, в рамках которой отражаются обязательства поставщика по ее выполнению.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b451c1d2-f253-40ca-8dcd-e21b87217573">
+    <name>КодСтрокиСпецификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код строки спецификации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор строки заказа.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

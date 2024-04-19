@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52b3772a-0cd8-4853-8a7f-e3098f3ca44e">
+  <name>ПроектыЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проекты заданий</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ГЗ</content>
+  <content>Document.ПроектЗадания</content>
+  <content>AccumulationRegister.БракНаСкладах</content>
+  <parentSubsystem>Subsystem.ПоддержкаПроектов</parentSubsystem>
+</mdclass:Subsystem>

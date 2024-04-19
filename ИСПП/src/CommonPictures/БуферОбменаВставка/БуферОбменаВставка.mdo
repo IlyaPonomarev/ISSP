@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb984d66-12fc-431f-8098-e0611ca16409">
+  <name>БуферОбменаВставка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Буфер обмена вставка</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd9acd7b-60ff-4b2e-9a89-9ea681d1d068">
+  <producedTypes>
+    <refType typeId="f289be6a-35c6-44cc-8802-31d1392dd58a" valueTypeId="7affeac4-fef9-4527-87d1-8674d7010ba3"/>
+    <listType typeId="44c0efb0-db28-499a-b270-5d69996ae325" valueTypeId="9024c945-4137-42bf-874c-c7642aa09719"/>
+    <managerType typeId="420eb50a-3c44-408b-830e-9ea02041b28d" valueTypeId="da6a788e-beb1-4cd0-922a-bf1315c3f68d"/>
+  </producedTypes>
+  <name>ВариантыВыводаМесяцаВДатеДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты вывода месяца в дате документа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ceaee40c-f193-49e3-a91c-6ab0ef83b16b">
+    <name>Числом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Числом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0cf2c3f-0244-4149-9c25-b1a67d35cefc">
+    <name>Прописью</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прописью</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

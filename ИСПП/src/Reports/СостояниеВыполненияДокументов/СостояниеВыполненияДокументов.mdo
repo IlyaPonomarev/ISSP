@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eefcd8af-f201-4f74-b4c1-2fc34e9cbcfb">
+  <producedTypes>
+    <objectType typeId="91a7872a-7228-4b40-828f-4db0be5fb3b4" valueTypeId="960dec3a-a177-451f-956a-5f1f863f814b"/>
+    <managerType typeId="401aaa31-322b-46d0-b69a-3ed4e86f821d" valueTypeId="b80d69ba-ddcc-48b1-8dd0-4e5b5704e5c4"/>
+  </producedTypes>
+  <name>СостояниеВыполненияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние выполнения документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СостояниеВыполненияДокументов.Form.ФормаОтчета</defaultForm>
+  <forms uuid="f3081c4b-3225-42b3-97cc-396ca76d3157">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b5b7a295-dc03-4132-8784-ffa7ff1fd2ce">
+    <name>СостояниеВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние выполнения</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

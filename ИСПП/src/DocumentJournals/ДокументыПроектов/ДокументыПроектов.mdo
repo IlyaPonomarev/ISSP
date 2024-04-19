@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52f658cf-5805-4d56-99ae-b22ab01d9965">
+  <producedTypes>
+    <selectionType typeId="41c37f7f-ddc4-4f8e-a38e-e0eb3d36fb85" valueTypeId="4b664572-7f4b-483a-ac1e-66c0c493faf3"/>
+    <listType typeId="7ea217fd-8702-484b-8b09-baed42ea1e15" valueTypeId="82f9fd81-bbed-4e19-ad13-7a8a317e76c5"/>
+    <managerType typeId="fdd3f072-058b-4a7e-8255-07e57c660a63" valueTypeId="06b6cf0b-ef61-4ba9-a5e9-a5dbca1a19d5"/>
+  </producedTypes>
+  <name>ДокументыПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы проектов</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДокументыПроектов.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ГЗ</registeredDocuments>
+  <registeredDocuments>Document.ПроектЗадания</registeredDocuments>
+  <columns uuid="789ede14-167d-4198-8a05-8bf6578fb5c6">
+    <name>Гриф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гриф</value>
+    </synonym>
+    <references>Document.ГЗ.Attribute.Гриф</references>
+    <references>Document.ПроектЗадания.Attribute.Гриф</references>
+  </columns>
+  <columns uuid="b81ca2e3-e916-4515-add9-231593914e16">
+    <name>НомерПроекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер проекта</value>
+    </synonym>
+    <references>Document.ГЗ.Attribute.НомерПроекта</references>
+    <references>Document.ПроектЗадания.Attribute.НомерПроекта</references>
+  </columns>
+  <columns uuid="0b7c9043-626c-41d4-88ee-f3e14cf26204">
+    <name>ДобывающаяОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добывающая организация</value>
+    </synonym>
+    <references>Document.ГЗ.Attribute.ДобывающаяОрганизация</references>
+    <references>Document.ПроектЗадания.Attribute.ДобывающаяОрганизация</references>
+  </columns>
+  <columns uuid="ef5025e1-2aef-45fa-80b2-b98077127ff1">
+    <name>СуммаВВалюте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма в валюте</value>
+    </synonym>
+    <references>Document.ГЗ.Attribute.СуммаВВалюте</references>
+    <references>Document.ПроектЗадания.Attribute.СуммаВВалюте</references>
+  </columns>
+  <columns uuid="5229bb9f-b3dc-4f0d-8adf-95e4a497d3a4">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <references>Document.ГЗ.Attribute.Валюта</references>
+    <references>Document.ПроектЗадания.Attribute.Валюта</references>
+  </columns>
+  <columns uuid="9cb7f31e-49f0-4acd-80a9-f9e483d8f225">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ГЗ.Attribute.Ответственный</references>
+    <references>Document.ПроектЗадания.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="8cc4b46f-b0ad-4ea7-85dd-5984bbbbf7d2">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <references>Document.ГЗ.Attribute.СтатусЗадания</references>
+    <references>Document.ПроектЗадания.Attribute.СтатусЗадания</references>
+  </columns>
+  <columns uuid="ed499b32-50e5-4201-99a9-8e83b459f8b3">
+    <name>ЗаСчетСредствФОИВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средства ФОИВ</value>
+    </synonym>
+    <references>Document.ПроектЗадания.Attribute.ЗаСчетСредствФОИВ</references>
+  </columns>
+  <forms uuid="36ff2fc6-c1eb-43f5-82b0-94fda7273f72">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

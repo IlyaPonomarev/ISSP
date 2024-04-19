@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dc765c2-8650-4d85-b612-ec403d1dce7c">
+  <producedTypes>
+    <objectType typeId="c3357971-2d76-457c-9992-940fbc45403f" valueTypeId="272e63aa-d241-416e-93a2-27f299404629"/>
+    <managerType typeId="ca831d5d-7032-436a-a034-01b615b184d7" valueTypeId="6132ae56-341a-44f6-a2af-1926d19cac1d"/>
+  </producedTypes>
+  <name>КонтрольИсполненияЗаявокПредприятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль исполнения заявок предприятий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.КонтрольИсполненияЗаявокПредприятий.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="893e0c73-a652-4b24-b533-5e0fa0722a60">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

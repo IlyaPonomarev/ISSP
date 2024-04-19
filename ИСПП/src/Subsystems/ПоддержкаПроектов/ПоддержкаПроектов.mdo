@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca0595a8-eed1-450a-91ec-2ca5224af132">
+  <name>ПоддержкаПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка проектов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаПланирование</picture>
+  </picture>
+  <content>Catalog.ДоговорыКонтрагентовПрисоединенныеФайлы</content>
+  <content>Report.СостояниеВыполненияДокументов</content>
+  <content>Catalog.НастройкиХозяйственныхОпераций</content>
+  <content>Catalog.ПроектЗаданияПрисоединенныеФайлы</content>
+  <content>AccumulationRegister.ИсполнениеПроектов</content>
+  <content>ChartOfCharacteristicTypes.СтатьиРасходов</content>
+  <content>InformationRegister.МатериальноОтветственныеЛица</content>
+  <content>ChartOfCharacteristicTypes.СтатьиДоходов</content>
+  <content>Constant.ОтключитьКонтрольОстатковТоваровПоРегиструСебестоимости</content>
+  <content>Catalog.ПрочиеРасходы</content>
+  <content>Report.АнализСебестоимостиТоваров</content>
+  <content>Report.ВедомостьПоТоварамНаСкладах</content>
+  <content>Report.Закупки</content>
+  <content>Report.ИсполнениеКонтрактовПоСпецификации</content>
+  <content>CommonCommand.ДополнительныеОбработкиПоддержкаПроектов</content>
+  <content>CommonCommand.ДополнительныеОтчетыПоддержкаПроектов</content>
+  <content>DataProcessor.ПечатьВедомостьВыдачиНФА_0504210</content>
+  <content>DataProcessor.ПечатьВедомостьВыдачиНФА</content>
+  <content>DataProcessor.ПечатьМ11</content>
+  <content>DataProcessor.ПечатьМ15</content>
+  <content>DataProcessor.ПечатьТОРГ12</content>
+  <content>DataProcessor.ПечатьТОРГ16</content>
+  <content>DataProcessor.ПечатьМ4</content>
+  <content>FunctionalOption.ИспользоватьШтрихкодированиеПечатныхФормОбъектов</content>
+  <content>DataProcessor.ПечатьНакладнаяНаВнутреннееПеремещение0504102</content>
+  <content>DataProcessor.ПечатьНакладнаяНаОтпускМатериалов0504205</content>
+  <content>DataProcessor.ПечатьНакладнаяНаПеремещение</content>
+  <content>DataProcessor.ПечатьПриходныйОрдер0504207</content>
+  <content>DataProcessor.ПечатьАктСписания0504230</content>
+  <content>SessionParameter.ПроводитьБезКонтроляОстатковТоваровПоРегиструСебестоимости</content>
+  <content>DocumentJournal.ДокументыПроектов</content>
+  <content>DocumentJournal.ДокументыДвиженияМСИ</content>
+  <content>DataProcessor.ПечатьИнвентаризационнаяОписьНФА_0504087</content>
+  <content>DataProcessor.ПечатьИНВ3</content>
+  <content>DataProcessor.ПечатьИНВ19</content>
+  <content>AccumulationRegister.ТоварыКОформлениюИзлишковНедостач</content>
+  <content>Constant.ВыводитьОписаниеНоменклатурыНаПечать</content>
+  <content>FunctionalOption.ВыводитьОписаниеНоменклатурыНаПечать</content>
+  <content>CommonCommand.ПанельОтчетовПоддержкаПроектов</content>
+  <content>Document.ЗаявкаПредприятия</content>
+  <content>Report.КонтрольИсполненияЗаявокПредприятий</content>
+  <content>Report.ИсполнениеЗадания</content>
+  <content>Report.ИсполнениеЗаданияРасширенный</content>
+  <content>Report.ОтчетПоЗаданию</content>
+  <content>Report.ОтчетПоЗаданиюРасширенный</content>
+  <content>Report.ТиповаяФормаЖурналаУчетаОбразцовСИРасширенный</content>
+  <content>Report.БракИУстановкаОбразцов</content>
+  <subsystems>ПроектыЗаданий</subsystems>
+  <subsystems>Поступление</subsystems>
+  <subsystems>Выбытие</subsystems>
+  <subsystems>Перемещение</subsystems>
+  <subsystems>Контроль</subsystems>
+  <subsystems>Комплектование</subsystems>
+</mdclass:Subsystem>

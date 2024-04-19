@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd5a3f1a-185c-4aa0-bf5e-25f36ebba9f1">
+  <name>РасширенныйПоискВСписках</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширенный поиск в списках</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

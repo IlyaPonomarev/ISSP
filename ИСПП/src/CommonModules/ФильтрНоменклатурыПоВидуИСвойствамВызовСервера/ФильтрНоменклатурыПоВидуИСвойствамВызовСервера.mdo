@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f3fac4b-dd87-40d2-a80a-26f5769568a2">
+  <name>ФильтрНоменклатурыПоВидуИСвойствамВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильтр номенклатуры по виду и свойствам вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

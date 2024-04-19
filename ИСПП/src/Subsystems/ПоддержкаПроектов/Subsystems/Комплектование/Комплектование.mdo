@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f32c05f-8fed-4b63-bd71-f3ce3fb8a669">
+  <name>Комплектование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.КомплектацияНоменклатуры</content>
+  <parentSubsystem>Subsystem.ПоддержкаПроектов</parentSubsystem>
+</mdclass:Subsystem>

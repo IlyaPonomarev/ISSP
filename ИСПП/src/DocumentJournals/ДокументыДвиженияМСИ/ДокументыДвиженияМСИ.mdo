@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed000665-2267-4a15-98e2-248936d680c5">
+  <producedTypes>
+    <selectionType typeId="4dfd28cc-851c-45ae-810c-d86567ffbef6" valueTypeId="136aaf2e-adba-41f0-b372-b7a7def37af2"/>
+    <listType typeId="c8b9c9c4-4ae5-452e-89da-057ae60435e7" valueTypeId="374bf9c7-5f5e-42df-8969-374b5dacfaac"/>
+    <managerType typeId="8f743115-43ef-46c2-a2f3-2933bfaefa6a" valueTypeId="82e06925-d19d-48c9-849c-0f54a4ad773c"/>
+  </producedTypes>
+  <name>ДокументыДвиженияМСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы движения МСИ</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДокументыДвиженияМСИ.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваров</registeredDocuments>
+  <registeredDocuments>Document.ПрочееОприходованиеТоваров</registeredDocuments>
+  <registeredDocuments>Document.ПеремещениеТоваров</registeredDocuments>
+  <registeredDocuments>Document.ПередачаТоваровНаСторону</registeredDocuments>
+  <registeredDocuments>Document.УстановкаУничтожениеМСИ</registeredDocuments>
+  <registeredDocuments>Document.БракМСИ</registeredDocuments>
+  <registeredDocuments>Document.ВходнойКонтроль</registeredDocuments>
+  <columns uuid="295dac20-fe51-4936-9906-ea9d33acee82">
+    <name>Гриф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гриф</value>
+    </synonym>
+    <references>Document.ПередачаТоваровНаСторону.Attribute.Гриф</references>
+    <references>Document.ПеремещениеТоваров.Attribute.Гриф</references>
+    <references>Document.ПоступлениеТоваров.Attribute.Гриф</references>
+    <references>Document.УстановкаУничтожениеМСИ.Attribute.Гриф</references>
+    <references>Document.ВходнойКонтроль.Attribute.Гриф</references>
+  </columns>
+  <columns uuid="5b13e159-19fa-4018-9140-9acb5dd7f972">
+    <name>СкладОтправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад-отправитель</value>
+    </synonym>
+    <references>Document.ПередачаТоваровНаСторону.Attribute.Склад</references>
+    <references>Document.ПеремещениеТоваров.Attribute.СкладОтправитель</references>
+    <references>Document.УстановкаУничтожениеМСИ.Attribute.Склад</references>
+    <references>Document.БракМСИ.Attribute.ПодразделениеОрганизации</references>
+    <references>Document.ВходнойКонтроль.Attribute.УполномоченнаяОрганизация</references>
+  </columns>
+  <columns uuid="0325851e-76dd-4371-a811-6f1b25dd625d">
+    <name>СкладПолучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад-получатель</value>
+    </synonym>
+    <references>Document.ПеремещениеТоваров.Attribute.СкладПолучатель</references>
+    <references>Document.ПоступлениеТоваров.Attribute.Склад</references>
+    <references>Document.ПрочееОприходованиеТоваров.Attribute.Склад</references>
+  </columns>
+  <columns uuid="4aec205b-d1d5-44e1-a810-89c9d202da16">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.ПередачаТоваровНаСторону.Attribute.Ответственный</references>
+    <references>Document.ПеремещениеТоваров.Attribute.Ответственный</references>
+    <references>Document.ПоступлениеТоваров.Attribute.Ответственный</references>
+    <references>Document.ПрочееОприходованиеТоваров.Attribute.Ответственный</references>
+    <references>Document.УстановкаУничтожениеМСИ.Attribute.Ответственный</references>
+    <references>Document.ВходнойКонтроль.Attribute.Ответственный</references>
+    <references>Document.БракМСИ.Attribute.Ответственный</references>
+  </columns>
+  <forms uuid="42b40975-5de8-471c-8d2e-7b09870b31f0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

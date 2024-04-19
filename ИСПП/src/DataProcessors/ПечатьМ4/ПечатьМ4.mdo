@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3f85070-92cb-4eb1-ae9b-6be208bd8ec8">
+  <producedTypes>
+    <objectType typeId="f4f59181-4a6c-4be9-942f-b04fd762925c" valueTypeId="9f7aaf34-8b9c-4a25-a3c8-f53ee5438671"/>
+    <managerType typeId="7a81d690-6081-4a43-9b39-00146e6bfc65" valueTypeId="6936340d-ae7e-493d-b01a-34a4b4068dd5"/>
+  </producedTypes>
+  <name>ПечатьМ4</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать Приходный ордер (унифицированная форма № М-4)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="bf56c424-d85c-4fbf-8830-d7fd36812d21">
+    <name>ПФ_MXL_М4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приходный ордер (М4)</value>
+    </synonym>
+    <comment>Приходный ордер (унифицированная форма № М-4)</comment>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f814bbd-c0b8-4bbb-9071-6d1eebb180fb">
+  <producedTypes>
+    <selectionType typeId="e9eb59ef-045d-4291-93a9-0f3e45ed13d9" valueTypeId="fdf125d1-9ba4-4e03-b495-ca7d06320032"/>
+    <listType typeId="ef29a0e8-be2a-4bcf-b116-3bcdf57fe603" valueTypeId="349d0135-d045-41db-9ee4-6d6bb3e039fa"/>
+    <managerType typeId="c1002ddb-4570-4f76-91eb-2a1d473d3f36" valueTypeId="8096f822-8895-4191-81d7-68bb650d06d1"/>
+    <recordSetType typeId="c831bb81-85fe-4712-a221-4ad2bf8fac9c" valueTypeId="1b0af648-c141-4d30-9be2-9e56de8dc36c"/>
+    <recordKeyType typeId="5ea5991c-1b3f-459d-b28d-f6a5717312c8" valueTypeId="164d82eb-07b1-42b7-8932-795325988dca"/>
+    <recordType typeId="31c03e49-4ea1-43c0-8627-90c57c47e220" valueTypeId="ed410e0b-8989-42d8-93ac-a0da4bfbf6d7"/>
+  </producedTypes>
+  <name>ИсполнениеПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнение проектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="1cd18f07-b89d-4d55-9a9a-936f69d1c975">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="e7f1e758-6f1d-487a-8c78-8bd25dc9b596">
+    <name>СуммаПеречислено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма перечислено</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="bcb320f8-b144-476b-9cac-1bcec8c64c6e">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="a1ad988c-1a43-450f-acbf-6f261c46b68b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, владелец товара.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="de1bd59b-0fee-46ce-9fd3-071921a38d51">
+    <name>ПроектЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект задания</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроектЗадания</types>
+      <types>DocumentRef.ГЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9314cce1-f4bc-438c-a037-ab52156acd25">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6b250bc9-d528-4d6f-be05-dd98fcbe024f">
+  <producedTypes>
+    <refType typeId="46688c07-416f-4bbc-8455-818b214b7154" valueTypeId="96f7d1ee-0e33-4dae-a3cf-8bdc2b46741d"/>
+    <listType typeId="9e846f4d-1a02-426d-8db5-a3efe78bc719" valueTypeId="e0b9229d-dd44-4038-bde4-1fc5504f9c91"/>
+    <managerType typeId="3e06fe4b-cbfb-4992-befc-57ae0efbf644" valueTypeId="299d0b8b-c18b-43e0-b86b-ec24a3aea84b"/>
+  </producedTypes>
+  <name>СтатусыДоговоровКонтрагентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы договоров контрагентов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="94d0998f-14f5-451a-972a-8e80e2419a6d">
+    <name>НеСогласован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не согласован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b58f3d39-f29d-4a71-852a-f0d310d56c8a">
+    <name>Действует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2f42073-d8fb-4935-aea5-b1d8e8b36ebc">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d03a92e-9ee1-4b87-8a09-0a6b00256ca9">
+  <name>Специальные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Специальные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Грифы</content>
+  <content>Catalog.Центры</content>
+  <content>Catalog.ОбразцыВВСТ</content>
+  <content>Catalog.Изделия</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e1d7e04-990f-40ca-b280-e8618455fe3f">
+  <producedTypes>
+    <objectType typeId="8492776d-4f0e-4664-94cf-85deab8ed788" valueTypeId="ea709aa3-40fc-4874-b736-a232ea758a5a"/>
+    <managerType typeId="9cff30d4-b005-4bbb-b13a-3b4ba140db92" valueTypeId="99e72de7-79f4-4966-846e-5bd45fae7af6"/>
+  </producedTypes>
+  <name>ПечатьТребованиеНакладная0504204</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать требование накладная0504204</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="124c4508-052f-48b4-842e-a2f7dcf4501f">
+    <name>ПФ_MXL_ТребованиеНакладная0504204</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требование накладная (ф.0504204)</value>
+    </synonym>
+    <comment>Требование накладная (ф.0504204)</comment>
+  </templates>
+</mdclass:DataProcessor>

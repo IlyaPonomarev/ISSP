@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68ce81ee-f304-43b2-8290-3299fa706059">
+  <name>РА_ПечатныеФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печатные формы</value>
+  </synonym>
+  <comment>Для использования общих процедур и функций используемых при отчетах и печати</comment>
+  <server>true</server>
+</mdclass:CommonModule>

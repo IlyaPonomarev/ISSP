@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4837e0b-d786-4abc-87c6-51da351d50e5">
+  <name>ИспользоватьНесколькоВидовНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько видов номенклатуры</value>
+  </synonym>
+  <location>Constant.ИспользоватьНесколькоВидовНоменклатуры</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

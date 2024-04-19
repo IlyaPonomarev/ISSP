@@ -1,0 +1,485 @@
+<Items Description="ОбщероссийскийКлассификаторЕдиницИзмерения" Columns="Name,Code,SymbolNational,SymbolInternational,CodeNameNational,CodeNameInternational,Level,Type,Numerator,Denominator">
+	<Item Name="Международные единицы измерения, включенные в ЕСКК" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="0" Type="0" Numerator="" Denominator=""/>
+	<Item Name="Единицы длины" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Миллиметр" Code="003" SymbolNational="мм" SymbolInternational="mm" CodeNameNational="ММ" CodeNameInternational="MMT" Level="2" Type="Длина" Numerator="1" Denominator="1000"/>
+	<Item Name="Сантиметр" Code="004" SymbolNational="см" SymbolInternational="cm" CodeNameNational="СМ" CodeNameInternational="CMT" Level="2" Type="Длина" Numerator="1" Denominator="100"/>
+	<Item Name="Дециметр" Code="005" SymbolNational="дм" SymbolInternational="dm" CodeNameNational="ДМ" CodeNameInternational="DMT" Level="2" Type="Длина" Numerator="1" Denominator="10"/>
+	<Item Name="Метр" Code="006" SymbolNational="м" SymbolInternational="m" CodeNameNational="М" CodeNameInternational="MTR" Level="2" Type="Длина" Numerator="1" Denominator="1"/>
+	<Item Name="Километр (Тысяча метров)" Code="008" SymbolNational="км (1000 м)" SymbolInternational="km" CodeNameNational="КМ (ТЫС М)" CodeNameInternational="KMT" Level="2" Type="Длина" Numerator="1000" Denominator="1"/>
+	<Item Name="Мегаметр (Миллион метров)" Code="009" SymbolNational="Мм (10^6 м)" SymbolInternational="Mm" CodeNameNational="МЕГАМ (МЛН М)" CodeNameInternational="MAM" Level="2" Type="Длина" Numerator="1000000" Denominator="1"/>
+	<Item Name="Дюйм (25,4 мм)" Code="039" SymbolNational="дюйм" SymbolInternational="in" CodeNameNational="ДЮЙМ" CodeNameInternational="INH" Level="2" Type="Длина" Numerator="254" Denominator="10000"/>
+	<Item Name="Фут (0,3048 м)" Code="041" SymbolNational="фут" SymbolInternational="ft" CodeNameNational="ФУТ" CodeNameInternational="FOT" Level="2" Type="Длина" Numerator="3048" Denominator="10000"/>
+	<Item Name="Ярд (0,9144 м)" Code="043" SymbolNational="ярд" SymbolInternational="yd" CodeNameNational="ЯРД" CodeNameInternational="YRD" Level="2" Type="Длина" Numerator="9144" Denominator="10000"/>
+	<Item Name="Морская миля (1852 м)" Code="047" SymbolNational="миля" SymbolInternational="n mile" CodeNameNational="МИЛЬ" CodeNameInternational="NMI" Level="2" Type="Длина" Numerator="1852" Denominator="1"/>
+	<Item Name="Единицы площади" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Квадратный миллиметр" Code="050" SymbolNational="мм2" SymbolInternational="mm2" CodeNameNational="ММ2" CodeNameInternational="MMK" Level="2" Type="Площадь" Numerator="1000000" Denominator="1"/>
+	<Item Name="Квадратный сантиметр" Code="051" SymbolNational="см2" SymbolInternational="cm2" CodeNameNational="СМ2" CodeNameInternational="CMK" Level="2" Type="Площадь" Numerator="10000" Denominator="1"/>
+	<Item Name="Квадратный дециметр" Code="053" SymbolNational="дм2" SymbolInternational="dm2" CodeNameNational="ДМ2" CodeNameInternational="DMK" Level="2" Type="Площадь" Numerator="1" Denominator="100"/>
+	<Item Name="Квадратный метр" Code="055" SymbolNational="м2" SymbolInternational="m2" CodeNameNational="М2" CodeNameInternational="MTK" Level="2" Type="Площадь" Numerator="1" Denominator="1"/>
+	<Item Name="Тысяча квадратных метров" Code="058" SymbolNational="1000  м2" SymbolInternational="daa" CodeNameNational="ТЫС М2" CodeNameInternational="DAA" Level="2" Type="Площадь" Numerator="1000" Denominator="1"/>
+	<Item Name="Гектар" Code="059" SymbolNational="га" SymbolInternational="ha" CodeNameNational="ГА" CodeNameInternational="HAR" Level="2" Type="Площадь" Numerator="10000" Denominator="1"/>
+	<Item Name="Квадратный километр" Code="061" SymbolNational="км2" SymbolInternational="km2" CodeNameNational="КМ2" CodeNameInternational="KMK" Level="2" Type="Площадь" Numerator="1000000" Denominator="1"/>
+	<Item Name="Квадратный дюйм (645,16 мм2)" Code="071" SymbolNational="дюйм2" SymbolInternational="in2" CodeNameNational="ДЮЙМ2" CodeNameInternational="INK" Level="2" Type="Площадь" Numerator="64.516" Denominator="100000"/>
+	<Item Name="Квадратный  фут (0,092903 м2)" Code="073" SymbolNational="фут2" SymbolInternational="ft2" CodeNameNational="ФУТ2" CodeNameInternational="FTK" Level="2" Type="Площадь" Numerator="929.03" Denominator="10000"/>
+	<Item Name="Квадратный ярд (0,8361274 м2)" Code="075" SymbolNational="ярд2" SymbolInternational="yd2" CodeNameNational="ЯРД2" CodeNameInternational="YDK" Level="2" Type="Площадь" Numerator="8361.274" Denominator="10000"/>
+	<Item Name="Ар (100 м2)" Code="109" SymbolNational="а" SymbolInternational="a" CodeNameNational="АР" CodeNameInternational="ARE" Level="2" Type="Площадь" Numerator="100" Denominator="1"/>
+	<Item Name="Единицы объема" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Кубический миллиметр" Code="110" SymbolNational="мм3" SymbolInternational="mm3" CodeNameNational="ММ3" CodeNameInternational="MMQ" Level="2" Type="Объем" Numerator="1" Denominator="1000000000"/>
+	<Item Name="Миллилитр (Кубический сантиметр)" Code="111" SymbolNational="мл (см3)" SymbolInternational="ml (cm3)" CodeNameNational="МЛ (СМ3)" CodeNameInternational="MLT (CMQ)" Level="2" Type="Объем" Numerator="1" Denominator="1000000"/>
+	<Item Name="Литр (Кубический дециметр)" Code="112" SymbolNational="л (дм3)" SymbolInternational="l (L) dm3" CodeNameNational="Л (ДМЗ)" CodeNameInternational="LTR (DMQ)" Level="2" Type="Объем" Numerator="1" Denominator="1000"/>
+	<Item Name="Кубический метр" Code="113" SymbolNational="м3" SymbolInternational="m3" CodeNameNational="М3" CodeNameInternational="MTQ" Level="2" Type="Объем" Numerator="1" Denominator="1"/>
+	<Item Name="Децилитр" Code="118" SymbolNational="дл" SymbolInternational="dl" CodeNameNational="ДЛ" CodeNameInternational="DLT" Level="2" Type="Объем" Numerator="1" Denominator="10000"/>
+	<Item Name="Гектолитр" Code="122" SymbolNational="гл" SymbolInternational="hl" CodeNameNational="ГЛ" CodeNameInternational="HLT" Level="2" Type="Объем" Numerator="1" Denominator="10"/>
+	<Item Name="Мегалитр" Code="126" SymbolNational="Мл" SymbolInternational="Ml" CodeNameNational="МЕГАЛ" CodeNameInternational="MAL" Level="2" Type="Объем" Numerator="1000" Denominator="1"/>
+	<Item Name="Кубический дюйм (16387,1 мм3)" Code="131" SymbolNational="дюйм3" SymbolInternational="in3" CodeNameNational="ДЮЙМ3" CodeNameInternational="INQ" Level="2" Type="Объем" Numerator="163.871" Denominator="10000000"/>
+	<Item Name="Кубический фут (0,02831685 м3)" Code="132" SymbolNational="фут3" SymbolInternational="ft3" CodeNameNational="ФУТ3" CodeNameInternational="FTQ" Level="2" Type="Объем" Numerator="2831.685" Denominator="100000"/>
+	<Item Name="Кубический ярд (0,764555 м3)" Code="133" SymbolNational="ярд3" SymbolInternational="yd3" CodeNameNational="ЯРДЗ" CodeNameInternational="YDQ" Level="2" Type="Объем" Numerator="765.555" Denominator="1000"/>
+	<Item Name="Миллион кубических метров" Code="159" SymbolNational="10^6 м3" SymbolInternational="10^6 m3" CodeNameNational="МЛН МЗ" CodeNameInternational="HMQ" Level="2" Type="Объем" Numerator="1000000" Denominator="1"/>
+	<Item Name="Единицы массы" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Гектограмм" Code="160" SymbolNational="гг" SymbolInternational="hg" CodeNameNational="ГГ" CodeNameInternational="HGM" Level="2" Type="Вес" Numerator="1" Denominator="10"/>
+	<Item Name="Миллиграмм" Code="161" SymbolNational="мг" SymbolInternational="mg" CodeNameNational="МГ" CodeNameInternational="MGM" Level="2" Type="Вес" Numerator="1" Denominator="1000000"/>
+	<Item Name="Метрический  карат (1 карат = 200 мг = 2*0,0001 кг)" Code="162" SymbolNational="кар" SymbolInternational="МС" CodeNameNational="КАР" CodeNameInternational="CTM" Level="2" Type="Вес" Numerator="2" Denominator="10000"/>
+	<Item Name="Грамм" Code="163" SymbolNational="г" SymbolInternational="g" CodeNameNational="Г" CodeNameInternational="GRM" Level="2" Type="Вес" Numerator="1" Denominator="1000"/>
+	<Item Name="Килограмм" Code="166" SymbolNational="кг" SymbolInternational="kg" CodeNameNational="КГ" CodeNameInternational="KGM" Level="2" Type="Вес" Numerator="1" Denominator="1"/>
+	<Item Name="Тонна (Метрическая тонна) (1000 кг)" Code="168" SymbolNational="т" SymbolInternational="t" CodeNameNational="Т" CodeNameInternational="TNE" Level="2" Type="Вес" Numerator="1000" Denominator="1"/>
+	<Item Name="Килотонна" Code="170" SymbolNational="10  т3" SymbolInternational="kt" CodeNameNational="КТ" CodeNameInternational="KTN" Level="2" Type="Вес" Numerator="1000000" Denominator="1"/>
+	<Item Name="Сантиграмм" Code="173" SymbolNational="сг" SymbolInternational="cg" CodeNameNational="СГ" CodeNameInternational="CGM" Level="2" Type="Вес" Numerator="1" Denominator="100000"/>
+	<Item Name="Брутто - регистровая тонна (2,8316 м3)" Code="181" SymbolNational="БРТ" SymbolInternational="" CodeNameNational="БРУТТ. РЕГИСТР Т" CodeNameInternational="GRT" Level="2" Type="Вес" Numerator="283.16" Denominator="100"/>
+	<Item Name="Грузоподъемность в метрических тоннах" Code="185" SymbolNational="т грп" SymbolInternational="" CodeNameNational="Т ГРУЗОПОД" CodeNameInternational="CCT" Level="2" Type="Вес" Numerator="1000" Denominator="1"/>
+	<Item Name="Центнер (метрический) (100 кг, Гектокилограмм, Квинтал (метрический), Децитонна)" Code="206" SymbolNational="ц" SymbolInternational="q (100 kg)" CodeNameNational="Ц" CodeNameInternational="DTN" Level="2" Type="Вес" Numerator="100" Denominator="1"/>
+	<Item Name="Технические единицы" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Ватт" Code="212" SymbolNational="Вт" SymbolInternational="W" CodeNameNational="ВТ" CodeNameInternational="WTT" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Киловатт" Code="214" SymbolNational="кВт" SymbolInternational="kW" CodeNameNational="КВТ" CodeNameInternational="KWT" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Мегаватт (Тысяча киловатт)" Code="215" SymbolNational="МВт (1000 кВт)" SymbolInternational="MW" CodeNameNational="МЕГАВТ (ТЫС КВТ)" CodeNameInternational="MAW" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Вольт" Code="222" SymbolNational="В" SymbolInternational="V" CodeNameNational="В" CodeNameInternational="VLT" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Киловольт" Code="223" SymbolNational="кВ" SymbolInternational="kV" CodeNameNational="КВ" CodeNameInternational="KVT" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Киловольт - ампер" Code="227" SymbolNational="кВ.А" SymbolInternational="kV.A" CodeNameNational="КВ.А" CodeNameInternational="KVA" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Мегавольт - ампер (тысяча киловольт - ампер)" Code="228" SymbolNational="МВ.А" SymbolInternational="MV.A" CodeNameNational="МЕГАВ.А" CodeNameInternational="MVA" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Киловар" Code="230" SymbolNational="квар" SymbolInternational="kVAR" CodeNameNational="КВАР" CodeNameInternational="KVR" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Ватт - час" Code="243" SymbolNational="Вт.ч" SymbolInternational="W.h" CodeNameNational="ВТ.Ч" CodeNameInternational="WHR" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Киловатт - час" Code="245" SymbolNational="кВт.ч" SymbolInternational="kW.h" CodeNameNational="КВТ.Ч" CodeNameInternational="KWH" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Мегаватт - час (1000 киловатт - часов)" Code="246" SymbolNational="МВт.ч (1000 кВт.ч)" SymbolInternational="МW.h" CodeNameNational="МЕГАВТ.Ч (ТЫС КВТ.Ч)" CodeNameInternational="MWH" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Гигаватт - час (миллион киловатт - часов)" Code="247" SymbolNational="ГВт.ч" SymbolInternational="GW.h" CodeNameNational="ГИГАВТ.Ч" CodeNameInternational="GWH" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Ампер" Code="260" SymbolNational="А" SymbolInternational="A" CodeNameNational="А" CodeNameInternational="AMP" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Ампер - час (3,6 кКл)" Code="263" SymbolNational="А.ч" SymbolInternational="A.h" CodeNameNational="А.Ч" CodeNameInternational="AMH" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча ампер - часов" Code="264" SymbolNational="1000  А.ч" SymbolInternational="1000  A.h" CodeNameNational="ТЫС А.Ч" CodeNameInternational="TAH" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Кулон" Code="270" SymbolNational="Кл" SymbolInternational="C" CodeNameNational="КЛ" CodeNameInternational="COU" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Джоуль" Code="271" SymbolNational="Дж" SymbolInternational="J" CodeNameNational="ДЖ" CodeNameInternational="JOU" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килоджоуль" Code="273" SymbolNational="кДж" SymbolInternational="kJ" CodeNameNational="КДЖ" CodeNameInternational="KJO" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Ом" Code="274" SymbolNational="Ом" SymbolInternational="Омега" CodeNameNational="ОМ" CodeNameInternational="OHM" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Градус Цельсия" Code="280" SymbolNational="°С" SymbolInternational="°С" CodeNameNational="ГРАД ЦЕЛЬС" CodeNameInternational="CEL" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Градус Фаренгейта" Code="281" SymbolNational="°F" SymbolInternational="°F" CodeNameNational="ГРАД ФАРЕНГ" CodeNameInternational="FAN" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Кандела" Code="282" SymbolNational="кд" SymbolInternational="cd" CodeNameNational="КД" CodeNameInternational="CDL" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Люкс" Code="283" SymbolNational="лк" SymbolInternational="lx" CodeNameNational="ЛК" CodeNameInternational="LUX" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Люмен" Code="284" SymbolNational="лм" SymbolInternational="lm" CodeNameNational="ЛМ" CodeNameInternational="LUM" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Кельвин" Code="288" SymbolNational="K" SymbolInternational="K" CodeNameNational="К" CodeNameInternational="KEL" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Ньютон" Code="289" SymbolNational="Н" SymbolInternational="N" CodeNameNational="Н" CodeNameInternational="NEW" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Герц" Code="290" SymbolNational="Гц" SymbolInternational="Hz" CodeNameNational="ГЦ" CodeNameInternational="HTZ" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килогерц" Code="291" SymbolNational="кГц" SymbolInternational="kHz" CodeNameNational="КГЦ" CodeNameInternational="KHZ" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Мегагерц" Code="292" SymbolNational="МГц" SymbolInternational="MHz" CodeNameNational="МЕГАГЦ" CodeNameInternational="MHZ" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Паскаль" Code="294" SymbolNational="Па" SymbolInternational="Pa" CodeNameNational="ПА" CodeNameInternational="PAL" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Сименс" Code="296" SymbolNational="См" SymbolInternational="S" CodeNameNational="СИ" CodeNameInternational="SIE" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килопаскаль" Code="297" SymbolNational="кПа" SymbolInternational="kPa" CodeNameNational="КПА" CodeNameInternational="KPA" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Мегапаскаль" Code="298" SymbolNational="МПа" SymbolInternational="MPa" CodeNameNational="МЕГАПА" CodeNameInternational="MPA" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Физическая атмосфера (101325 Па)" Code="300" SymbolNational="атм" SymbolInternational="atm" CodeNameNational="АТМ" CodeNameInternational="ATM" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Техническая атмосфера (98066,5 Па)" Code="301" SymbolNational="ат" SymbolInternational="at" CodeNameNational="АТТ" CodeNameInternational="ATT" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Гигабеккерель" Code="302" SymbolNational="ГБк" SymbolInternational="GBq" CodeNameNational="ГИГАБК" CodeNameInternational="GBQ" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Милликюри" Code="304" SymbolNational="мКи" SymbolInternational="mCi" CodeNameNational="МКИ" CodeNameInternational="MCU" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Кюри" Code="305" SymbolNational="Ки" SymbolInternational="Ci" CodeNameNational="КИ" CodeNameInternational="CUR" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Грамм делящихся изотопов" Code="306" SymbolNational="г Д/И" SymbolInternational="g fissile isotopes" CodeNameNational="Г ДЕЛЯЩ ИЗОТОП" CodeNameInternational="GFI" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллибар" Code="308" SymbolNational="мб" SymbolInternational="mbar" CodeNameNational="МБАР" CodeNameInternational="MBR" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Бар" Code="309" SymbolNational="бар" SymbolInternational="bar" CodeNameNational="БАР" CodeNameInternational="BAR" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Гектобар" Code="310" SymbolNational="гб" SymbolInternational="hbar" CodeNameNational="ГБАР" CodeNameInternational="HBA" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килобар" Code="312" SymbolNational="кб" SymbolInternational="kbar" CodeNameNational="КБАР" CodeNameInternational="KBA" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Фарад" Code="314" SymbolNational="Ф" SymbolInternational="F" CodeNameNational="Ф" CodeNameInternational="FAR" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килограмм на кубический метр" Code="316" SymbolNational="кг/м3" SymbolInternational="kg/m3" CodeNameNational="КГ/МЗ" CodeNameInternational="KMQ" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Беккерель" Code="323" SymbolNational="Бк" SymbolInternational="Bq" CodeNameNational="БК" CodeNameInternational="BQL" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Вебер" Code="324" SymbolNational="Вб" SymbolInternational="Wb" CodeNameNational="ВБ" CodeNameInternational="WEB" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Узел (миля/ч)" Code="327" SymbolNational="уз" SymbolInternational="kn" CodeNameNational="УЗ" CodeNameInternational="KNT" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Метр в секунду" Code="328" SymbolNational="м/с" SymbolInternational="m/s" CodeNameNational="М/С" CodeNameInternational="MTS" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Оборот в секунду" Code="330" SymbolNational="об/с" SymbolInternational="r/s" CodeNameNational="ОБ/С" CodeNameInternational="RPS" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Оборот в минуту" Code="331" SymbolNational="об/мин" SymbolInternational="r/min" CodeNameNational="ОБ/МИН" CodeNameInternational="RPM" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Километр в час" Code="333" SymbolNational="км/ч" SymbolInternational="km/h" CodeNameNational="КМ/Ч" CodeNameInternational="KMH" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Метр на секунду в квадрате" Code="335" SymbolNational="м/с2" SymbolInternational="m/s2" CodeNameNational="М/С2" CodeNameInternational="MSK" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Кулон на килограмм" Code="349" SymbolNational="Кл/кг" SymbolInternational="C/kg" CodeNameNational="КЛ/КГ" CodeNameInternational="CKG" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Единицы времени" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Секунда" Code="354" SymbolNational="с" SymbolInternational="s" CodeNameNational="С" CodeNameInternational="SEC" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Минута" Code="355" SymbolNational="мин" SymbolInternational="min" CodeNameNational="МИН" CodeNameInternational="MIN" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Час" Code="356" SymbolNational="ч" SymbolInternational="h" CodeNameNational="Ч" CodeNameInternational="HUR" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Сутки" Code="359" SymbolNational="сут (дн)" SymbolInternational="d" CodeNameNational="СУТ (ДН)" CodeNameInternational="DAY" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Неделя" Code="360" SymbolNational="нед" SymbolInternational="" CodeNameNational="НЕД" CodeNameInternational="WEE" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Декада" Code="361" SymbolNational="дек" SymbolInternational="" CodeNameNational="ДЕК" CodeNameInternational="DAD" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Месяц" Code="362" SymbolNational="мес" SymbolInternational="" CodeNameNational="МЕС" CodeNameInternational="MON" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Квартал" Code="364" SymbolNational="кварт" SymbolInternational="" CodeNameNational="КВАРТ" CodeNameInternational="QAN" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Полугодие" Code="365" SymbolNational="полгода" SymbolInternational="" CodeNameNational="ПОЛГОД" CodeNameInternational="SAN" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Год" Code="366" SymbolNational="г (лет)" SymbolInternational="a" CodeNameNational="ГОД (ЛЕТ)" CodeNameInternational="ANN" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Десятилетие" Code="368" SymbolNational="деслет" SymbolInternational="" CodeNameNational="ДЕСЛЕТ" CodeNameInternational="DEC" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Экономические единицы" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Килограмм в секунду" Code="499" SymbolNational="кг/с" SymbolInternational="" CodeNameNational="КГ/С" CodeNameInternational="KGS" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тонна пара в час" Code="533" SymbolNational="т пар/ч" SymbolInternational="" CodeNameNational="Т ПАР/Ч" CodeNameInternational="TSH" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Кубический метр в секунду" Code="596" SymbolNational="м3/с" SymbolInternational="m3/s" CodeNameNational="М3/С" CodeNameInternational="MQS" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Кубический метр в час" Code="598" SymbolNational="м3/ч" SymbolInternational="m3/h" CodeNameNational="М3/Ч" CodeNameInternational="MQH" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча кубических метров в сутки" Code="599" SymbolNational="1000 м3/сут" SymbolInternational="" CodeNameNational="ТЫС М3/СУТ" CodeNameInternational="TQD" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Бобина" Code="616" SymbolNational="боб" SymbolInternational="" CodeNameNational="БОБ" CodeNameInternational="NBB" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Лист" Code="625" SymbolNational="л." SymbolInternational="" CodeNameNational="ЛИСТ" CodeNameInternational="LEF" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Сто листов" Code="626" SymbolNational="100 л." SymbolInternational="" CodeNameNational="100 ЛИСТ" CodeNameInternational="CLF" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча стандартных условных кирпичей" Code="630" SymbolNational="тыс станд. усл. кирп" SymbolInternational="" CodeNameNational="ТЫС СТАНД УСЛ КИРП" CodeNameInternational="MBE" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Дюжина (12 шт.)" Code="641" SymbolNational="дюжина" SymbolInternational="Doz 12" CodeNameNational="ДЮЖИНА" CodeNameInternational="DZN" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Изделие" Code="657" SymbolNational="изд" SymbolInternational="" CodeNameNational="ИЗД" CodeNameInternational="NAR" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Сто ящиков" Code="683" SymbolNational="100 ящ." SymbolInternational="Hbx" CodeNameNational="100 ЯЩ" CodeNameInternational="HBX" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Набор" Code="704" SymbolNational="набор" SymbolInternational="" CodeNameNational="НАБОР" CodeNameInternational="SET" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Пара (2 шт.)" Code="715" SymbolNational="пар" SymbolInternational="pr 2" CodeNameNational="ПАР" CodeNameInternational="NPR" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Два десятка" Code="730" SymbolNational="20" SymbolInternational="20" CodeNameNational="2 ДЕС" CodeNameInternational="SCO" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Десять пар" Code="732" SymbolNational="10 пар" SymbolInternational="" CodeNameNational="ДЕС ПАР" CodeNameInternational="TPR" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Дюжина пар" Code="733" SymbolNational="дюжина пар" SymbolInternational="" CodeNameNational="ДЮЖИНА ПАР" CodeNameInternational="DPR" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Посылка" Code="734" SymbolNational="посыл" SymbolInternational="" CodeNameNational="ПОСЫЛ" CodeNameInternational="NPL" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Часть" Code="735" SymbolNational="часть" SymbolInternational="" CodeNameNational="ЧАСТЬ" CodeNameInternational="NPT" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Рулон" Code="736" SymbolNational="рул" SymbolInternational="" CodeNameNational="РУЛ" CodeNameInternational="NPL" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Дюжина рулонов" Code="737" SymbolNational="дюжина рул" SymbolInternational="" CodeNameNational="ДЮЖИНА РУЛ" CodeNameInternational="DRL" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Дюжина штук" Code="740" SymbolNational="дюжина шт" SymbolInternational="" CodeNameNational="ДЮЖИНА ШТ" CodeNameInternational="DPC" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Элемент" Code="745" SymbolNational="элем" SymbolInternational="CI" CodeNameNational="ЭЛЕМ" CodeNameInternational="NCL" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Упаковка" Code="778" SymbolNational="упак" SymbolInternational="" CodeNameNational="УПАК" CodeNameInternational="NMP" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Дюжина упаковок" Code="780" SymbolNational="дюжина упак" SymbolInternational="" CodeNameNational="ДЮЖИНА УПАК" CodeNameInternational="DZP" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Сто упаковок" Code="781" SymbolNational="100 упак" SymbolInternational="" CodeNameNational="100  УПАК" CodeNameInternational="CNP" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Штука" Code="796" SymbolNational="шт" SymbolInternational="pc 1" CodeNameNational="ШТ" CodeNameInternational="PCE NMB" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Сто штук" Code="797" SymbolNational="100 шт" SymbolInternational="100" CodeNameNational="100 ШТ" CodeNameInternational="CEN" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча штук" Code="798" SymbolNational="тыс. шт (1000 шт)" SymbolInternational="1000" CodeNameNational="ТЫС ШТ" CodeNameInternational="MIL" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Миллион штук" Code="799" SymbolNational="10^6 шт" SymbolInternational="10^6" CodeNameNational="МЛН ШТ" CodeNameInternational="MIO" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Миллиард штук" Code="800" SymbolNational="10^9 шт" SymbolInternational="10^9" CodeNameNational="МЛРД ШТ" CodeNameInternational="MLD" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Биллион штук (Европа) (Триллион штук)" Code="801" SymbolNational="10^12 шт" SymbolInternational="10^12" CodeNameNational="БИЛЛ ШТ (ЕВР) (ТРИЛЛ ШТ)" CodeNameInternational="BIL" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Квинтильон штук (Европа)" Code="802" SymbolNational="10^18 шт" SymbolInternational="10^18" CodeNameNational="КВИНТ ШТ" CodeNameInternational="TRL" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Крепость спирта по массе" Code="820" SymbolNational="креп. спирта по массе" SymbolInternational="% mds" CodeNameNational="КРЕП СПИРТ ПО МАСС" CodeNameInternational="ASM" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Крепость спирта по объему" Code="821" SymbolNational="креп. спирта по объему" SymbolInternational="% vol" CodeNameNational="КРЕП СПИРТ ПО ОБЪЕМ" CodeNameInternational="ASV" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Литр чистого (100%) спирта" Code="831" SymbolNational="л 100% спирта" SymbolInternational="" CodeNameNational="Л ЧИСТ СПИРТ" CodeNameInternational="LPA" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Гектолитр чистого (100%) спирта" Code="833" SymbolNational="Гл 100% спирта" SymbolInternational="" CodeNameNational="ГЛ ЧИСТ СПИРТ" CodeNameInternational="HPA" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килограмм пероксида водорода" Code="841" SymbolNational="кг H(2)0(2)" SymbolInternational="" CodeNameNational="КГ ПЕРОКСИД ВОДОРОДА" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килограмм 90%-го сухого вещества" Code="845" SymbolNational="кг 90% с/в" SymbolInternational="" CodeNameNational="КГ 90 ПРОЦ СУХ ВЕЩ" CodeNameInternational="KSD" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тонна 90%-го сухого вещества" Code="847" SymbolNational="т 90% с/в" SymbolInternational="" CodeNameNational="Т 90 ПРОЦ СУХ ВЕЩ" CodeNameInternational="TSD" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килограмм оксида калия" Code="852" SymbolNational="кг К(2)О" SymbolInternational="" CodeNameNational="КГ ОКСИД КАЛИЯ" CodeNameInternational="KPO" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килограмм гидроксида калия" Code="859" SymbolNational="кг КОН" SymbolInternational="" CodeNameNational="КГ ГИДРОКСИД КАЛИЯ" CodeNameInternational="KPH" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килограмм азота" Code="861" SymbolNational="кг N" SymbolInternational="" CodeNameNational="КГ АЗОТ" CodeNameInternational="KNI" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килограмм гидроксида натрия" Code="863" SymbolNational="кг NaOH" SymbolInternational="" CodeNameNational="КГ ГИДРОКСИД НАТРИЯ" CodeNameInternational="KSH" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килограмм пятиокиси фосфора" Code="865" SymbolNational="кг Р(2)О(5)" SymbolInternational="" CodeNameNational="КГ ПЯТИОКИСЬ ФОСФОРА" CodeNameInternational="KPP" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килограмм урана" Code="867" SymbolNational="кг U" SymbolInternational="" CodeNameNational="КГ УРАН" CodeNameInternational="KUR" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Национальные единицы измерения, включенные в ЕСКК" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="0" Type="0" Numerator="" Denominator=""/>
+	<Item Name="Единицы длины" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Погонный метр" Code="018" SymbolNational="пог. м" SymbolInternational="" CodeNameNational="ПОГ М" CodeNameInternational="" Level="2" Type="Длина" Numerator="1" Denominator="1"/>
+	<Item Name="Тысяча погонных метров" Code="019" SymbolNational="1000 пог. м" SymbolInternational="" CodeNameNational="ТЫС ПОГ М" CodeNameInternational="" Level="2" Type="Длина" Numerator="1000" Denominator="1"/>
+	<Item Name="Условный метр" Code="020" SymbolNational="усл. м" SymbolInternational="" CodeNameNational="УСЛ М" CodeNameInternational="" Level="2" Type="Длина" Numerator="1" Denominator="1"/>
+	<Item Name="Тысяча условных метров" Code="048" SymbolNational="1000 усл. м" SymbolInternational="" CodeNameNational="ТЫС УСЛ М" CodeNameInternational="" Level="2" Type="Длина" Numerator="1000" Denominator="1"/>
+	<Item Name="Километр условных труб" Code="049" SymbolNational="км усл. труб" SymbolInternational="" CodeNameNational="КМ УСЛ ТРУБ" CodeNameInternational="" Level="2" Type="Длина" Numerator="" Denominator=""/>
+	<Item Name="Единицы площади" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Тысяча квадратных дециметров" Code="054" SymbolNational="1000 дм2" SymbolInternational="" CodeNameNational="ТЫС ДМ2" CodeNameInternational="" Level="2" Type="Площадь" Numerator="10" Denominator="1"/>
+	<Item Name="Миллион квадратных дециметров" Code="056" SymbolNational="10^6 дм2" SymbolInternational="" CodeNameNational="МЛН ДМ2" CodeNameInternational="" Level="2" Type="Площадь" Numerator="10000" Denominator="1"/>
+	<Item Name="Миллион квадратных метров" Code="057" SymbolNational="10^6 м2" SymbolInternational="" CodeNameNational="МЛН М2" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1000000" Denominator="1"/>
+	<Item Name="Тысяча гектаров" Code="060" SymbolNational="1000 га" SymbolInternational="" CodeNameNational="ТЫС ГА" CodeNameInternational="" Level="2" Type="Площадь" Numerator="10000000" Denominator="1"/>
+	<Item Name="Условный квадратный метр" Code="062" SymbolNational="усл. м2" SymbolInternational="" CodeNameNational="УСЛ М2" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1" Denominator="1"/>
+	<Item Name="Тысяча условных квадратных метров" Code="063" SymbolNational="1000 усл. м2" SymbolInternational="" CodeNameNational="ТЫС УСЛ М2" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1000" Denominator="1"/>
+	<Item Name="Миллион условных квадратных метров" Code="064" SymbolNational="10^6 усл. м2" SymbolInternational="" CodeNameNational="МЛН УСЛ М2" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1000000" Denominator="1"/>
+	<Item Name="Квадратный метр общей площади" Code="081" SymbolNational="м2 общ. пл" SymbolInternational="" CodeNameNational="М2 ОБЩ ПЛ" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1" Denominator="1"/>
+	<Item Name="Тысяча квадратных метров общей площади" Code="082" SymbolNational="1000 м2 общ. пл" SymbolInternational="" CodeNameNational="ТЫС М2 ОБЩ ПЛ" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1000" Denominator="1"/>
+	<Item Name="Миллион квадратных метров общей площади" Code="083" SymbolNational="10^6 м2 общ. пл" SymbolInternational="" CodeNameNational="МЛН М2. ОБЩ ПЛ" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1000000" Denominator="1"/>
+	<Item Name="Квадратный метр жилой площади" Code="084" SymbolNational="м2  жил. пл" SymbolInternational="" CodeNameNational="М2 ЖИЛ ПЛ" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1" Denominator="1"/>
+	<Item Name="Тысяча квадратных метров жилой площади" Code="085" SymbolNational="1000 м2 жил. пл" SymbolInternational="" CodeNameNational="ТЫС М2 ЖИЛ ПЛ" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1000" Denominator="1"/>
+	<Item Name="Миллион квадратных метров жилой площади" Code="086" SymbolNational="10^6 м2 жил. пл" SymbolInternational="" CodeNameNational="МЛН М2 ЖИЛ ПЛ" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1000000" Denominator="1"/>
+	<Item Name="Квадратный метр учебно - лабораторных зданий" Code="087" SymbolNational="м2  уч. лаб. здан" SymbolInternational="" CodeNameNational="М2 УЧ.ЛАБ ЗДАН" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1" Denominator="1"/>
+	<Item Name="Тысяча квадратных метров учебно - лабораторных зданий" Code="088" SymbolNational="1000 м2 уч. лаб. здан" SymbolInternational="" CodeNameNational="ТЫС М2 УЧ.ЛАБ ЗДАН" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1000" Denominator="1"/>
+	<Item Name="Миллион квадратных метров в двухмиллиметровом исчислении" Code="089" SymbolNational="10^6 м2 2 мм исч" SymbolInternational="" CodeNameNational="МЛН  М2 2ММ ИСЧ" CodeNameInternational="" Level="2" Type="Площадь" Numerator="1000000" Denominator="1"/>
+	<Item Name="Единицы объема" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Тысяча кубических метров" Code="114" SymbolNational="1000 м3" SymbolInternational="" CodeNameNational="ТЫС МЗ" CodeNameInternational="" Level="2" Type="Объем" Numerator="1000" Denominator="1"/>
+	<Item Name="Миллиард кубических метров" Code="115" SymbolNational="10^9 м3" SymbolInternational="" CodeNameNational="МЛРД М3" CodeNameInternational="" Level="2" Type="Объем" Numerator="1000000000" Denominator="1"/>
+	<Item Name="Декалитр" Code="116" SymbolNational="дкл" SymbolInternational="" CodeNameNational="ДКЛ" CodeNameInternational="" Level="2" Type="Объем" Numerator="1" Denominator="100"/>
+	<Item Name="Тысяча декалитров" Code="119" SymbolNational="1000 дкл" SymbolInternational="" CodeNameNational="ТЫС ДКЛ" CodeNameInternational="" Level="2" Type="Объем" Numerator="10" Denominator="1"/>
+	<Item Name="Миллион декалитров" Code="120" SymbolNational="10^6 дкл" SymbolInternational="" CodeNameNational="МЛН ДКЛ" CodeNameInternational="" Level="2" Type="Объем" Numerator="10000" Denominator="1"/>
+	<Item Name="Плотный кубический метр" Code="121" SymbolNational="плотн. м3" SymbolInternational="" CodeNameNational="ПЛОТН МЗ" CodeNameInternational="" Level="2" Type="Объем" Numerator="" Denominator=""/>
+	<Item Name="Условный кубический метр" Code="123" SymbolNational="усл. м3" SymbolInternational="" CodeNameNational="УСЛ М3" CodeNameInternational="" Level="2" Type="Объем" Numerator="1" Denominator="1"/>
+	<Item Name="Тысяча условных кубических метров" Code="124" SymbolNational="1000 усл. м3" SymbolInternational="" CodeNameNational="ТЫС УСЛ МЗ" CodeNameInternational="" Level="2" Type="Объем" Numerator="1000" Denominator="1"/>
+	<Item Name="Миллион кубических метров переработки газа" Code="125" SymbolNational="10^6 м3 перераб. газа" SymbolInternational="" CodeNameNational="МЛН МЗ ПЕРЕРАБ ГАЗА" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча плотных кубических метров" Code="127" SymbolNational="1000 плотн. м3" SymbolInternational="" CodeNameNational="ТЫС ПЛОТН МЗ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча полулитров" Code="128" SymbolNational="1000 пол. л" SymbolInternational="" CodeNameNational="ТЫС ПОЛ Л" CodeNameInternational="" Level="2" Type="Объем" Numerator="5" Denominator="10"/>
+	<Item Name="Миллион полулитров" Code="129" SymbolNational="10^6 пол. л" SymbolInternational="" CodeNameNational="МЛН ПОЛ Л" CodeNameInternational="" Level="2" Type="Объем" Numerator="500" Denominator="1"/>
+	<Item Name="Тысяча литров" Code="130" SymbolNational="1000 л" SymbolInternational="" CodeNameNational="ТЫС Л" CodeNameInternational="" Level="2" Type="Объем" Numerator="1" Denominator="1"/>
+	<Item Name="Единицы массы" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Тысяча каратов метрических" Code="165" SymbolNational="1000 кар" SymbolInternational="" CodeNameNational="ТЫС КАР" CodeNameInternational="" Level="2" Type="Вес" Numerator="2" Denominator="10"/>
+	<Item Name="Миллион каратов метрических" Code="167" SymbolNational="10^6 кар" SymbolInternational="" CodeNameNational="МЛН КАР" CodeNameInternational="" Level="2" Type="Вес" Numerator="200" Denominator="1"/>
+	<Item Name="Тысяча тонн" Code="169" SymbolNational="1000 т" SymbolInternational="" CodeNameNational="ТЫС Т" CodeNameInternational="" Level="2" Type="Вес" Numerator="1000000" Denominator="1"/>
+	<Item Name="Миллион тонн" Code="171" SymbolNational="10^6 т" SymbolInternational="" CodeNameNational="МЛН Т" CodeNameInternational="" Level="2" Type="Вес" Numerator="1000000000" Denominator="1"/>
+	<Item Name="Тонна условного топлива" Code="172" SymbolNational="т усл. топл" SymbolInternational="" CodeNameNational="Т УСЛ ТОПЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тонн условного топлива" Code="175" SymbolNational="1000 т усл. топл" SymbolInternational="" CodeNameNational="ТЫС Т УСЛ ТОПЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион тонн условного топлива" Code="176" SymbolNational="10^6 т усл. топл" SymbolInternational="" CodeNameNational="МЛН Т УСЛ ТОПЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тонн единовременного хранения" Code="177" SymbolNational="1000 т единовр. хран" SymbolInternational="" CodeNameNational="ТЫС Т ЕДИНОВР ХРАН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тонн  переработки" Code="178" SymbolNational="1000 т перераб" SymbolInternational="" CodeNameNational="ТЫС Т ПЕРЕРАБ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Условная тонна Т" Code="179" SymbolNational="усл. т" SymbolInternational="" CodeNameNational="УСЛ Т" CodeNameInternational="" Level="2" Type="Вес" Numerator="1000" Denominator="1"/>
+	<Item Name="Тысяча центнеров" Code="207" SymbolNational="10^3  ц" SymbolInternational="" CodeNameNational="ТЫС Ц" CodeNameInternational="" Level="2" Type="Вес" Numerator="100000" Denominator="1"/>
+	<Item Name="Технические единицы" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Вольт - ампер" Code="226" SymbolNational="В.А" SymbolInternational="" CodeNameNational="В.А" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Метр в час" Code="231" SymbolNational="м/ч" SymbolInternational="" CodeNameNational="М/Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килокалория" Code="232" SymbolNational="ккал" SymbolInternational="" CodeNameNational="ККАЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Гигакалория" Code="233" SymbolNational="Гкал" SymbolInternational="" CodeNameNational="ГИГАКАЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча гигакалорий" Code="234" SymbolNational="1000 Гкал" SymbolInternational="" CodeNameNational="ТЫС ГИГАКАЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион гигакалорий" Code="235" SymbolNational="10^6 Гкал" SymbolInternational="" CodeNameNational="МЛН ГИГАКАЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Калория в час" Code="236" SymbolNational="кал/ч" SymbolInternational="" CodeNameNational="КАЛ/Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килокалория в час" Code="237" SymbolNational="ккал/ч" SymbolInternational="" CodeNameNational="ККАЛ/Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Гигакалория в час" Code="238" SymbolNational="Гкал/ч" SymbolInternational="" CodeNameNational="ГИГАКАЛ/Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча гигакалорий в час" Code="239" SymbolNational="1000 Гкал/ч" SymbolInternational="" CodeNameNational="ТЫС ГИГАКАЛ/Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион ампер - часов" Code="241" SymbolNational="10^6 А.ч" SymbolInternational="" CodeNameNational="МЛН А.Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион киловольт - ампер" Code="242" SymbolNational="10^6 кВ.А" SymbolInternational="" CodeNameNational="МЛН КВ.А" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Киловольт - ампер реактивный" Code="248" SymbolNational="кВ.А Р" SymbolInternational="" CodeNameNational="КВ.А Р" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллиард киловатт - часов" Code="249" SymbolNational="10^9 кВт.ч" SymbolInternational="" CodeNameNational="МЛРД КВТ.Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча киловольт - ампер реактивных" Code="250" SymbolNational="1000 кВ.А Р" SymbolInternational="" CodeNameNational="ТЫС КВ.А Р" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Лошадиная сила" Code="251" SymbolNational="л. с" SymbolInternational="" CodeNameNational="ЛС" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча лошадиных сил" Code="252" SymbolNational="1000 л. с" SymbolInternational="" CodeNameNational="ТЫС ЛС" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион лошадиных сил" Code="253" SymbolNational="10^6 л. с" SymbolInternational="" CodeNameNational="МЛН ЛС" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Бит" Code="254" SymbolNational="бит" SymbolInternational="" CodeNameNational="БИТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Байт" Code="255" SymbolNational="байт" SymbolInternational="" CodeNameNational="БАЙТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килобайт" Code="256" SymbolNational="кбайт" SymbolInternational="" CodeNameNational="КБАЙТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Мегабайт" Code="257" SymbolNational="Мбайт" SymbolInternational="" CodeNameNational="МБАЙТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Бод" Code="258" SymbolNational="бод" SymbolInternational="" CodeNameNational="БОД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Генри" Code="287" SymbolNational="Гн" SymbolInternational="" CodeNameNational="ГН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тесла" Code="313" SymbolNational="Тл" SymbolInternational="" CodeNameNational="ТЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килограмм на квадратный сантиметр" Code="317" SymbolNational="кг/см^2" SymbolInternational="" CodeNameNational="КГ/СМ2" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллиметр водяного столба" Code="337" SymbolNational="мм вод. ст" SymbolInternational="" CodeNameNational="ММ ВОД СТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллиметр ртутного столба" Code="338" SymbolNational="мм рт. ст" SymbolInternational="" CodeNameNational="ММ РТ СТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Сантиметр водяного столба" Code="339" SymbolNational="см вод. ст" SymbolInternational="" CodeNameNational="СМ ВОД СТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Единицы времени" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Микросекунда" Code="352" SymbolNational="мкс" SymbolInternational="" CodeNameNational="МКС" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллисекунда Эк" Code="353" SymbolNational="млс" SymbolInternational="" CodeNameNational="МЛС" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Экономические единицы" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Рубль" Code="383" SymbolNational="руб" SymbolInternational="" CodeNameNational="РУБ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча рублей" Code="384" SymbolNational="1000 руб" SymbolInternational="" CodeNameNational="ТЫС РУБ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион рублей" Code="385" SymbolNational="10^6 руб" SymbolInternational="" CodeNameNational="МЛН РУБ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллиард рублей" Code="386" SymbolNational="10^9 руб" SymbolInternational="" CodeNameNational="МЛРД РУБ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Триллион рублей" Code="387" SymbolNational="10^12 руб" SymbolInternational="" CodeNameNational="ТРИЛЛ РУБ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Квадрильон рублей" Code="388" SymbolNational="10^15 руб" SymbolInternational="" CodeNameNational="КВАДР РУБ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Пассажиро - километр" Code="414" SymbolNational="пасс. км" SymbolInternational="" CodeNameNational="ПАСС.КМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Пассажирское место (пассажирских мест)" Code="421" SymbolNational="пасс. мест" SymbolInternational="" CodeNameNational="ПАСС МЕСТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча пассажиро - километров" Code="423" SymbolNational="1000 пасс. км" SymbolInternational="" CodeNameNational="ТЫС ПАСС.КМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион пассажиро - километров" Code="424" SymbolNational="10^6 пасс. км" SymbolInternational="" CodeNameNational="МЛН ПАСС.КМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Пассажиропоток" Code="427" SymbolNational="пасс. поток" SymbolInternational="" CodeNameNational="ПАСС. ПОТОК" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тонно - километр" Code="449" SymbolNational="т. км" SymbolInternational="" CodeNameNational="Т.КМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тонно - километров" Code="450" SymbolNational="1000 т. км" SymbolInternational="" CodeNameNational="ТЫС Т.КМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион тонно - километров" Code="451" SymbolNational="10^6 т. км" SymbolInternational="" CodeNameNational="МЛН Т.КМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча наборов" Code="479" SymbolNational="10^3  набор" SymbolInternational="" CodeNameNational="ТЫС НАБОР" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Грамм на киловатт - час" Code="510" SymbolNational="г/кВт.ч" SymbolInternational="" CodeNameNational="Г/КВТ.Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Килограмм на гигакалорию" Code="511" SymbolNational="кг/Гкал" SymbolInternational="" CodeNameNational="КГ/ГИГАКАЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тонно - номер" Code="512" SymbolNational="т. ном" SymbolInternational="" CodeNameNational="Т.НОМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Автотонна           " Code="513" SymbolNational="авто т" SymbolInternational="" CodeNameNational="АВТО Т     " CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тонна тяги          " Code="514" SymbolNational="т.тяги       " SymbolInternational="" CodeNameNational="Т ТЯГИ     " CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Дедвейт-тонна       " Code="515" SymbolNational="дедвейт.т     " SymbolInternational="" CodeNameNational="ДЕДВЕЙТ.Т    " CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тонно-танид         " Code="516" SymbolNational="т.танид      " SymbolInternational="" CodeNameNational="т.танид      " CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Человек на квадратный метр" Code="521" SymbolNational="чел/м2" SymbolInternational="" CodeNameNational="ЧЕЛ/М2" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Человек на квадратный километр" Code="522" SymbolNational="чел/км2" SymbolInternational="" CodeNameNational="ЧЕЛ/КМ2" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тонна в час" Code="534" SymbolNational="т/ч" SymbolInternational="" CodeNameNational="Т/Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тонна в сутки" Code="535" SymbolNational="т/сут" SymbolInternational="" CodeNameNational="Т/СУТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тонна в смену" Code="536" SymbolNational="т/смен" SymbolInternational="" CodeNameNational="Т/СМЕН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тонн в сезон" Code="537" SymbolNational="1000 т/сез" SymbolInternational="" CodeNameNational="ТЫС Т/СЕЗ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тонн в год" Code="538" SymbolNational="1000 т/год" SymbolInternational="" CodeNameNational="ТЫС Т/ГОД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Человеко - час" Code="539" SymbolNational="чел. ч" SymbolInternational="" CodeNameNational="ЧЕЛ.Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Человеко - день" Code="540" SymbolNational="чел. дн" SymbolInternational="" CodeNameNational="ЧЕЛ.ДН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча человеко - дней" Code="541" SymbolNational="1000 чел. дн" SymbolInternational="" CodeNameNational="ТЫС ЧЕЛ.ДН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча человеко - часов" Code="542" SymbolNational="1000 чел. ч" SymbolInternational="" CodeNameNational="ТЫС ЧЕЛ.Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча условных банок в смену" Code="543" SymbolNational="1000 усл. банк/смен" SymbolInternational="" CodeNameNational="ТЫС УСЛ БАНК/СМЕН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион единиц в год" Code="544" SymbolNational="10^6 ед/год" SymbolInternational="" CodeNameNational="МЛН ЕД/ГОД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Посещение в смену" Code="545" SymbolNational="посещ/смен" SymbolInternational="" CodeNameNational="ПОСЕЩ/СМЕН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча посещений в смену" Code="546" SymbolNational="1000 посещ/смен" SymbolInternational="" CodeNameNational="ТЫС ПОСЕЩ/СМЕН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Пара в смену" Code="547" SymbolNational="пар/смен" SymbolInternational="" CodeNameNational="ПАР/СМЕН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча пар в смену" Code="548" SymbolNational="1000 пар/смен" SymbolInternational="" CodeNameNational="ТЫС ПАР/СМЕН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион тонн в год" Code="550" SymbolNational="10^6 т/год" SymbolInternational="" CodeNameNational="МЛН Т/ГОД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тонна переработки в сутки" Code="552" SymbolNational="т перераб/сут" SymbolInternational="" CodeNameNational="Т ПЕРЕРАБ/СУТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тонн переработки в сутки" Code="553" SymbolNational="1000 т перераб/сут" SymbolInternational="" CodeNameNational="ТЫС Т ПЕРЕРАБ/СУТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Центнер переработки в сутки" Code="554" SymbolNational="ц перераб/сут" SymbolInternational="" CodeNameNational="Ц ПЕРЕРАБ/СУТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча центнеров переработки в сутки" Code="555" SymbolNational="1000 ц перераб/сут" SymbolInternational="" CodeNameNational="ТЫС Ц ПЕРЕРАБ/СУТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча голов в год" Code="556" SymbolNational="1000 гол/год" SymbolInternational="" CodeNameNational="ТЫС ГОЛ/ГОД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион голов в год" Code="557" SymbolNational="10^6 гол/год" SymbolInternational="" CodeNameNational="МЛН ГОЛ/ГОД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча птицемест" Code="558" SymbolNational="1000 птицемест" SymbolInternational="" CodeNameNational="ТЫС ПТИЦЕМЕСТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча кур - несушек" Code="559" SymbolNational="1000 кур. несуш" SymbolInternational="" CodeNameNational="ТЫС КУР. НЕСУШ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Минимальная заработная плата" Code="560" SymbolNational="мин. заработн. плат" SymbolInternational="" CodeNameNational="МИН ЗАРАБОТН ПЛАТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тонн пара в час" Code="561" SymbolNational="1000 т пар/ч" SymbolInternational="" CodeNameNational="ТЫС Т ПАР/Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча прядильных веретен" Code="562" SymbolNational="10^3  пряд.верет" SymbolInternational="" CodeNameNational="ТЫС ПРЯД ВЕРЕТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча прядильных мест" Code="563" SymbolNational="10^3  пряд.мест" SymbolInternational="" CodeNameNational="ТЫС ПРЯД МЕСТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Доза" Code="639" SymbolNational="доз" SymbolInternational="" CodeNameNational="ДОЗ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча доз" Code="640" SymbolNational="1000 доз" SymbolInternational="" CodeNameNational="ТЫС ДОЗ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Единица" Code="642" SymbolNational="ед" SymbolInternational="" CodeNameNational="ЕД" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча единиц" Code="643" SymbolNational="1000 ед" SymbolInternational="" CodeNameNational="ТЫС ЕД" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Миллион единиц" Code="644" SymbolNational="10^6 ед" SymbolInternational="" CodeNameNational="МЛН ЕД" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Канал" Code="661" SymbolNational="канал" SymbolInternational="" CodeNameNational="КАНАЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча комплектов" Code="673" SymbolNational="10^3  компл" SymbolInternational="" CodeNameNational="ТЫС КОМПЛ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Место" Code="698" SymbolNational="мест" SymbolInternational="" CodeNameNational="МЕСТ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча мест" Code="699" SymbolNational="1000 мест" SymbolInternational="" CodeNameNational="ТЫС МЕСТ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча номеров" Code="709" SymbolNational="10^3  ном" SymbolInternational="" CodeNameNational="ТЫС НОМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча гектаров порций" Code="724" SymbolNational="10^3  га порц" SymbolInternational="" CodeNameNational="ТЫС ГА ПОРЦ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча пачек" Code="729" SymbolNational="10^3  пач" SymbolInternational="" CodeNameNational="ТЫС ПАЧ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Процент" Code="744" SymbolNational="%" SymbolInternational="" CodeNameNational="ПРОЦ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Промилле (0,1 процента)" Code="746" SymbolNational="промилле" SymbolInternational="" CodeNameNational="ПРОМИЛЛЕ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча рулонов" Code="751" SymbolNational="1000 рул" SymbolInternational="" CodeNameNational="ТЫС РУЛ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча станов" Code="761" SymbolNational="10^3  стан" SymbolInternational="" CodeNameNational="ТЫС СТАН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Станция" Code="762" SymbolNational="станц" SymbolInternational="" CodeNameNational="СТАНЦ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тюбиков" Code="775" SymbolNational="10^3  тюбик" SymbolInternational="" CodeNameNational="ТЫС ТЮБИК" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча условных тубов" Code="776" SymbolNational="10^3  усл.туб" SymbolInternational="" CodeNameNational="ТЫС УСЛ ТУБ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион упаковок" Code="779" SymbolNational="10^6 упак" SymbolInternational="" CodeNameNational="МЛН УПАК" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча упаковок" Code="782" SymbolNational="10^3  упак" SymbolInternational="" CodeNameNational="ТЫС УПАК" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Человек" Code="792" SymbolNational="чел" SymbolInternational="" CodeNameNational="ЧЕЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча человек" Code="793" SymbolNational="1000 чел" SymbolInternational="" CodeNameNational="ТЫС ЧЕЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион человек" Code="794" SymbolNational="10^6 чел" SymbolInternational="" CodeNameNational="МЛН ЧЕЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион экземпляров" Code="808" SymbolNational="10^6  экз" SymbolInternational="" CodeNameNational="МЛН ЭКЗ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Ячейка" Code="810" SymbolNational="яч" SymbolInternational="" CodeNameNational="ЯЧ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Ящик" Code="812" SymbolNational="ящ" SymbolInternational="" CodeNameNational="ЯЩ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Голова" Code="836" SymbolNational="гол" SymbolInternational="" CodeNameNational="ГОЛ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча пар" Code="837" SymbolNational="1000 пар" SymbolInternational="" CodeNameNational="ТЫС ПАР" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Миллион пар" Code="838" SymbolNational="10^6 пар" SymbolInternational="" CodeNameNational="МЛН ПАР" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Комплект" Code="839" SymbolNational="компл" SymbolInternational="" CodeNameNational="КОМПЛ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Секция" Code="840" SymbolNational="секц" SymbolInternational="" CodeNameNational="СЕКЦ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Бутылка" Code="868" SymbolNational="бут" SymbolInternational="" CodeNameNational="БУТ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча бутылок" Code="869" SymbolNational="1000 бут" SymbolInternational="" CodeNameNational="ТЫС БУТ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Ампула" Code="870" SymbolNational="ампул" SymbolInternational="" CodeNameNational="АМПУЛ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча ампул" Code="871" SymbolNational="1000 ампул" SymbolInternational="" CodeNameNational="ТЫС АМПУЛ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Флакон" Code="872" SymbolNational="флак" SymbolInternational="" CodeNameNational="ФЛАК" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча флаконов" Code="873" SymbolNational="1000 флак" SymbolInternational="" CodeNameNational="ТЫС ФЛАК" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тубов" Code="874" SymbolNational="1000 туб" SymbolInternational="" CodeNameNational="ТЫС ТУБ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча коробок" Code="875" SymbolNational="1000 кор" SymbolInternational="" CodeNameNational="ТЫС КОР" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Условная единица" Code="876" SymbolNational="усл. ед" SymbolInternational="" CodeNameNational="УСЛ ЕД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча условных единиц" Code="877" SymbolNational="1000 усл. ед" SymbolInternational="" CodeNameNational="ТЫС УСЛ ЕД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион условных единиц" Code="878" SymbolNational="10^6 усл. ед" SymbolInternational="" CodeNameNational="МЛН УСЛ ЕД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Условная штука" Code="879" SymbolNational="усл. шт" SymbolInternational="" CodeNameNational="УСЛ ШТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча условных штук" Code="880" SymbolNational="1000 усл. шт" SymbolInternational="" CodeNameNational="ТЫС УСЛ ШТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Условная банка" Code="881" SymbolNational="усл. банк" SymbolInternational="" CodeNameNational="УСЛ БАНК" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча условных банок" Code="882" SymbolNational="1000 усл. банк" SymbolInternational="" CodeNameNational="ТЫС УСЛ БАНК" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион условных банок" Code="883" SymbolNational="10^6 усл. банк" SymbolInternational="" CodeNameNational="МЛН УСЛ БАНК" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Условный кусок" Code="884" SymbolNational="усл. кус" SymbolInternational="" CodeNameNational="УСЛ КУС" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча условных кусков" Code="885" SymbolNational="1000 усл. кус" SymbolInternational="" CodeNameNational="ТЫС УСЛ КУС" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион условных кусков" Code="886" SymbolNational="10^6 усл. кус" SymbolInternational="" CodeNameNational="МЛН УСЛ КУС" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Условный ящик" Code="887" SymbolNational="усл. ящ" SymbolInternational="" CodeNameNational="УСЛ ЯЩ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча условных ящиков" Code="888" SymbolNational="1000 усл. ящ" SymbolInternational="" CodeNameNational="ТЫС УСЛ ЯЩ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Условная катушка" Code="889" SymbolNational="усл. кат" SymbolInternational="" CodeNameNational="УСЛ КАТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча условных катушек" Code="890" SymbolNational="1000 усл. кат" SymbolInternational="" CodeNameNational="ТЫС УСЛ КАТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Условная плитка" Code="891" SymbolNational="усл. плит" SymbolInternational="" CodeNameNational="УСЛ ПЛИТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча условных плиток" Code="892" SymbolNational="1000 усл. плит" SymbolInternational="" CodeNameNational="ТЫС УСЛ ПЛИТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Условный кирпич" Code="893" SymbolNational="усл. кирп" SymbolInternational="" CodeNameNational="УСЛ КИРП" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча условных кирпичей" Code="894" SymbolNational="1000 усл. кирп" SymbolInternational="" CodeNameNational="ТЫС УСЛ КИРП" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион условных кирпичей" Code="895" SymbolNational="10^6 усл. кирп" SymbolInternational="" CodeNameNational="МЛН УСЛ КИРП" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Семья" Code="896" SymbolNational="семей" SymbolInternational="" CodeNameNational="СЕМЕЙ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча семей" Code="897" SymbolNational="1000 семей" SymbolInternational="" CodeNameNational="ТЫС СЕМЕЙ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион семей" Code="898" SymbolNational="10^6 семей" SymbolInternational="" CodeNameNational="МЛН СЕМЕЙ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Домохозяйство" Code="899" SymbolNational="домхоз" SymbolInternational="" CodeNameNational="ДОМХОЗ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча домохозяйств" Code="900" SymbolNational="1000 домхоз" SymbolInternational="" CodeNameNational="ТЫС ДОМХОЗ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион домохозяйств" Code="901" SymbolNational="10^6 домхоз" SymbolInternational="" CodeNameNational="МЛН ДОМХОЗ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Ученическое место" Code="902" SymbolNational="учен. мест" SymbolInternational="" CodeNameNational="УЧЕН МЕСТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча ученических мест" Code="903" SymbolNational="1000 учен. мест" SymbolInternational="" CodeNameNational="ТЫС УЧЕН МЕСТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Рабочее место" Code="904" SymbolNational="раб. мест" SymbolInternational="" CodeNameNational="РАБ МЕСТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча рабочих мест" Code="905" SymbolNational="1000 раб. мест" SymbolInternational="" CodeNameNational="ТЫС РАБ МЕСТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Посадочное место" Code="906" SymbolNational="посад. мест" SymbolInternational="" CodeNameNational="ПОСАД МЕСТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча посадочных мест" Code="907" SymbolNational="1000 посад. мест" SymbolInternational="" CodeNameNational="ТЫС ПОСАД МЕСТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Номер" Code="908" SymbolNational="ном" SymbolInternational="" CodeNameNational="НОМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Квартира" Code="909" SymbolNational="кварт" SymbolInternational="" CodeNameNational="КВАРТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча квартир" Code="910" SymbolNational="1000 кварт" SymbolInternational="" CodeNameNational="ТЫС КВАРТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Койка" Code="911" SymbolNational="коек" SymbolInternational="" CodeNameNational="КОЕК" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча коек" Code="912" SymbolNational="1000 коек" SymbolInternational="" CodeNameNational="ТЫС КОЕК" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Том книжного фонда" Code="913" SymbolNational="том книжн. фонд" SymbolInternational="" CodeNameNational="ТОМ КНИЖН ФОНД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча томов книжного фонда" Code="914" SymbolNational="1000 том. книжн. фонд" SymbolInternational="" CodeNameNational="ТЫС ТОМ КНИЖН ФОНД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Условный ремонт" Code="915" SymbolNational="усл. рем" SymbolInternational="" CodeNameNational="УСЛ РЕМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Условный ремонт в год" Code="916" SymbolNational="усл. рем/год" SymbolInternational="" CodeNameNational="УСЛ РЕМ/ГОД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Смена" Code="917" SymbolNational="смен" SymbolInternational="" CodeNameNational="СМЕН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Лист авторский" Code="918" SymbolNational="л. авт" SymbolInternational="" CodeNameNational="ЛИСТ АВТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Лист печатный" Code="920" SymbolNational="л. печ" SymbolInternational="" CodeNameNational="ЛИСТ ПЕЧ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Лист учетно - издательский" Code="921" SymbolNational="л. уч.-изд" SymbolInternational="" CodeNameNational="ЛИСТ УЧ.ИЗД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Знак" Code="922" SymbolNational="знак" SymbolInternational="" CodeNameNational="ЗНАК" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Слово" Code="923" SymbolNational="слово" SymbolInternational="" CodeNameNational="СЛОВО" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Символ" Code="924" SymbolNational="символ" SymbolInternational="" CodeNameNational="СИМВОЛ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Условная труба" Code="925" SymbolNational="усл. труб" SymbolInternational="" CodeNameNational="УСЛ ТРУБ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча пластин" Code="930" SymbolNational="10^3  пласт" SymbolInternational="" CodeNameNational="ТЫС ПЛАСТ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Миллион доз" Code="937" SymbolNational="10^6  доз" SymbolInternational="" CodeNameNational="МЛН ДОЗ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Миллион листов-оттисков" Code="949" SymbolNational="10^6  лист.оттиск" SymbolInternational="" CodeNameNational="МЛН ЛИСТ.ОТТИСК" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Вагоно(машино)-день" Code="950" SymbolNational="ваг (маш).дн" SymbolInternational="" CodeNameNational="ВАГ (МАШ).ДН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча вагоно-(машино)-часов" Code="951" SymbolNational="10^3  ваг (маш).ч" SymbolInternational="" CodeNameNational="ТЫС ВАГ (МАШ).Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча вагоно-(машино)-километров" Code="952" SymbolNational="10^3  ваг (маш).км" SymbolInternational="" CodeNameNational="ТЫС ВАГ (МАШ).КМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча место-километров" Code="953" SymbolNational="10^3  мест.км" SymbolInternational="" CodeNameNational="ТЫС МЕСТ.КМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Вагоно-сутки" Code="954" SymbolNational="ваг.сут" SymbolInternational="" CodeNameNational="ВАГ.СУТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча поездо-часов" Code="955" SymbolNational="10^3  поезд.ч" SymbolInternational="" CodeNameNational="ТЫС ПОЕЗД.Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча поездо-километров" Code="956" SymbolNational="10^3  поезд.км" SymbolInternational="" CodeNameNational="ТЫС ПОЕЗД.КМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тонно-миль" Code="957" SymbolNational="10^3  т.миль" SymbolInternational="" CodeNameNational="ТЫС Т.МИЛЬ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча пассажиро-миль" Code="958" SymbolNational="10^3  пасс.миль" SymbolInternational="" CodeNameNational="ТЫС ПАСС.МИЛЬ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Автомобиле-день" Code="959" SymbolNational="автомоб.дн" SymbolInternational="" CodeNameNational="АВТОМОБ.ДН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча автомобиле-тонно-дней" Code="960" SymbolNational="10^3  автомоб.т.дн" SymbolInternational="" CodeNameNational="ТЫС АВТОМОБ.Т.ДН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча автомобиле-часов" Code="961" SymbolNational="10^3  автомоб.ч" SymbolInternational="" CodeNameNational="ТЫС АВТОМОБ.Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча автомобиле-место-дней" Code="962" SymbolNational="10^3  автомоб.мест. дн" SymbolInternational="" CodeNameNational="ТЫС АВТОМОБ.МЕСТ. ДН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Приведенный час" Code="963" SymbolNational="привед.ч" SymbolInternational="" CodeNameNational="ПРИВЕД.Ч" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Самолето-километр" Code="964" SymbolNational="самолет.км" SymbolInternational="" CodeNameNational="САМОЛЕТ.КМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча километров" Code="965" SymbolNational="10^3  км" SymbolInternational="" CodeNameNational="ТЫС КМ" CodeNameInternational="" Level="2" Type="Длина" Numerator="1000000" Denominator="1"/>
+	<Item Name="Тысяча тоннаже-рейсов" Code="966" SymbolNational="10^3  тоннаж. рейс" SymbolInternational="" CodeNameNational="ТЫС ТОННАЖ. РЕЙС" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион тонно-миль" Code="967" SymbolNational="10^6  т. миль" SymbolInternational="" CodeNameNational="МЛН Т. МИЛЬ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион пассажиро-миль" Code="968" SymbolNational="10^6  пасс. миль" SymbolInternational="" CodeNameNational="МЛН ПАСС. МИЛЬ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион тоннаже-миль" Code="969" SymbolNational="10^6  тоннаж. миль" SymbolInternational="" CodeNameNational="МЛН ТОННАЖ. МИЛЬ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион пассажиро-место-миль" Code="970" SymbolNational="10^6  пасс. мест. миль" SymbolInternational="" CodeNameNational="МЛН ПАСС. МЕСТ. МИЛЬ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Кормо-день" Code="971" SymbolNational="корм. дн" SymbolInternational="" CodeNameNational="КОРМ. ДН" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Центнер кормовых единиц" Code="972" SymbolNational="ц корм ед" SymbolInternational="" CodeNameNational="Ц КОРМ ЕД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча автомобиле-километров" Code="973" SymbolNational="10^3  автомоб. км" SymbolInternational="" CodeNameNational="ТЫС АВТОМОБ. КМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тоннаже-сут" Code="974" SymbolNational="10^3  тоннаж. сут" SymbolInternational="" CodeNameNational="ТЫС ТОННАЖ. СУТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Суго-сутки" Code="975" SymbolNational="суго. сут." SymbolInternational="" CodeNameNational="СУГО. СУТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Штук в 20-футовом эквиваленте (ДФЭ)" Code="976" SymbolNational="штук в 20-футовом эквиваленте" SymbolInternational="" CodeNameNational="ШТ В 20 ФУТ ЭКВИВ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Канало-километр" Code="977" SymbolNational="канал. км" SymbolInternational="" CodeNameNational="КАНАЛ. КМ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Канало-концы" Code="978" SymbolNational="канал. конц" SymbolInternational="" CodeNameNational="КАНАЛ. КОНЦ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча экземпляров" Code="979" SymbolNational="10^3  экз" SymbolInternational="" CodeNameNational="ТЫС ЭКЗ" CodeNameInternational="" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Тысяча долларов" Code="980" SymbolNational="10^3  доллар" SymbolInternational="" CodeNameNational="ТЫС ДОЛЛАР" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Тысяча тонн кормовых единиц" Code="981" SymbolNational="10^3  корм ед" SymbolInternational="" CodeNameNational="ТЫС Т КОРМ ЕД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Миллион тонн кормовых единиц" Code="982" SymbolNational="10^6  корм ед" SymbolInternational="" CodeNameNational="МЛН Т КОРМ ЕД" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Судо-сутки" Code="983" SymbolNational="суд.сут" SymbolInternational="" CodeNameNational="СУД.СУТ" CodeNameInternational="" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Международные единицы измерения, не включенные в ЕСКК" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="0" Type="0" Numerator="" Denominator=""/>
+	<Item Name="Единицы длины" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Гектометр" Code="017" SymbolNational="" SymbolInternational="hm" CodeNameNational="" CodeNameInternational="HMT" Level="2" Type="Длина" Numerator="100" Denominator="1"/>
+	<Item Name="Миля (уставная) (1609,344 м)" Code="045" SymbolNational="" SymbolInternational="mile" CodeNameNational="" CodeNameInternational="SMI" Level="2" Type="Длина" Numerator="1609.344" Denominator="1"/>
+	<Item Name="Единицы площади" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Акр (4840 квадратных ярдов)" Code="077" SymbolNational="" SymbolInternational="acre" CodeNameNational="" CodeNameInternational="ACR" Level="2" Type="Площадь" Numerator="4046.86" Denominator="1"/>
+	<Item Name="Квадратная миля" Code="079" SymbolNational="" SymbolInternational="mile2" CodeNameNational="" CodeNameInternational="MIK" Level="2" Type="Площадь" Numerator="2589988.11" Denominator="1"/>
+	<Item Name="Единицы объема" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Жидкостная унция СК 3 (28,413 см3)" Code="135" SymbolNational="" SymbolInternational="fl oz (UK)" CodeNameNational="" CodeNameInternational="OZI" Level="2" Type="Объем" Numerator="28.413" Denominator="1000000"/>
+	<Item Name="Джилл СК (0,142065 дм3)" Code="136" SymbolNational="" SymbolInternational="gill (UK)" CodeNameNational="" CodeNameInternational="GII" Level="2" Type="Объем" Numerator="142.065" Denominator="1000000"/>
+	<Item Name="Пинта СК (0,568262 дм3)" Code="137" SymbolNational="" SymbolInternational="pt (UK)" CodeNameNational="" CodeNameInternational="PTI" Level="2" Type="Объем" Numerator="568.262" Denominator="1000000"/>
+	<Item Name="Кварта СК (1,136523 дм3)" Code="138" SymbolNational="" SymbolInternational="qt (UK)" CodeNameNational="" CodeNameInternational="QTI" Level="2" Type="Объем" Numerator="1136.523" Denominator="1000000"/>
+	<Item Name="Галлон СК (4,546092 дм3)" Code="139" SymbolNational="" SymbolInternational="gal (UK)" CodeNameNational="" CodeNameInternational="GLI" Level="2" Type="Объем" Numerator="4546.092" Denominator="1000000"/>
+	<Item Name="Бушель СК (36,36874 дм3)" Code="140" SymbolNational="" SymbolInternational="bu (UK)" CodeNameNational="" CodeNameInternational="BUI" Level="2" Type="Объем" Numerator="36368.74" Denominator="1000000"/>
+	<Item Name="Жидкостная унция США (29,5735 см3)" Code="141" SymbolNational="" SymbolInternational="fl oz (US)" CodeNameNational="" CodeNameInternational="OZA" Level="2" Type="Объем" Numerator="295.735" Denominator="10000000"/>
+	<Item Name="Джилл США (11,8294 см3)" Code="142" SymbolNational="" SymbolInternational="gill  (US)" CodeNameNational="" CodeNameInternational="GIA" Level="2" Type="Объем" Numerator="118.294" Denominator="1000000"/>
+	<Item Name="Жидкостная пинта США (0,473176 дм3)" Code="143" SymbolNational="" SymbolInternational="liq pt (US)" CodeNameNational="" CodeNameInternational="PTL" Level="2" Type="Объем" Numerator="473.176" Denominator="1000000"/>
+	<Item Name="Жидкостная кварта США (0,946353 дм3)" Code="144" SymbolNational="" SymbolInternational="liq qt (US)" CodeNameNational="" CodeNameInternational="QTL" Level="2" Type="Объем" Numerator="946.353" Denominator="1000000"/>
+	<Item Name="Жидкостный галлон США (3,78541 дм3)" Code="145" SymbolNational="" SymbolInternational="gal (US)" CodeNameNational="" CodeNameInternational="GLL" Level="2" Type="Объем" Numerator="3785.41" Denominator="1000000"/>
+	<Item Name="Баррель (нефтяной) США (158,987 дм3)" Code="146" SymbolNational="" SymbolInternational="barrel (US)" CodeNameNational="" CodeNameInternational="BLL" Level="2" Type="Объем" Numerator="158.987" Denominator="1000"/>
+	<Item Name="Сухая пинта США (0,55061 дм3)" Code="147" SymbolNational="" SymbolInternational="dry pt (US)" CodeNameNational="" CodeNameInternational="PTD" Level="2" Type="Объем" Numerator="550.61" Denominator="1000000"/>
+	<Item Name="Сухая кварта США (1,101221 дм3)" Code="148" SymbolNational="" SymbolInternational="dry qt (US)" CodeNameNational="" CodeNameInternational="QTD" Level="2" Type="Объем" Numerator="1101.221" Denominator="1000000"/>
+	<Item Name="Сухой галлон США (4,404884 дм3)" Code="149" SymbolNational="" SymbolInternational="dry gal (US)" CodeNameNational="" CodeNameInternational="GLD" Level="2" Type="Объем" Numerator="4404.884" Denominator="1000000"/>
+	<Item Name="Бушель США (35,2391 дм3)" Code="150" SymbolNational="" SymbolInternational="bu (US)" CodeNameNational="" CodeNameInternational="BUA" Level="2" Type="Объем" Numerator="35239.1" Denominator="1000000"/>
+	<Item Name="Сухой баррель США (115,627 дм3)" Code="151" SymbolNational="" SymbolInternational="bbl (US)" CodeNameNational="" CodeNameInternational="BLD" Level="2" Type="Объем" Numerator="115.627" Denominator="1000"/>
+	<Item Name="Стандарт" Code="152" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="WSD" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Корд (3,63 м3)" Code="153" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="WCD" Level="2" Type="Объем" Numerator="3.63" Denominator="1"/>
+	<Item Name="Тысячи бордфутов (2,36 м3)" Code="154" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="MBF" Level="2" Type="Объем" Numerator="2.36" Denominator="1"/>
+	<Item Name="Единицы массы" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Нетто - регистровая тонна" Code="182" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="NTT" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Обмерная (фрахтовая) тонна" Code="183" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="SHT" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Водоизмещение" Code="184" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="DPT" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Фунт СК, США (0,45359237 кг)" Code="186" SymbolNational="" SymbolInternational="lb" CodeNameNational="" CodeNameInternational="LBR" Level="2" Type="Вес" Numerator="45359.237" Denominator="100000"/>
+	<Item Name="Унция СК, США (28,349523 г)" Code="187" SymbolNational="" SymbolInternational="oz" CodeNameNational="" CodeNameInternational="ONZ" Level="2" Type="Вес" Numerator="28349.523" Denominator="1000000"/>
+	<Item Name="Драхма СК (1,771745 г)" Code="188" SymbolNational="" SymbolInternational="dr" CodeNameNational="" CodeNameInternational="DRI" Level="2" Type="Вес" Numerator="1771.745" Denominator="1000000"/>
+	<Item Name="Гран СК, США (64,798910 мг)" Code="189" SymbolNational="" SymbolInternational="gn" CodeNameNational="" CodeNameInternational="GRN" Level="2" Type="Вес" Numerator="6479.891" Denominator="100000000"/>
+	<Item Name="Стоун СК (6,350293 кг)" Code="190" SymbolNational="" SymbolInternational="st" CodeNameNational="" CodeNameInternational="STI" Level="2" Type="Вес" Numerator="6350.293" Denominator="1000"/>
+	<Item Name="Квартер СК (12,700586 кг)" Code="191" SymbolNational="" SymbolInternational="qtr" CodeNameNational="" CodeNameInternational="QTR" Level="2" Type="Вес" Numerator="12700.586" Denominator="1000"/>
+	<Item Name="Центал СК (45,359237 кг)" Code="192" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="CNT" Level="2" Type="Вес" Numerator="45359.237" Denominator="1000"/>
+	<Item Name="Центнер США (45,3592 кг)" Code="193" SymbolNational="" SymbolInternational="cwt" CodeNameNational="" CodeNameInternational="CWA" Level="2" Type="Вес" Numerator="45359.2" Denominator="1000"/>
+	<Item Name="Длинный центнер СК (50,802345 кг)" Code="194" SymbolNational="" SymbolInternational="cwt (UK)" CodeNameNational="" CodeNameInternational="CWI" Level="2" Type="Вес" Numerator="50802.345" Denominator="1000"/>
+	<Item Name="Короткая тонна СК, США (0,90718474 т)" Code="195" SymbolNational="" SymbolInternational="sht" CodeNameNational="" CodeNameInternational="STN" Level="2" Type="Вес" Numerator="907184.74" Denominator="1000"/>
+	<Item Name="Длинная тонна СК, США (1,0160469 т)" Code="196" SymbolNational="" SymbolInternational="lt" CodeNameNational="" CodeNameInternational="LTN" Level="2" Type="Вес" Numerator="101604.69" Denominator="100"/>
+	<Item Name="Скрупул СК, США (1,295982 г)" Code="197" SymbolNational="" SymbolInternational="scr" CodeNameNational="" CodeNameInternational="SCR" Level="2" Type="Вес" Numerator="1295.982" Denominator="1000000"/>
+	<Item Name="Пеннивейт СК, США (1,555174 г)" Code="198" SymbolNational="" SymbolInternational="dwt" CodeNameNational="" CodeNameInternational="DWT" Level="2" Type="Вес" Numerator="1555.174" Denominator="1000000"/>
+	<Item Name="Драхма СК (3,887935 г)" Code="199" SymbolNational="" SymbolInternational="drm" CodeNameNational="" CodeNameInternational="DRM" Level="2" Type="Вес" Numerator="3887.935" Denominator="1000000"/>
+	<Item Name="Драхма США (3,887935 г)" Code="200" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="DRA" Level="2" Type="Вес" Numerator="3887.935" Denominator="1000000"/>
+	<Item Name="Унция СК, США (31,10348 г) Тройская унция" Code="201" SymbolNational="" SymbolInternational="apoz" CodeNameNational="" CodeNameInternational="APZ" Level="2" Type="Вес" Numerator="31103.48" Denominator="1000000"/>
+	<Item Name="Тройский фунт США (373,242 г)" Code="202" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="LBT" Level="2" Type="Вес" Numerator="373.242" Denominator="1000"/>
+	<Item Name="Технические единицы" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Эффективная мощность (245,7 ватт)" Code="213" SymbolNational="" SymbolInternational="B.h.p." CodeNameNational="" CodeNameInternational="BHP" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Британская тепловая единица (1,055 кДж)" Code="275" SymbolNational="" SymbolInternational="Btu" CodeNameNational="" CodeNameInternational="BTU" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Экономические единицы" Code="" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="" Level="1" Type="1" Numerator="" Denominator=""/>
+	<Item Name="Гросс (144 шт.)" Code="638" SymbolNational="" SymbolInternational="gr 144" CodeNameNational="" CodeNameInternational="GRO" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Большой гросс (12 гроссов)" Code="731" SymbolNational="" SymbolInternational="1728" CodeNameNational="" CodeNameInternational="GGR" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Короткий стандарт (7200 единиц)" Code="738" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="SST" Level="2" Type="КоличествоШтук" Numerator="" Denominator=""/>
+	<Item Name="Галлон спирта установленной крепости" Code="835" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="PGL" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Международная единица" Code="851" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="NIU" Level="2" Type="" Numerator="" Denominator=""/>
+	<Item Name="Сто международных единиц" Code="853" SymbolNational="" SymbolInternational="" CodeNameNational="" CodeNameInternational="HIU" Level="2" Type="" Numerator="" Denominator=""/>
+</Items>

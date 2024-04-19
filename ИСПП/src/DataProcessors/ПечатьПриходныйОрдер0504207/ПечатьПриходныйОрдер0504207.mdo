@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06b2de23-cbcf-4350-9494-2486e8ebc713">
+  <producedTypes>
+    <objectType typeId="0a5bd693-81f6-494c-9fe1-930380e41ffc" valueTypeId="1a2a917a-4280-46ed-ba10-1a288d87359f"/>
+    <managerType typeId="e10a5080-b790-4a1d-84bc-e4944a143444" valueTypeId="8b1c5a1a-7549-468a-a86f-a3d12a92428d"/>
+  </producedTypes>
+  <name>ПечатьПриходныйОрдер0504207</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать Приходный ордер (ф. 0504207)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="ead061bc-5634-4d43-80bc-2c94dbe65f85">
+    <name>ПФ_MXL_ПриходныйОрдер0504207</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приходный ордер на приемку  МЦ (ф.0504207)</value>
+    </synonym>
+    <comment>Приходный ордер на приемку материальных ценностей (нефинансовых активов) ф.0504207</comment>
+  </templates>
+</mdclass:DataProcessor>

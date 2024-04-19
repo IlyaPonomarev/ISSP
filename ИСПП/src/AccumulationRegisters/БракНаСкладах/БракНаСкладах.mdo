@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36896730-d655-4f9c-aead-4ce3eb2b0c1e">
+  <producedTypes>
+    <selectionType typeId="e15f71fe-4741-4df9-9504-656e2b7d4400" valueTypeId="ba326ae9-9a05-43f5-b699-893ee5d43fd7"/>
+    <listType typeId="56ab75b6-009e-4d6f-ad53-188740fdfe6a" valueTypeId="63896506-c77e-4ac0-a633-9a49f8f6b422"/>
+    <managerType typeId="4adb4760-f04f-4241-82be-ec5d17aa2acf" valueTypeId="fa793403-8ab5-40e5-9047-a15289d50c86"/>
+    <recordSetType typeId="ba07c614-7bcf-4264-bf37-a6f9631bbdd9" valueTypeId="b6d9b238-0dc5-4c7f-b8b4-a14460006b27"/>
+    <recordKeyType typeId="f8971d4a-aeed-4d34-910c-c87dc50570d4" valueTypeId="286d1d61-c57b-4583-b913-5b69060145a1"/>
+    <recordType typeId="a9dbf9aa-385e-4118-80f6-e98562569f97" valueTypeId="3889058c-e89e-4adb-b4c9-1de6dc2620db"/>
+  </producedTypes>
+  <name>БракНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Брак на складах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="1bc86c03-ed03-4bd9-a8d4-604cfe1395ee">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="c3af0ce0-240e-423a-8661-a9bad19f5240">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Номенклатура, хранящаяся на складе.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="918c30ab-47f9-45d3-846d-4e9bddd33a9b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="33692569-5fa4-4664-a9c0-30076a86f2db">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="8c7fa0e7-afe4-459c-90c5-e16cf324b4ef">
+    <name>СерияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Серия номенклатуры, хранящейся на складе.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="82b227fc-c6ef-431b-9ad0-6d022a8ba0fc">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПартииНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Партия номенклатуры, хранящейся на складе.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

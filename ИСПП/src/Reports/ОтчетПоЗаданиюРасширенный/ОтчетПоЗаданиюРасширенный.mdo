@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99eb6895-acf5-464b-8012-f118dcbd75a9">
+  <producedTypes>
+    <objectType typeId="1a68407a-b7e1-4a52-aa24-a4dfabc5310d" valueTypeId="83a172ee-c9fb-4ff9-beda-d57d7764a814"/>
+    <managerType typeId="8ba2f072-54b8-42ed-8447-03d201f62e82" valueTypeId="18a2d381-469e-4f43-bfe0-d0ef602bd2fe"/>
+  </producedTypes>
+  <name>ОтчетПоЗаданиюРасширенный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по заданию расширенный</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетПоЗаданиюРасширенный.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="3cb92af2-1777-4868-a3e0-f9f6c2ecaf11">
+    <name>ПроектЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект задания</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПроектЗадания</types>
+      <types>DocumentRef.ГЗ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="205a42d4-1f39-4440-8e77-88e210ca603b">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b4972cd6-dfd4-4b9f-896d-e618687925de">
+    <name>СУничтожением</name>
+    <synonym>
+      <key>ru</key>
+      <value>С уничтожением</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="bb5555f7-2d81-46e1-8780-8f0f1611109a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="fdcc23ed-81dc-4e1b-a717-da1d8212ee2f">
+    <name>МакетПоЗаданию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет по заданию</value>
+    </synonym>
+  </templates>
+  <templates uuid="f1b9d9da-b172-4e0f-a28c-c33f06178751">
+    <name>МакетПоЗаданиюСУничтожением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет по заданию с уничтожением</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

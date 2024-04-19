@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f24aa7a9-169c-4fb7-acff-cf320d0f46c7">
+  <producedTypes>
+    <objectType typeId="64d7ca3c-ed8a-469b-aa1a-ef69a885bda6" valueTypeId="c814cb95-ca29-4ed1-8258-9ea3ac105c35"/>
+    <managerType typeId="a42ac0db-b538-443b-ab41-9cceb01b1218" valueTypeId="94e73fef-133a-4422-a9c2-74bc2d1322d9"/>
+  </producedTypes>
+  <name>ОтчетПоИсполнителям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по исполнителям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетПоИсполнителям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <explanation>
+    <key>ru</key>
+    <value>Отчет предназначен для анализа взаиморасчетов с исполнителями.</value>
+  </explanation>
+  <templates uuid="705c596a-23a1-4bc8-89cd-0b4326e6406d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

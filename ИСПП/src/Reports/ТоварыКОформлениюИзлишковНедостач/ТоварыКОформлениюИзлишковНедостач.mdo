@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f3c54fb-b35c-4c8f-872b-8e0227cdc334">
+  <producedTypes>
+    <objectType typeId="83471c44-7136-4799-b124-0f1b00fa3faa" valueTypeId="cad42b33-3d0f-4737-b0d6-d126fc29c226"/>
+    <managerType typeId="c27060a4-1f70-4431-a232-12e5950935a4" valueTypeId="5f2c97b3-bd7d-44d5-a2cd-d1f7003f9c15"/>
+  </producedTypes>
+  <name>ТоварыКОформлениюИзлишковНедостач</name>
+  <synonym>
+    <key>ru</key>
+    <value>МСИ к оформлению излишков и недостач</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ТоварыКОформлениюИзлишковНедостач.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="9d71558d-e8d7-433a-9427-cf9fa7ab58aa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

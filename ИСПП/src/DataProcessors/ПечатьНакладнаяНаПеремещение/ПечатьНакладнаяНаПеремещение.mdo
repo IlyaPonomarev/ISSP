@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b1fa9ff-54b7-4f0b-8db8-28de0edd8019">
+  <producedTypes>
+    <objectType typeId="a9dd4929-c346-4957-a68e-d8a9cfa06442" valueTypeId="031d629e-bd48-4d4d-9ebf-8717fb398293"/>
+    <managerType typeId="f01bf4a1-bc45-4836-9a43-abefd3fae737" valueTypeId="b67ece4f-7b9c-435f-95b6-e1541bb559a4"/>
+  </producedTypes>
+  <name>ПечатьНакладнаяНаПеремещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать Накладная на перемещение</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="c2cbcfa0-9b3d-4bb0-86d4-b1efcd442e16">
+    <name>ПФ_MXL_НакладнаяНаПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накладная на перемещение</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

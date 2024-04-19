@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43303b41-f474-4a7d-8db4-89cd69d7650f">
+  <producedTypes>
+    <objectType typeId="f81127fa-9ea4-44cd-a274-3d783152423f" valueTypeId="2f18ac18-198f-4d95-ad86-ca774d2fa3a0"/>
+    <refType typeId="67d32731-9be5-432a-b933-055aec2a3ca6" valueTypeId="cad8ee7c-4155-4028-bc86-d05ea6bf2b6e"/>
+    <selectionType typeId="15d711b7-af95-4612-a409-05f78a21a5b4" valueTypeId="92efc678-72a9-498e-8892-4b4338c7be99"/>
+    <listType typeId="42578ca2-bd2f-4a7e-b652-9958108813e6" valueTypeId="afd0bd12-90b7-424e-b6d4-8cdbbaaf3051"/>
+    <managerType typeId="e8b23eea-6f78-4e91-b9e4-e3068723feb1" valueTypeId="27ee26c9-69e4-49df-917f-e7853c801bdc"/>
+  </producedTypes>
+  <name>ВидыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыНоменклатуры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа видов номенклатуры</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа, в которую входит данный вид номенклатуры.</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>145d2501-ecf3-40b9-a528-b55e2bba65ed.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование вида номенклатуры</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>-1</keyField>
+    <typesFilterField>-1</typesFilterField>
+    <typesFilterValue xsi:type="core:UndefinedValue"/>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>-1</objectField>
+    <typeField>-1</typeField>
+    <valueField>-1</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид номенклатуры</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды номенклатуры</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Классификатор, предназначенный для объединения номенклатуры по общим признакам учета</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыНоменклатуры.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыНоменклатуры.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыНоменклатуры.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="41dca65c-95bd-4efc-a71b-a65af5488e93">
+    <name>ГруппаДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа доступа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыДоступаНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Определяет группу доступа к элементам справочника.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="583a1f30-5e10-43da-b09a-8f43c4e05a0a">
+    <name>НаборСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор свойств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Набор свойств, которым будет обладать номенклатура с этим видом.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f27bf5e0-f79c-4e92-a941-b992a51fa58b">
+    <name>ГруппаБухгалтерскогоУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа бухгалтерского учета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыБухгалтерскогоУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="60d5301e-642a-444f-a66b-d2f3886dcda3">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0b0b1f37-0be0-40cc-be35-e5bcc8aa8209">
+    <name>ТипНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номенклатуры</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>259df5dc-de82-4686-9504-1057d42063cf.791a4273-93e9-47d3-af3c-994c200570b6</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e238abe-3682-4593-be77-122b1b0257b5">
+    <name>ТипНоменклатурыРасширенный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыНоменклатурыРасширенные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>7c84c853-23ca-4f56-b2d2-d0ea5225b48e.37d1aae1-f562-4719-87fc-2aaee1778435</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f15bdd43-756a-4f91-bc59-fc74ec72a12c">
+    <name>ИспользоватьСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать серии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c590775d-0a97-4f34-a420-67585901805c">
+    <name>НастройкаИспользованияСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка использования серий</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НастройкиИспользованияСерийНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a795884f-bcf6-47ae-8a16-2987abddc979">
+    <name>СтавкаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НДС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтавкиНДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71d44b12-a4d5-4ec4-b9bd-07a002661034">
+    <name>ШаблонНаименованияДляПечатиНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон наименования для печати номенклатуры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value>[Наименование]</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2c91f9ff-c428-4af2-909d-fc64293abdbf">
+    <name>ШаблонРабочегоНаименованияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон рабочего наименования номенклатуры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="276f59fe-e77a-4c1a-83c2-e351dce86d2b">
+    <name>ЗапретРедактированияНаименованияДляПечатиНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить редактирование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Запретить редактирование наименования для печати в карточке номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b493b4ec-6ae5-4a28-90c3-7f303d1faf2a">
+    <name>ЗапретРедактированияРабочегоНаименованияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запретить редактирование</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Запретить редактирование рабочего наименования в карточке номенклатуры</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9bbc5f98-a885-4ee3-849f-1aec681e2ed5">
+    <name>ИспользоватьНомерСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Указывать номер при регистрации серий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При поступлении и отгрузке можно будет указать номер серии (указывать нужно будет обязательно)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="970434a5-6d31-4136-b682-c058750d5330">
+    <name>ИспользоватьКоличествоСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Указывать количество при регистрации серий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При поступлении и отгрузке можно будет указать количество товаров, пришедших по этой серии</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="81e8b053-eb9a-40a9-9285-593895b0d188">
+    <name>ПолитикаУчетаСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Политика учета серий</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПолитикУчетаСерий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8224115b-eed5-47a2-90b2-09a4ee251f98">
+    <name>НаборСвойствСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор свойств серий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Набор свойств, которым будет обладать номенклатура с этим видом.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.НаборыДополнительныхРеквизитовИСведений.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="88cc3fcd-f8a2-47e3-a2e9-6b0e1c81693b">
+    <name>ИспользоватьПартии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать партии</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4eb16e86-7329-4629-8276-c908a01babc2">
+    <name>ПолитикаУчетаПартий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Политика учета партий</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПолитикУчетаПартий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e67b6860-8de8-44b6-80e4-d4468d294691">
+    <name>ГруппаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1a2d23b3-cc8c-473b-b9a5-a03bff997838">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ТипЕдиницы</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыЕдиницИзмерения.EnumValue.КоличествоШтук</value>
+      </value>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d083ac8-6e32-451e-96c8-35f6d5eefd21">
+    <name>ШаблонРабочегоНаименованияСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочее наименование серии</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90fee1c7-e2e7-4650-9113-d6842ebb509d">
+    <name>НастройкиСерийБерутсяИзДругогоВидаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки серий берутся из другого вида номенклатуры</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59e5dc8f-00b0-4646-accc-fac4ca95f8f3">
+    <name>ВладелецСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец серий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>ТекущийВид</name>
+      <changeMode>DontChange</changeMode>
+      <field>Catalog.ВидыНоменклатуры.StandardAttribute.Ref</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ИспользоватьСерии</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.НастройкиСерийБерутсяИзДругогоВидаНоменклатуры</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9d631e76-d337-4cc1-a9f1-9f70dc8f5661">
+    <name>НастройкиПартийБерутсяИзДругогоВидаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки партий берутся из другого вида номенклатуры</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="af5b2de8-ef63-421e-8fa9-49a3caeb093e">
+    <name>ВладелецПартий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец партий</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>ТекущийВид</name>
+      <changeMode>DontChange</changeMode>
+      <field>Catalog.ВидыНоменклатуры.StandardAttribute.Ref</field>
+    </choiceParameterLinks>
+    <choiceParameters>
+      <name>Отбор.ИспользоватьПартии</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.НастройкиПартийБерутсяИзДругогоВидаНоменклатуры</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="8c9e7fc2-fe25-4dfe-9ca6-013cb3895176">
+    <producedTypes>
+      <objectType typeId="53e7737b-0d96-4d02-bbd2-ba8afd57dbf5" valueTypeId="f27ce22d-46be-4635-bf39-1cbd9bd2c796"/>
+      <rowType typeId="d73f2e31-f148-4cb6-8884-a08e9d0d3de5" valueTypeId="9d5c1ea9-a101-497d-9e7e-1a730821eef0"/>
+    </producedTypes>
+    <name>РеквизитыБыстрогоОтбораНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизиты быстрого отбора номенклатуры</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="04f61ece-b70a-4d76-afc6-1191fe8b9a27">
+      <name>ИмяРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя реквизита</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0254c602-9f42-4266-867f-56e8a4e11a8b">
+      <name>ПредставлениеРеквизита</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя реквизита</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="445d1aef-cfca-4540-a0f0-1e5648d2842a">
+      <name>ЭтоДопРеквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это доп реквизит</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="35926325-411c-45b4-ba37-5f5ad64aa8c3">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3f180fd4-d918-43c1-87ec-f3ba8678aaf7">
+      <name>Используется</name>
+      <synonym>
+        <key>ru</key>
+        <value>Используется</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c4419475-d87e-4130-900f-1ae033f17fad">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0c14cfef-bc48-4c3f-90ba-e1f44550ad1d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="90c19b81-010e-46f8-abdc-8dcf35074141">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9369e052-7608-4098-950b-f1dfb2caebf0">
+    <name>РазблокированиеРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разблокирование реквизитов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="62054f29-fcec-4a10-b637-610bed72b477">
+    <name>ФормаРедактированияСоставаРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма редактирования состава реквизитов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d4287626-49ef-45d7-8132-eb8be96dde91">
+    <name>НастройкаИспользованияСерий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка использования серий</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="86e365bf-bfec-4d49-9245-a3dc4799a738">
+    <name>ШаблонНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон номенклатуры</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="acf0f743-e4cf-42cd-9c2e-f421a1ad30e6">
+    <name>ШаблонСерии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон серии</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Catalog>

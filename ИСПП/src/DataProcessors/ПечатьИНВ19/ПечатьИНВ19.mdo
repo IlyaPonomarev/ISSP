@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e6413e5d-8694-446f-af26-68fd39213446">
+  <producedTypes>
+    <objectType typeId="5ddef348-24bd-430e-9eaf-b1d163aa198b" valueTypeId="0262d79d-43b5-4438-8c16-a1dfa971d512"/>
+    <managerType typeId="73ff0e87-95ab-4621-a432-025959b6b66f" valueTypeId="76afff59-5dad-4a46-9f2a-ed4f288f1685"/>
+  </producedTypes>
+  <name>ПечатьИНВ19</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сличительная ведомость (ИНВ-19)</value>
+  </synonym>
+  <comment>Сличительная ведомость результатов инвентаризации товарно-материальных ценностей (унифицированная форма № ИНВ-19)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="c8d5f232-0caf-4f47-a69f-8be326107dc6">
+    <name>ПФ_MXL_ИНВ19</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сличительная ведомость (ИНВ-19)</value>
+    </synonym>
+    <comment>Сличительная ведомость результатов инвентаризации товарно-материальных ценностей (унифицированная форма № ИНВ-19)</comment>
+  </templates>
+</mdclass:DataProcessor>

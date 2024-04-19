@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55852254-0eaa-4e16-b341-87a5aba4d16e">
+  <name>ИспользоватьСтандартныйПоискПриПодбореТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать стандартный поиск при подборе товаров</value>
+  </synonym>
+  <location>Constant.ИспользоватьСтандартныйПоискПриПодбореТоваров</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

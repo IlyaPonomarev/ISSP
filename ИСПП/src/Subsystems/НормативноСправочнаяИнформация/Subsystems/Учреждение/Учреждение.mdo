@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6091de1-6f07-48b8-8ecb-8e0336ceaa13">
+  <name>Учреждение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учреждение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.ПодразделенияОрганизаций</content>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.ПостоянноДействующиеКомиссии</content>
+  <content>Catalog.БанковскиеСчетаОрганизаций</content>
+  <content>Catalog.КлассификаторБанков</content>
+  <content>Catalog.ОтветственныеЛицаОрганизаций</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

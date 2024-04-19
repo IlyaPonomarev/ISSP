@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Партия</dataPath>
+			<field>Партия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерияНоменклатуры</dataPath>
+			<field>СерияНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВНаличии</dataPath>
+			<field>ВНаличии</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остаток</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроектЗадания</dataPath>
+			<field>ПроектЗадания</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проект задания</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Брак</dataPath>
+			<field>Брак</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Брак</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипСписания</dataPath>
+			<field>ТипСписания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Установлено</dataPath>
+			<field>Установлено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Установлено</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+					<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпецификацияКДоговору</dataPath>
+			<field>СпецификацияКДоговору</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предприятие</dataPath>
+			<field>Предприятие</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Изделие</dataPath>
+			<field>Изделие</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Образец</dataPath>
+			<field>Образец</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипСклада</dataPath>
+			<field>ТипСклада</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип склада</v8:content>
+				</v8:item>
+			</title>
+			<useRestriction>
+				<condition>true</condition>
+				<order>true</order>
+			</useRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Уничтожено</dataPath>
+			<field>Уничтожено</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Уничтожено</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СвободныеОстаткиОстатки.Номенклатура КАК Номенклатура,
+	СвободныеОстаткиОстатки.Склад КАК Склад,
+	ВЫБОР
+		КОГДА СвободныеОстаткиОстатки.Склад.СкладПроизводства
+			ТОГДА "Склад производства"
+		ИНАЧЕ "Склад хранения"
+	КОНЕЦ КАК ТипСклада,
+	СвободныеОстаткиОстатки.Партия.ДокументОприходования.ПроектЗадания КАК ПроектЗадания,
+	СвободныеОстаткиОстатки.ВНаличииОстаток КАК ВНаличии,
+	0 КАК Установлено,
+	0 КАК Брак,
+	0 КАК Уничтожено
+ПОМЕСТИТЬ ВТ_ДанныеДляОтчета
+ИЗ
+	РегистрНакопления.СвободныеОстатки.Остатки КАК СвободныеОстаткиОстатки
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ДетализацияСписанияМСИПоТипамОбороты.Номенклатура,
+	ДетализацияСписанияМСИПоТипамОбороты.Склад,
+	ВЫБОР
+		КОГДА ДетализацияСписанияМСИПоТипамОбороты.Склад.СкладПроизводства
+			ТОГДА "Склад производства"
+		ИНАЧЕ "Склад хранения"
+	КОНЕЦ,
+	ДетализацияСписанияМСИПоТипамОбороты.СпецификацияКДоговору.ПроектЗадания,
+	0,
+	ДетализацияСписанияМСИПоТипамОбороты.КоличествоОборот,
+	0,
+	0
+ИЗ
+	РегистрНакопления.ДетализацияСписанияМСИПоТипам.Обороты КАК ДетализацияСписанияМСИПоТипамОбороты
+ГДЕ
+	(ДетализацияСписанияМСИПоТипамОбороты.ТипСписания = ЗНАЧЕНИЕ(Перечисление.ВидыАктовСписаний.УстановкаВИзделие) ИЛИ ДетализацияСписанияМСИПоТипамОбороты.ТипСписания = ЗНАЧЕНИЕ(Перечисление.ВидыАктовСписаний.ПередачаНаСторону)) 
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ДетализацияСписанияМСИПоТипамОбороты.Номенклатура,
+	ДетализацияСписанияМСИПоТипамОбороты.Склад,
+	ВЫБОР
+		КОГДА ДетализацияСписанияМСИПоТипамОбороты.Склад.СкладПроизводства
+			ТОГДА "Склад производства"
+		ИНАЧЕ "Склад хранения"
+	КОНЕЦ,
+	ДетализацияСписанияМСИПоТипамОбороты.СпецификацияКДоговору.ПроектЗадания,
+	0,
+	0,
+	ДетализацияСписанияМСИПоТипамОбороты.КоличествоОборот,
+	0
+ИЗ
+	РегистрНакопления.ДетализацияСписанияМСИПоТипам.Обороты КАК ДетализацияСписанияМСИПоТипамОбороты
+ГДЕ
+	(ДетализацияСписанияМСИПоТипамОбороты.ТипСписания = ЗНАЧЕНИЕ(Перечисление.ВидыАктовСписаний.БракВходнойКонтроль)
+			ИЛИ ДетализацияСписанияМСИПоТипамОбороты.ТипСписания = ЗНАЧЕНИЕ(Перечисление.ВидыАктовСписаний.БракВИзделии))
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ДетализацияСписанияМСИПоТипамОбороты.Номенклатура,
+	ДетализацияСписанияМСИПоТипамОбороты.Склад,
+	ВЫБОР
+		КОГДА ДетализацияСписанияМСИПоТипамОбороты.Склад.СкладПроизводства
+			ТОГДА "Склад производства"
+		ИНАЧЕ "Склад хранения"
+	КОНЕЦ,
+	ДетализацияСписанияМСИПоТипамОбороты.СпецификацияКДоговору.ПроектЗадания,
+	0,
+	0,
+	0,
+	ДетализацияСписанияМСИПоТипамОбороты.КоличествоОборот
+ИЗ
+	РегистрНакопления.ДетализацияСписанияМСИПоТипам.Обороты КАК ДетализацияСписанияМСИПоТипамОбороты
+ГДЕ
+	ДетализацияСписанияМСИПоТипамОбороты.ТипСписания = ЗНАЧЕНИЕ(Перечисление.ВидыАктовСписаний.Уничтожение)
+			
+			
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТ_ДанныеДляОтчета.Номенклатура КАК Номенклатура,
+	ВТ_ДанныеДляОтчета.Склад КАК Склад,
+	ВТ_ДанныеДляОтчета.ПроектЗадания КАК ПроектЗадания,
+	СУММА(ВТ_ДанныеДляОтчета.ВНаличии) КАК ВНаличии,
+	СУММА(ВТ_ДанныеДляОтчета.Установлено) КАК Установлено,
+	СУММА(ВТ_ДанныеДляОтчета.Брак) КАК Брак,
+	СУММА(ВТ_ДанныеДляОтчета.Уничтожено) КАК Уничтожено,
+	ВТ_ДанныеДляОтчета.ТипСклада КАК ТипСклада
+ИЗ
+	ВТ_ДанныеДляОтчета КАК ВТ_ДанныеДляОтчета
+
+СГРУППИРОВАТЬ ПО
+	ВТ_ДанныеДляОтчета.Номенклатура,
+	ВТ_ДанныеДляОтчета.Склад,
+	ВТ_ДанныеДляОтчета.ПроектЗадания,
+	ВТ_ДанныеДляОтчета.ТипСклада</query>
+	</dataSet>
+	<calculatedField>
+		<dataPath>Итого</dataPath>
+		<expression>ВНаличии + Брак + Установлено + Уничтожено</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Итого</v8:content>
+			</v8:item>
+		</title>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+			</dcscor:item>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
+	<totalField>
+		<dataPath>ВНаличии</dataPath>
+		<expression>Сумма(ВНаличии)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Установлено</dataPath>
+		<expression>Сумма(Установлено)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Брак</dataPath>
+		<expression>Сумма(Брак)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Итого</dataPath>
+		<expression>Сумма(Итого)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Уничтожено</dataPath>
+		<expression>Сумма(Уничтожено)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>НачалоПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Начало периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>КонецПериода</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Конец периода</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номенклатура</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВНаличии</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Установлено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Брак</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Итого</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ПроектЗадания</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>68ae24d7-8962-4232-aa26-e96933c64afa</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInGroup>DontUse</dcsset:useInGroup>
+					<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+					<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">SeparatelyAndInTotalsOnly</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemTable">
+				<dcsset:column>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Склад</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:column>
+				<dcsset:row>
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ПроектЗадания</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item>
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Номенклатура</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:row>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

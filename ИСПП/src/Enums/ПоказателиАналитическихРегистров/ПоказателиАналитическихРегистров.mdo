@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3de4d544-d74f-4ca1-ac78-5e56372ad7d6">
+  <producedTypes>
+    <refType typeId="6c5bec28-284d-4b55-915b-5e17c480c63e" valueTypeId="d3017c32-dff4-4bd5-9224-8198556d8379"/>
+    <listType typeId="5698601c-a645-4cf3-aa4c-9be824419b96" valueTypeId="0411dee6-219c-43a4-a37d-328314222afe"/>
+    <managerType typeId="1842e18f-de3a-47fd-ba8b-6239a0d85877" valueTypeId="aa5aeaf4-af72-402a-9203-b41d5acef23c"/>
+  </producedTypes>
+  <name>ПоказателиАналитическихРегистров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели аналитических регистров</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="79cdd1d3-57df-4ef7-80b0-09572c5f8ed5">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3135f7a3-6213-41af-851c-695245754511">
+    <name>КорКоличество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кор количество</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f504183-6816-4425-b496-4633a6440185">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="922f8ac1-b051-40bb-95f6-2459e75b08f6">
+    <name>СтоимостьБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость без НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d40cac2e-8865-4945-9c07-4e4619df702a">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d40a73cb-8e51-4c11-b4d9-1c561d6524c4">
+    <name>СуммаБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма без НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2b2da07-525d-424e-9b8a-1bb6fb123958">
+    <name>СуммаДопРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма доп. расходов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="193fc5d4-77f8-4bb4-b437-a7536a2d8588">
+    <name>СуммаДопРасходовБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма доп. расходов без НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ada050fe-cc37-4303-85b5-275c1e9ece8a">
+    <name>СуммаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="34435ef4-6c20-4af3-9cc9-c69b5636d27b">
+    <name>СуммаНДСДопРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма НДС доп. расходов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f2d9132-4bac-430b-80d8-b5055c81e881">
+    <name>СтоимостьРегл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость (регл.)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

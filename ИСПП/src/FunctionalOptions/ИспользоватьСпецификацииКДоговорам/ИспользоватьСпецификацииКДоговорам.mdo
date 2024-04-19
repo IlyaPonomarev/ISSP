@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6547f5d-329a-406d-a567-d15cf6afd35f">
+  <name>ИспользоватьСпецификацииКДоговорам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать спецификации к договорам</value>
+  </synonym>
+  <location>Constant.ИспользоватьСпецификацииКДоговорам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.СпецификацияКДоговору</content>
+  <content>Catalog.СпецификацияКДоговоруПрисоединенныеФайлы</content>
+  <content>AccumulationRegister.ЗаказыПоставщикам.Dimension.Спецификация</content>
+  <content>AccumulationRegister.ЗаказыПоставщикам.Resource.ПоСпецификации</content>
+  <content>Report.СостояниеВыполненияДокументов</content>
+</mdclass:FunctionalOption>

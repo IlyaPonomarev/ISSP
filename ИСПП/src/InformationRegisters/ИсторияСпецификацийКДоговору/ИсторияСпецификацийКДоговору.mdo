@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46ece375-b79d-4115-9a8d-5676b3f57be0">
+  <producedTypes>
+    <selectionType typeId="b479ebf1-0be8-4f21-bdca-8a1fd49f29d5" valueTypeId="8feb365d-23f8-4426-b622-7a1a5d76ae81"/>
+    <listType typeId="b2a81998-db39-444c-ac48-f17e70354bbc" valueTypeId="aa838d6b-bc93-494a-89b4-56034adef749"/>
+    <managerType typeId="8b1b5733-4f22-4e00-87c2-64a37b1ae891" valueTypeId="61799331-9aff-4092-a7ab-b24cc8596963"/>
+    <recordSetType typeId="264472ca-3c90-49f5-98cb-41240f87f07d" valueTypeId="3a27b660-ce9c-43a3-819a-34d084e53fbb"/>
+    <recordKeyType typeId="f67d2c6a-2738-487d-8393-ee0581e462e7" valueTypeId="12a48c66-70cb-48c1-959b-3241b7b0baea"/>
+    <recordType typeId="7f91b606-c747-4d77-a7f9-539b0e3a486e" valueTypeId="ab823d51-f11d-45d5-b92e-d3ae69233aaa"/>
+    <recordManagerType typeId="7a330fe5-5921-4bdf-82a0-3414099ee563" valueTypeId="daf28fbd-b821-4e37-90a7-9ee886175420"/>
+  </producedTypes>
+  <name>ИсторияСпецификацийКДоговору</name>
+  <synonym>
+    <key>ru</key>
+    <value>История спецификаций к договору</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9918b102-b050-4ee4-ae04-06f47e8435e2">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8fbc3208-612e-4a45-8111-786e3e9e158e">
+    <name>ДатаВерсии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата версии</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0fcb0eeb-d7df-46c1-8d30-c4e8bacb8218">
+    <name>ИдентификаторСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор строки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8385cb53-e1d4-4eff-8fc0-05b5f5ce3eaa">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование номенклатурной позиции для заказа.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ТипНоменклатуры</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9a8b2544-3f06-45ed-a0e0-d9be94cacbfe">
+    <name>СпецификацияКДоговору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спецификация к договору</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СпецификацияКДоговору</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

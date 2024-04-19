@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e890e6c7-29d3-49e4-bcd1-d52e8699a22b">
+  <producedTypes>
+    <objectType typeId="e95106f3-b13c-415f-8eef-751f7cf72b81" valueTypeId="d904e8a3-da59-4eee-978e-cba72da3f113"/>
+    <refType typeId="45a1bf59-a49d-41cf-be47-dce81117a52d" valueTypeId="1911253c-0236-4c1a-b99a-78059d33da46"/>
+    <selectionType typeId="e19fe54a-d4d2-4f14-be78-ceb40f7414cd" valueTypeId="838b2d31-760b-4abe-9303-8fdd07f6a6f2"/>
+    <listType typeId="bf0ea106-6a62-482d-bbf3-56845f880ead" valueTypeId="563b6864-2cc7-43ec-a854-5f1ecc744b24"/>
+    <managerType typeId="bea9de53-1566-4a58-b8fc-b55d9710619a" valueTypeId="d873a31e-a53c-4256-a3d5-eb145fb752eb"/>
+  </producedTypes>
+  <name>СпособыУничтоженияОбразцов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы уничтожения образцов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпособыУничтоженияОбразцов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СпособыУничтоженияОбразцов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="12d78727-a69d-4a0e-a30a-e75c118b92e5">
+    <name>ПредставлениеДляПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Представление для печати</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

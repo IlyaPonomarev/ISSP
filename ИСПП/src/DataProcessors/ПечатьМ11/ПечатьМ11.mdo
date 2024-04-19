@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb0dbf01-525e-4409-b4b9-d9e394f4dd41">
+  <producedTypes>
+    <objectType typeId="1003066f-fe13-4257-b156-62b2fadd819f" valueTypeId="e1950bce-e119-4f05-b540-ef8624c1e1c7"/>
+    <managerType typeId="f7afa001-2d34-483d-8118-4a9f976aabab" valueTypeId="11abf9eb-d4b2-41f3-b1fd-0bec1084743b"/>
+  </producedTypes>
+  <name>ПечатьМ11</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать Требование накладная (М-11)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="5bff5d33-2f26-45a8-b4b2-66685d4cb1e4">
+    <name>ПФ_MXL_М11</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требование-накладная (М-11)</value>
+    </synonym>
+    <comment>Требование-накладная (М-11)</comment>
+  </templates>
+</mdclass:DataProcessor>

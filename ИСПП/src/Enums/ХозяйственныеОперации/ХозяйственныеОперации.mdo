@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="706d91b7-bc02-41fe-969b-7deae8b08b40">
+  <producedTypes>
+    <refType typeId="1bd4afaa-19d1-424e-a8d8-0998f9c7bf17" valueTypeId="215b6568-0687-4f4d-94a0-8f2099c74130"/>
+    <listType typeId="db2702ee-caed-45f2-832a-ab5f86db669c" valueTypeId="586ddcaa-d8e0-4ff0-8a54-5b70cb00a3a4"/>
+    <managerType typeId="dec9c42f-6959-49b5-be55-5f6c5c12b54f" valueTypeId="77205c26-d256-4afa-88a2-b7cefe0553dc"/>
+  </producedTypes>
+  <name>ХозяйственныеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хозяйственные операции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Определяет хозяйственные опрерации движений документов.</value>
+  </explanation>
+  <enumValues uuid="563aadf5-2658-4cce-911d-3932cbb0db0d">
+    <name>БезвозмезднаяПередачаМежбюджетная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безвозмездная передача (межбюджетная)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="089efbee-fbda-4265-a2ea-06d093155ba7">
+    <name>БезвозмезднаяПередачаПрочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безвозмездная передача (прочее)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92c3a7bc-c82e-4cdc-8a16-ef456b973c7d">
+    <name>БезвозмездноеПоступлениеВнутриведомственное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безвозмездное поступление (внутриведомственное)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5be5ddeb-d07a-4594-839c-cfca9489a1f0">
+    <name>БезвозмездноеПоступлениеМежбюджетное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безвозмездное поступление (межбюджетное)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0c212bf-dddc-48dd-8007-61d944c3ce73">
+    <name>БезвозмездноеПоступлениеПрочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безвозмездное поступление (прочее)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61f28489-7b4c-48d2-9614-b52e89409d83">
+    <name>ВнутреннееПоступлениеТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутреннее поступление товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26768943-6bd0-4670-8796-525baf96843f">
+    <name>ВнутренняяПередачаТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренняя передача товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c53b80ab-a797-40df-ae47-195a728a747e">
+    <name>ВнутриведомственноеПеремещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутриведомственное перемещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b00f14be-12d6-408b-a7c2-4e1fa2fb5c34">
+    <name>ВозвратОтРозничногоПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат от розничного покупателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce2c2fe0-000e-414c-9155-ced9cf8c798b">
+    <name>ВозвратТоваровИзОтделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат товаров из отделения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9712247a-f86b-4935-892a-44287af1539e">
+    <name>ВозвратТоваровОтКлиентаПрошлыхПериодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат товаров от клиента прошлых периодов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="389606af-b7ac-474f-bf15-9c4a2de9ff91">
+    <name>ВозвратТоваровПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат товаров поставщику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1aaf28d3-05b3-419b-86e1-1e370cbd2f09">
+    <name>ДоходыОтПереоценкиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы от переоценки товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79b07873-07eb-4cb2-941e-751fa5ca712a">
+    <name>ЗакупкаУПоставщика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупка у поставщика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74478339-0d65-4113-8fd9-ef41bf251b8b">
+    <name>ЗакупкаЧерезПодотчетноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закупка через подотчетное лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d44da6f-93b4-453d-8f43-251d41db33b6">
+    <name>Изготовление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изготовление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ed0eba7-d3a3-4327-9fcb-b43907527c1c">
+    <name>КорректировкаОшибокОкругления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка ошибок округления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6265926d-206e-4762-bbf1-7030cee2a5da">
+    <name>ОприходованиеПоВозврату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходование по возврату</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="433a4d18-ad07-4035-bb1b-22cd81e78ede">
+    <name>ОприходованиеТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходование товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d3584af-68cd-4bab-be78-5b846ba70779">
+    <name>ОтпускТоваровВОтделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск товаров в отделение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b15ad56-53d8-4a99-8d69-79eb2315639b">
+    <name>ПеремещениеТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ac12752-7118-4c01-aa6f-2ceb835e1974">
+    <name>ПересортицаТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересортица товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b81db9e-eae9-4261-81e6-889be8cb2513">
+    <name>ПересортицаТоваровСПереоценкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересортица товаров с переоценкой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e180b8bc-4af1-412d-b84f-0ddb947c5838">
+    <name>РаспределениеРасходовНаСебестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение расходов на себестоимость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4104573c-d9a1-4620-ab08-a905ea54bc53">
+    <name>РасходыОтПереоценкиТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходы от переоценки товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00509cce-5250-4251-9f15-8d8bf70765e1">
+    <name>РеализацияВРозницу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация в розницу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eea33741-559b-4766-8d09-aed74cbced1c">
+    <name>РеализацияМатериальныхЗапасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация материальных запасов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03bff5a6-5cf9-4119-824a-1f2f0ae87a69">
+    <name>СписаниеТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d9147ea-0b2d-427a-b670-72ef16837ec5">
+    <name>СписаниеТоваровПоНазначениюВрача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание товаров  по исполненному назначению врача</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4865cd12-3f5d-4382-8424-114c2ae5b667">
+    <name>СписаниеТоваровПоТребованию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание на расходы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0f708897-54e2-4325-a3e6-7ea7ef87ca3a">
+    <name>СторноРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сторно реализации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d42cc8d5-3054-496f-9aa7-77884fd62d3c">
+    <name>СторноСписанияНаРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сторно списания на расходы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

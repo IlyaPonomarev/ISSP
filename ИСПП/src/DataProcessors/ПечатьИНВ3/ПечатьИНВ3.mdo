@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad18ff87-c922-4a86-9cc7-8f08bf5f8ffb">
+  <producedTypes>
+    <objectType typeId="a300980a-2fd5-4d0d-ac79-b8c57fd930eb" valueTypeId="1ea27e27-a041-48ea-bc6d-1b6fc0e6b401"/>
+    <managerType typeId="bb269fa3-4453-4b50-9677-afcbde24ecb8" valueTypeId="0108d727-28fc-4ed2-ac26-92dd19a58473"/>
+  </producedTypes>
+  <name>ПечатьИНВ3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инвентаризационная опись товаров (ИНВ-3)</value>
+  </synonym>
+  <comment>Инвентаризационная опись товарно-материальных ценностей (унифицированная форма № ИНВ-3)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="df1b6c8d-5bf0-47ce-8ea1-c9890ec7cb57">
+    <name>ПФ_MXL_ИНВ3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентаризационная опись товаров (ИНВ-3)</value>
+    </synonym>
+    <comment>Инвентаризационная опись товарно-материальных ценностей (унифицированная форма № ИНВ-3)</comment>
+  </templates>
+</mdclass:DataProcessor>

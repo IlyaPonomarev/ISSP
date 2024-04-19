@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9483f7e9-2df1-44b4-ba0a-db575af3e382">
+  <producedTypes>
+    <managerType typeId="28d51abf-97da-4bc8-8b01-36774098a9fd" valueTypeId="33650d3f-cd3a-4920-a660-9e4f5d965bed"/>
+    <valueManagerType typeId="30c58c58-0cb5-4a0b-936c-ba803ad2ccad" valueTypeId="4c777305-4dfb-42e3-b1f6-0f411989bbf0"/>
+    <valueKeyType typeId="e601bdba-a68c-5cf7-9a22-dfcfd5ee7084" valueTypeId="08d02656-5e19-5ec4-bc15-ec02c25f3658"/>
+  </producedTypes>
+  <name>ИспользоватьНоменклатуруПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать номенклатуру поставщиков</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Если опция включена - доступно ведение номенклатуры поставщиков</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

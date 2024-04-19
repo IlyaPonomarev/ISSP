@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="621452e9-2358-4e2b-979b-23daeb95df01">
+  <producedTypes>
+    <objectType typeId="2819495c-a32c-42d0-88d6-32fa1072d134" valueTypeId="44392e4d-1d46-40f4-ac10-40ae7576a275"/>
+    <managerType typeId="46c91cd8-b181-452c-984e-d18f38f0a959" valueTypeId="9ae7f061-4cd7-4ba8-8b20-3bee8f426e40"/>
+  </producedTypes>
+  <name>АнализСебестоимостиТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по МСИ с ценой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.АнализСебестоимостиТоваров.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Отчет предназначен для анализа сложившейся себестоимости товаров.</value>
+  </explanation>
+  <templates uuid="2b936642-bb35-4d9d-aa42-624f2b69ac75">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

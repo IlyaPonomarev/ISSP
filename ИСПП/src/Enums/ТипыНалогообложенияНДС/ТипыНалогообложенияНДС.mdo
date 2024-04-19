@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7df40610-db48-469b-bb3b-1b2d41a74381">
+  <producedTypes>
+    <refType typeId="7bd8a2d2-ce5a-4719-b802-9c8a1b0088fc" valueTypeId="f2ba3cc3-5cc5-4963-a1d3-09437e70f366"/>
+    <listType typeId="6dc18756-c1ba-47bb-847d-c5a8be681f67" valueTypeId="fe1e556b-87d7-4f57-8976-28618883641b"/>
+    <managerType typeId="c5627bda-3a00-48d1-9817-18173614c246" valueTypeId="f712789c-6727-4973-8de1-82fafcece89e"/>
+  </producedTypes>
+  <name>ТипыНалогообложенияНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы налогообложения НДС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Определяет возможный тип налогообложения продажи товаров налогом на добавленную стоимость</value>
+  </explanation>
+  <enumValues uuid="f3752d15-8942-4614-ad83-6507ddc9871f">
+    <name>ПродажаНеОблагаетсяНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа не облагается НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6f8a392-b6ca-4f5c-855b-154b41f75e44">
+    <name>ПродажаОблагаетсяЕНВД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа облагается ЕНВД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ae55c7f-75d0-4793-8a48-024f0b0f4f45">
+    <name>ПродажаОблагаетсяНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа облагается НДС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

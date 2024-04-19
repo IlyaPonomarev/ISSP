@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d944c50-8dfd-434a-883e-60363c40a029">
+  <producedTypes>
+    <objectType typeId="b82d2aa4-dc39-4434-8763-42c04555c9ae" valueTypeId="f84c5ff6-2149-462c-a7ad-5cfe6b97b5b0"/>
+    <managerType typeId="70d369c2-96cf-4f33-a467-e5cd185442bf" valueTypeId="1f3a3843-6d0e-4db0-82ce-9f7cd6e351bb"/>
+  </producedTypes>
+  <name>ПечатьНакладнаяНаВнутреннееПеремещение0504102</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать Накладная на внутреннее перемещение объектов (ф. 0504102)</value>
+  </synonym>
+  <comment>Накладная на внутреннее перемещение объектов нефинансовых активов</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="c32338cc-f920-4ee5-a19b-c40d3728b5a2">
+    <name>ПФ_MXL_НакладнаяНаВнутреннееПеремещение0504102</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накладная на внутреннее перемещение объектов (ф.0504102)</value>
+    </synonym>
+    <comment>Накладная на внутреннее перемещение объектов нефинансовых активов</comment>
+  </templates>
+</mdclass:DataProcessor>

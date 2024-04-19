@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a174f96-57e5-43e9-8d11-ac120e66bf00">
+  <producedTypes>
+    <containerType typeId="84a8fb07-b783-4b37-a394-f3e61cf50601" valueTypeId="40b939e4-aa15-4e1b-bdc3-39a0ed3a7ac3"/>
+  </producedTypes>
+  <name>ПартияОбразующиеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Партия образующие документы</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ПоступлениеТоваров</types>
+    <types>DocumentRef.КомплектацияНоменклатуры</types>
+    <types>DocumentRef.ПрочееОприходованиеТоваров</types>
+  </type>
+</mdclass:DefinedType>

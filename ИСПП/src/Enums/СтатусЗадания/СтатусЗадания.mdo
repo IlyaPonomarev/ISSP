@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f5fd34a-78ba-400d-8f41-2bd2762b6fc8">
+  <producedTypes>
+    <refType typeId="5b32b3c3-de33-4777-a7f0-cf9f86ddd287" valueTypeId="5ba82816-70a0-472a-9344-d262390db69b"/>
+    <listType typeId="eb91f032-da9d-4dea-9eff-62e47b7c70c9" valueTypeId="52373c39-a0b0-45e2-9870-b1220d1ff683"/>
+    <managerType typeId="d6ee09f9-ad5b-45d1-9bf6-5e8aae8de413" valueTypeId="e10c1ee8-82d5-4d50-b439-9f7f8d643dca"/>
+  </producedTypes>
+  <name>СтатусЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус задания</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cdb293b8-5839-44e1-b0e7-526af422bf47">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a19a8059-0a6a-450b-99fc-12e80c09e993">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33a74850-9cff-4832-9956-758bfdbb7fab">
+    <name>Закрыто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыто</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b473f4a2-e401-4340-82d1-7aa7779aef73">
+    <name>ВыполненоЧастично</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено частично</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

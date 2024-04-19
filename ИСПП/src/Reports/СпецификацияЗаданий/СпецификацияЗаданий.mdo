@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="736fb1c7-3e1d-4aeb-9264-2bd070792cfa">
+  <producedTypes>
+    <objectType typeId="f0875d41-f892-42f5-af30-c4f84b1302d9" valueTypeId="cae89384-79dc-420b-8ee2-4e1b6c90b57a"/>
+    <managerType typeId="0a4beef6-415f-4f0e-ab08-a17db836ff2b" valueTypeId="6444396c-0ce9-4f60-8cf9-a308b027eb4b"/>
+  </producedTypes>
+  <name>СпецификацияЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>История изменения спецификации задания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.СпецификацияЗаданий.Form.Форма</defaultForm>
+  <forms uuid="a87ead79-9e37-45ce-a385-d60b31b7a65f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="18b604f4-eb67-4f11-849c-ede40472d154">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

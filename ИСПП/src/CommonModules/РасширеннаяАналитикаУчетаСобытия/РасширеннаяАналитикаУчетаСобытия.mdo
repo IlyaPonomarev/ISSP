@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ab6eb14-5eee-4b1b-a75e-3a30cdb4be2f">
+  <name>РасширеннаяАналитикаУчетаСобытия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширенная аналитика учета события</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

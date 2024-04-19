@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<inputParameters>
+				<dcscor:item>
+					<dcscor:parameter>ВыборГруппИЭлементов</dcscor:parameter>
+					<dcscor:value xmlns:d6p1="http://v8.1c.ru/8.1/data/enterprise" xsi:type="d6p1:FoldersAndItemsUse">Items</dcscor:value>
+				</dcscor:item>
+			</inputParameters>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОстатокНаСкладе</dataPath>
+			<field>ОстатокНаСкладе</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Партия</dataPath>
+			<field>Партия</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерияНоменклатуры</dataPath>
+			<field>СерияНоменклатуры</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	Номенклатура.Ссылка КАК Номенклатура,
+	ЗНАЧЕНИЕ(Справочник.СерииНоменклатуры.ПустаяСсылка) КАК СерияНоменклатуры,
+	Номенклатура.ВидНоменклатуры.ПолитикаУчетаСерий КАК ПолитикаУчетаСерий
+ПОМЕСТИТЬ ИсходныеДанные
+ИЗ
+	Справочник.Номенклатура КАК Номенклатура
+ГДЕ
+	НЕ Номенклатура.ЭтоГруппа
+	И Номенклатура.ВидНоменклатуры.ПолитикаУчетаСерий = ЗНАЧЕНИЕ(Перечисление.ТипыПолитикУчетаСерий.НеУчитывать)
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	Номенклатура.Ссылка,
+	СерииНоменклатуры.Ссылка,
+	Номенклатура.ВидНоменклатуры.ПолитикаУчетаСерий КАК ПолитикаУчетаСерий
+ИЗ
+	Справочник.СерииНоменклатуры КАК СерииНоменклатуры
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Номенклатура КАК Номенклатура
+		ПО (Номенклатура.Ссылка = СерииНоменклатуры.Владелец)
+ГДЕ
+	Номенклатура.ВидНоменклатуры.ПолитикаУчетаСерий &lt;&gt; ЗНАЧЕНИЕ(Перечисление.ТипыПолитикУчетаСерий.НеУчитывать)
+
+ИНДЕКСИРОВАТЬ ПО
+	Номенклатура,
+	СерияНоменклатуры
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ИсходныеДанныеПоследнийЗапрос.Номенклатура КАК Номенклатура,
+	ИсходныеДанныеПоследнийЗапрос.СерияНоменклатуры КАК СерияНоменклатуры,
+	ЕСТЬNULL(ТоварыНаСкладахОстатки.Партия, ЗНАЧЕНИЕ(Справочник.ПартииНоменклатуры.ПустаяСсылка)) КАК Партия,
+	1 КАК Количество,
+	ЕСТЬNULL(ТоварыНаСкладахОстатки.ВНаличииОстаток, 0) - ЕСТЬNULL(ТоварыНаСкладахОстатки.ВРезервеСоСкладаОстаток, 0) КАК ОстатокНаСкладе
+{ВЫБРАТЬ
+	Номенклатура.*,
+	СерияНоменклатуры.*,
+	Партия.*,
+	Количество,
+	ОстатокНаСкладе}
+ИЗ
+	ИсходныеДанные КАК ИсходныеДанныеПоследнийЗапрос
+		{ЛЕВОЕ СОЕДИНЕНИЕ
+			РегистрНакопления.СвободныеОстатки.Остатки(, {(Организация).* КАК Организация, (Склад).* КАК Склад, (Номенклатура).* КАК Номенклатура, (СерияНоменклатуры).* КАК СерияНоменклатуры}) КАК ТоварыНаСкладахОстатки
+		ПО
+			ИсходныеДанныеПоследнийЗапрос.Номенклатура = ТоварыНаСкладахОстатки.Номенклатура
+			И (ИсходныеДанныеПоследнийЗапрос.СерияНоменклатуры = ТоварыНаСкладахОстатки.СерияНоменклатуры ИЛИ ИсходныеДанныеПоследнийЗапрос.ПолитикаУчетаСерий = ЗНАЧЕНИЕ(Перечисление.ТипыПолитикУчетаСерий.СправочноеУказаниеСерий))}
+		
+{ГДЕ
+	ИсходныеДанныеПоследнийЗапрос.Номенклатура.* КАК Номенклатура,
+	ИсходныеДанныеПоследнийЗапрос.СерияНоменклатуры.* КАК СерияНоменклатуры,
+	ТоварыНаСкладахОстатки.Организация.* КАК Организация,
+	ТоварыНаСкладахОстатки.Склад.* КАК Склад,
+	ЕСТЬNULL(ТоварыНаСкладахОстатки.ВНаличииОстаток, 0) - ЕСТЬNULL(ТоварыНаСкладахОстатки.ВРезервеСоСкладаОстаток, 0) КАК ОстатокНаСкладе}
+
+УПОРЯДОЧИТЬ ПО
+	ИсходныеДанныеПоследнийЗапрос.Номенклатура.Наименование</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ОстатокНаСкладе</dataPath>
+		<expression>Максимум(ОстатокНаСкладе)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Количество</dataPath>
+		<expression>Максимум(Количество)</expression>
+	</totalField>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Номенклатура</dcsset:left>
+					<dcsset:comparisonType>InHierarchy</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ОстатокНаСкладе</dcsset:left>
+					<dcsset:comparisonType>Greater</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:decimal">0</dcsset:right>
+					<dcsset:presentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Только в наличии</v8:content>
+						</v8:item>
+					</dcsset:presentation>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Склад</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ИсточникФинансирования</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ОстатокНаСкладе</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

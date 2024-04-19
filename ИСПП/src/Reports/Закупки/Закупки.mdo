@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8605f47a-1fff-48a1-93ac-893499fc74a5">
+  <producedTypes>
+    <objectType typeId="1016530c-8ab1-4ba6-8b78-adbad396b15e" valueTypeId="cf2bbc8c-3f6f-4c7e-8e10-1a2921fd699f"/>
+    <managerType typeId="016e7944-5ed5-4316-a23f-72a9d14cd416" valueTypeId="5d8290f8-9531-4679-a780-b8e22ef893ee"/>
+  </producedTypes>
+  <name>Закупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по поступлениям МСИ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Закупки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Отчет предназначен для анализа закупок.</value>
+  </explanation>
+  <templates uuid="ac7fc6f3-6c40-4eba-aa45-c250dc0f8698">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

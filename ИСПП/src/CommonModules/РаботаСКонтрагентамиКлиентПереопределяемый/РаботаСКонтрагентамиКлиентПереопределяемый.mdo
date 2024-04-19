@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e39a8f2b-1dbf-408a-844f-b3ebb8672ddd">
+  <name>РаботаСКонтрагентамиКлиентПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с контрагентами (клиент, переопределяемый)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

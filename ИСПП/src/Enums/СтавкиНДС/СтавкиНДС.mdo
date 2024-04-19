@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c07d19b-e0b8-44b8-9bf6-13f5d647dad8">
+  <producedTypes>
+    <refType typeId="13163b2c-df7f-4a22-b67a-c64a4ac25602" valueTypeId="023c4fb0-b624-43f0-ae60-b137e8e78136"/>
+    <listType typeId="852e87f0-f5b5-45f3-87a3-d98636782066" valueTypeId="c681cf8e-106f-4c12-aba9-0e6deb590b7d"/>
+    <managerType typeId="66d843fc-c8d4-4a29-86a6-469f14eb3f35" valueTypeId="5672ed34-39ba-45ce-9234-6afb875457b2"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки НДС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Ставки НДС</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Список ставок налога на добавленную стоимость.</value>
+  </explanation>
+  <enumValues uuid="9957456c-ebf6-4874-a8b9-1cd0f9dc2c96">
+    <name>НДС20</name>
+    <synonym>
+      <key>ru</key>
+      <value>20%</value>
+    </synonym>
+    <comment>Ставка НДС 20%</comment>
+  </enumValues>
+  <enumValues uuid="cc9b6e12-b402-4261-b69f-780ab97abd60">
+    <name>НДС20_120</name>
+    <synonym>
+      <key>ru</key>
+      <value>20/120</value>
+    </synonym>
+    <comment>Расчетная ставка НДС 20/120</comment>
+  </enumValues>
+  <enumValues uuid="e152314f-9330-46d6-8fe9-e25deb0fe83a">
+    <name>НДС18</name>
+    <synonym>
+      <key>ru</key>
+      <value>18%</value>
+    </synonym>
+    <comment>Ставка НДС 18%</comment>
+  </enumValues>
+  <enumValues uuid="78691c26-8ee5-4adf-8233-53a1f28ede3f">
+    <name>НДС18_118</name>
+    <synonym>
+      <key>ru</key>
+      <value>18/118</value>
+    </synonym>
+    <comment>Расчетная ставка НДС 18/118</comment>
+  </enumValues>
+  <enumValues uuid="34d26fe5-4abc-4f87-9722-e391ecf62efb">
+    <name>НДС10</name>
+    <synonym>
+      <key>ru</key>
+      <value>10%</value>
+    </synonym>
+    <comment>Ставка НДС 10%</comment>
+  </enumValues>
+  <enumValues uuid="12b12983-5c77-4139-b424-f638a16f4653">
+    <name>НДС10_110</name>
+    <synonym>
+      <key>ru</key>
+      <value>10/110</value>
+    </synonym>
+    <comment>Расчетная ставка НДС 10/110</comment>
+  </enumValues>
+  <enumValues uuid="000ee6cf-a1d8-4758-880a-9221abd60671">
+    <name>НДС0</name>
+    <synonym>
+      <key>ru</key>
+      <value>0%</value>
+    </synonym>
+    <comment>Ставка НДС 0%</comment>
+  </enumValues>
+  <enumValues uuid="09066d94-3d9f-4dbe-9193-f5940bf1959a">
+    <name>БезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НДС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

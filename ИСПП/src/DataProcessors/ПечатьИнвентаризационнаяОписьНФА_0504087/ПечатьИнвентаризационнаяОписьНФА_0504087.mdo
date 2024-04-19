@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ac08b7f-f238-46b0-a6f5-54e2fa2b14b7">
+  <producedTypes>
+    <objectType typeId="becc59ea-7316-4b2b-acc8-ab895fc14a03" valueTypeId="72088ed7-d198-45b0-b446-4c453a6acbe5"/>
+    <managerType typeId="7aabed16-62ad-4200-b59d-52e8aebec04f" valueTypeId="366fec81-3f8e-4739-a941-79324c897a1c"/>
+  </producedTypes>
+  <name>ПечатьИнвентаризационнаяОписьНФА_0504087</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать Инвентаризационная опись НФА (ф. 0504087)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="ead93201-754b-45b4-871c-55fb083eb0f5">
+    <name>ПФ_MXL_ИнвентаризационнаяОписьНФА_0504087</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентаризационная опись (ф. 0504087)</value>
+    </synonym>
+    <comment>Инвентаризационная опись (Сличительная ведомость) (ф. 0504087)</comment>
+  </templates>
+</mdclass:DataProcessor>

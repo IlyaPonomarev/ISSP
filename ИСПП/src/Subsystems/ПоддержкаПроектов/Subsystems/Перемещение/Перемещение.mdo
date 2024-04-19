@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4533870e-a5c4-4a53-870d-d6cb204c5fc2">
+  <name>Перемещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПеремещениеТоваров</content>
+  <content>Document.ВходнойКонтроль</content>
+  <parentSubsystem>Subsystem.ПоддержкаПроектов</parentSubsystem>
+</mdclass:Subsystem>

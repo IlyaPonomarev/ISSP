@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13da7a97-356f-4de7-b917-0d1db79f848c">
+  <producedTypes>
+    <refType typeId="36478da8-9a4b-4ec8-af01-af3b7128fbdc" valueTypeId="93383b76-9d74-4b84-8ab3-10cdb2016d4e"/>
+    <listType typeId="877c3d3d-e998-4589-a7c9-ac1637e00004" valueTypeId="6b8d713d-bbcb-4b78-9245-e51aaacebf94"/>
+    <managerType typeId="e268644b-3e33-4178-ac60-0845ea62f1cb" valueTypeId="82eb9347-ea48-4820-ae70-11973374b817"/>
+  </producedTypes>
+  <name>ТипыДанныхУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы данных учета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3f8ee60c-968d-48a8-9e2a-26e3b6d07e53">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a806ea20-27da-4584-b2cf-6de744f72299">
+    <name>Контрагенты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагенты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84db215d-0d06-4a8e-801d-5e4d16cd6181">
+    <name>ДенежныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Денежные средства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9799097b-15f6-473c-9038-a96912d72641">
+    <name>ДоходыРасходы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходы/Расходы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c80b721-9a39-4569-98ac-258f03932f42">
+    <name>ПрочиеАктивыПассивы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие активы/пассивы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

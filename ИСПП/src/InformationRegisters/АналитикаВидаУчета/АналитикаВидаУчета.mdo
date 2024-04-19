@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2600e65f-0e8a-4358-8f17-25ea86f7501f">
+  <producedTypes>
+    <selectionType typeId="0874f2aa-d8c0-4f0a-842a-34fb2501c1a7" valueTypeId="fc738808-1519-41a3-a92c-65f29a53d582"/>
+    <listType typeId="bb69c4f4-7703-4774-bcc9-3fa19f60fda2" valueTypeId="bf808ac9-64b9-4ced-8422-8169940b028f"/>
+    <managerType typeId="104984d9-5577-4077-87b1-26a5c6ed386f" valueTypeId="6c30f4be-12d1-4561-bd45-fa70b8cfe9e0"/>
+    <recordSetType typeId="e063d974-f38d-4b04-9f4d-3b7583548409" valueTypeId="03b213c1-7a83-4424-ae73-ca5c9a5616c4"/>
+    <recordKeyType typeId="f9db8f0d-21eb-4990-a660-b493ea9cda92" valueTypeId="fc928ed6-09bd-459e-a13d-2f67b128c27e"/>
+    <recordType typeId="d008e3b7-3f04-44fe-8ada-51d95b536845" valueTypeId="95d46b5c-e6f3-4cd2-994b-1293f7ff561f"/>
+    <recordManagerType typeId="171b7d1d-7ff7-4270-a881-147ad39e527e" valueTypeId="79ae014c-9ad6-4557-98c6-a70167a39f8a"/>
+  </producedTypes>
+  <name>АналитикаВидаУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналитика вида учета</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <explanation>
+    <key>ru</key>
+    <value>Служебный регистр</value>
+  </explanation>
+  <resources uuid="7fa5e0bb-1c94-4a07-9794-1806f8610a1e">
+    <name>КлючАналитики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ аналитики</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючиАналитикиВидаУчета</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ключ аналитики вида учета.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="ba6fd83d-5b9e-44fc-88a2-50ce19ee70cb">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация вида учета.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a3d3cc3c-ac1a-46c9-92b5-66e4c4236860">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Склад на котором учитываются товары или подразделение в котором числятся материалы.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

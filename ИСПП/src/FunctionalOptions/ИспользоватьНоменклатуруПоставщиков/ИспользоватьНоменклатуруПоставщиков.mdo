@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="747fb981-87a1-41b7-a523-8b1daea75bf5">
+  <name>ИспользоватьНоменклатуруПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать номенклатуру поставщиков</value>
+  </synonym>
+  <location>Constant.ИспользоватьНоменклатуруПоставщиков</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПоступлениеТоваров.TabularSection.Товары.Attribute.НоменклатураПоставщика</content>
+  <content>Catalog.НоменклатураПоставщиков.Command.НоменклатураПоставщика</content>
+  <content>DataProcessor.ПодборТоваровВДокументПоступления.TabularSection.Корзина.Attribute.НоменклатураПоставщика</content>
+  <content>Document.СпецификацияКДоговору.TabularSection.Товары.Attribute.НоменклатураПоставщика</content>
+</mdclass:FunctionalOption>

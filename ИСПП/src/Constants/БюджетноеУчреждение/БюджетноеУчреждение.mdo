@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75ff79ca-be67-43ef-9e9c-dc1bac3980b8">
+  <producedTypes>
+    <managerType typeId="101e987d-2a76-44ab-80ed-9dc4af13c4de" valueTypeId="0fb8dd7f-d892-4be2-bcf5-c01f12e36d0a"/>
+    <valueManagerType typeId="bcd0c6e0-ac0c-4eb7-9dee-936f863c56a9" valueTypeId="4c970935-39b4-4b6d-83c5-9a36c3e44bd9"/>
+    <valueKeyType typeId="50246b6c-c970-50e2-a431-38a86d3602bd" valueTypeId="dc80b575-22cc-5a07-9293-9a414b56a184"/>
+  </producedTypes>
+  <name>БюджетноеУчреждение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бюджетное учреждение</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Ведение учета в бюджетном учреждении</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

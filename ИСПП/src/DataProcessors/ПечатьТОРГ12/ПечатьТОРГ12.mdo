@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9de3738d-8009-4f5f-b8bc-f1f14e40d1f8">
+  <producedTypes>
+    <objectType typeId="ad5bb872-5ba9-468b-a8d8-a4363e3b621e" valueTypeId="fe169758-72b9-419e-8fbf-84f89961c8ac"/>
+    <managerType typeId="0e9a0ae9-59e1-451e-9c30-1bece64c50c5" valueTypeId="53c8d53e-6cf6-4782-a468-32e7776cd441"/>
+  </producedTypes>
+  <name>ПечатьТОРГ12</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать ТОРГ-12</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="141c6cc9-4792-44f4-9450-7132f7003a7d">
+    <name>ПФ_MXL_ТОРГ12</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товарная накладная (ТОРГ-12)</value>
+    </synonym>
+    <comment>Товарная накладная (унифицированная форма № ТОРГ-12)</comment>
+  </templates>
+</mdclass:DataProcessor>

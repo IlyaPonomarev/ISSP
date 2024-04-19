@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5435047d-9a00-4d41-902e-efb2cc82911b">
+  <producedTypes>
+    <managerType typeId="f36345df-d19e-4682-bd23-f9c240d29faa" valueTypeId="c9df3dc1-85e9-43e5-9d25-797f94dc40c2"/>
+    <valueManagerType typeId="6f13c1dd-8717-42be-bb60-5ce13fffb56e" valueTypeId="2cf9058d-6360-480f-b828-da0a88d64b77"/>
+    <valueKeyType typeId="ede46129-3b1d-5541-98c9-cf89ece287ec" valueTypeId="1b7b9fbe-6bc3-5b50-b81f-b857277f3fe4"/>
+  </producedTypes>
+  <name>ИспользоватьНесколькоОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько организаций</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

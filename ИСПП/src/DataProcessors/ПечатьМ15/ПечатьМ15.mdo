@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abd6a4cb-06a6-42ad-aa84-c46ab473e08c">
+  <producedTypes>
+    <objectType typeId="565f176d-37e7-4afd-87ed-5a10a1b4b93a" valueTypeId="3dcd474a-9ae0-4a6b-8bfd-6a7f2dbee73e"/>
+    <managerType typeId="5209776c-fcba-4b58-ae68-59ba71652edb" valueTypeId="cacb26f1-0efc-44ad-b174-4cbe700c7381"/>
+  </producedTypes>
+  <name>ПечатьМ15</name>
+  <synonym>
+    <key>ru</key>
+    <value>Накладная на отпуск товаров на сторону (М-15)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="6ff25391-6745-448c-a658-693dcc629f24">
+    <name>ПФ_MXL_М15</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накладная (М-15)</value>
+    </synonym>
+    <comment>Накладная на отпуск материалов на сторону (унифицированная форма № М-15)</comment>
+  </templates>
+</mdclass:DataProcessor>

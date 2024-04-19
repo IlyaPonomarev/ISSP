@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.НормативноСправочнаяИнформация.Subsystem.Специальные</subsystems>
+    <subsystems>Subsystem.НормативноСправочнаяИнформация.Subsystem.Контрагенты</subsystems>
+    <subsystems>Subsystem.НормативноСправочнаяИнформация.Subsystem.Номенклатура</subsystems>
+    <subsystems>Subsystem.НормативноСправочнаяИнформация.Subsystem.Учреждение</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

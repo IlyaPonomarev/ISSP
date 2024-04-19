@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c73c30d-26fe-42c2-9c0d-a5233ec8d51c">
+  <name>Контрагенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагенты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.ВидыДокументовФизическихЛиц</content>
+  <content>Catalog.БанковскиеСчетаКонтрагентов</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

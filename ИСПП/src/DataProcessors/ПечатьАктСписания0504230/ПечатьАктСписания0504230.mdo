@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cff30804-f7aa-4f2c-b6b6-86becb0310fc">
+  <producedTypes>
+    <objectType typeId="f23c9cdb-5521-4b4e-b360-e3ec794fc8c7" valueTypeId="27c28b46-43d4-41a7-b93b-553dd6ac97f0"/>
+    <managerType typeId="f3178283-3a11-4112-ac8d-77f1b64a8df1" valueTypeId="3b478eda-8694-457e-ab4e-cb2589d3cbf9"/>
+  </producedTypes>
+  <name>ПечатьАктСписания0504230</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать Акт списания (ф.0504230)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="edf57fca-602a-4398-8da3-2c649476de5c">
+    <name>ПФ_MXL_АктСписания0504230</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт списания МЗ (ф.0504230)</value>
+    </synonym>
+    <comment>Акт списания МЗ (ф. 0504230)</comment>
+  </templates>
+</mdclass:DataProcessor>

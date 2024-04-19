@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f75794a-e69e-4224-aaee-9c1b91dfade9">
+  <producedTypes>
+    <objectType typeId="d35621a1-eb8c-432b-82b5-5e9cb1f879ec" valueTypeId="60a4f811-cc31-4531-90c4-7204ba680371"/>
+    <refType typeId="d850d662-212a-4563-b3e3-3d3e91c20d6a" valueTypeId="d3472916-e515-498a-b642-d25c3c048955"/>
+    <selectionType typeId="7a2051b4-199e-4968-9710-d8dc80710528" valueTypeId="12c48f61-2a78-41cf-ad3a-a5589e37f445"/>
+    <listType typeId="0566a23f-ad8a-4168-b35f-55d46f33774d" valueTypeId="ec61121a-837c-4195-be9d-e0104af111d7"/>
+    <managerType typeId="4c00e89c-4804-41af-8483-09e41c7dfbab" valueTypeId="1aebb29a-39f8-4f49-8f37-51705007de5c"/>
+  </producedTypes>
+  <name>ДобывающиеОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добывающие организации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДобывающиеОрганизации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДобывающиеОрганизации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>1</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="01cfbf3b-d0f7-40a4-b721-d438963579a4">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

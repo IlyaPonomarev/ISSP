@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31a46b81-8f27-40e5-959f-4759e2a6c5af">
+  <name>Контроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ИнвентаризацияТоваровНаСкладе</content>
+  <content>Report.ТоварыКОформлениюИзлишковНедостач</content>
+  <parentSubsystem>Subsystem.ПоддержкаПроектов</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6bc587d-ec84-4478-9910-bcc1a9e79087">
+  <name>ПоддержкаПроектовПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка проектов переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

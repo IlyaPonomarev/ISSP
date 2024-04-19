@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c32806b2-8e16-49c0-817e-f67b5e743e8c">
+  <name>УправлениеПечатьюПоддержкаПроектовПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление печатью поддержка проектов повт исп</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

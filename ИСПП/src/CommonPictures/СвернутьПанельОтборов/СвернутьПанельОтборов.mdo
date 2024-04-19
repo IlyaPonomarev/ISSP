@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f086fc3-e641-4959-897f-7d5c457a1637">
+  <name>СвернутьПанельОтборов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свернуть панель отборов</value>
+  </synonym>
+</mdclass:CommonPicture>

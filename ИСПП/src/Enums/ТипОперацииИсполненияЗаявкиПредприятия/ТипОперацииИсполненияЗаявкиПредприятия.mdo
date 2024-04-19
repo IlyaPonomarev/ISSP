@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93c8c008-bf5a-4956-aecb-fe10713e5881">
+  <producedTypes>
+    <refType typeId="e1b5bfcf-69d4-4672-a94a-dd7813572130" valueTypeId="c83560bd-2105-480d-9913-f39f8978e620"/>
+    <listType typeId="3ba4fdba-cf0b-4d41-bfb8-32006db0168d" valueTypeId="843d8360-1683-4063-8176-66178d7a782f"/>
+    <managerType typeId="7d3ddba9-b978-48a8-bbc7-8383f2d88bce" valueTypeId="e623b82a-510f-46c3-b833-e0237905df36"/>
+  </producedTypes>
+  <name>ТипОперацииИсполненияЗаявкиПредприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип операции исполнения заявки предприятия</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c6171f35-1bdd-4f81-bc0d-342ae18ed3f3">
+    <name>ВходнойКонтроль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входной контроль пройден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19853551-a918-4408-89cc-91bce37d5807">
+    <name>ВходнойКонтрольНеПройден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входной контроль не пройден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd1b1360-ae32-408e-9cbe-78f47a1b12f4">
+    <name>Заявление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab2b547c-4ca0-410e-a630-dd57f87e10e4">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="862bf03c-a2e8-4991-af7a-3d99c4c8d049">
+    <name>Поступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="586d52e7-61d0-42ac-96b5-d9b20dd956de">
+    <name>Списание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fdecd43f-879f-42de-b164-b2c8e9db28f0">
+    <name>СписаниеНаСторону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание на сторону</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

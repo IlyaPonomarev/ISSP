@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2630e0ec-10ae-41ab-babe-8c105c2fe96f">
+  <producedTypes>
+    <objectType typeId="864b4bd2-6d4d-4db8-a35b-62fb84b3e041" valueTypeId="b9d1a4bd-fb02-4aea-9ec7-031b4177acab"/>
+    <managerType typeId="eb5985d8-b109-48dd-ac04-1451636cfbf1" valueTypeId="2238061d-78bc-4169-a97b-d74a3e425a0e"/>
+  </producedTypes>
+  <name>ПечатьВедомостьВыдачиНФА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать Ведомость выдачи НФА</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="d60e4c55-e826-41ec-a84c-5dbd2643c850">
+    <name>ПФ_MXL_ВедомостьВыдачиНФА</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ведомость выдачи НФА</value>
+    </synonym>
+    <comment>Ведомость выдачи НФА</comment>
+  </templates>
+</mdclass:DataProcessor>

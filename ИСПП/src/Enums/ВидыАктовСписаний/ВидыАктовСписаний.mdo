@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0433c856-63be-487b-9504-648a3eeef8a2">
+  <producedTypes>
+    <refType typeId="66ab091b-9eac-45bc-acef-1d49fd04b8af" valueTypeId="ff1d48b0-54f5-4096-99aa-eb9f652b5650"/>
+    <listType typeId="c7bb399b-8519-4c61-8c4f-8e74395eee74" valueTypeId="895493e9-5b59-4988-84fb-2323f39c0123"/>
+    <managerType typeId="33bc5d80-cec0-476f-ab11-324acda87edd" valueTypeId="0bfad388-80e5-41dd-9513-586ec776afa5"/>
+  </producedTypes>
+  <name>ВидыАктовСписаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды актов списаний</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6b607f7c-65a5-4f89-bbfc-ac598abdedaa">
+    <name>БракВходнойКонтроль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брак входной контроль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad564b63-4b4f-4098-9b39-11797ee3bf71">
+    <name>БракВИзделии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брак в изделии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="db8c801d-304c-43e3-a970-abeb6fd60ad4">
+    <name>УстановкаВИзделие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка в изделие</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5522278-819e-4f4c-9108-2824321fa49b">
+    <name>ПередачаНаСторону</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача на сторону</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d68fe148-cf3c-4dd8-8153-10a684ef9184">
+    <name>Уничтожение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уничтожение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

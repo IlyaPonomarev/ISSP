@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d49f0089-fd54-4609-9b70-e67fd986d06c">
+  <name>ПревышениеЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Превышение заказа</value>
+  </synonym>
+</mdclass:CommonPicture>

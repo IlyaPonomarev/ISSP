@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98523e4a-a1fc-4c6e-ae5f-60c32f333621">
+  <name>ИспользоватьОбособленныеПодразделенияВыделенныеНаБаланс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать обособленные подразделения выделенные на баланс</value>
+  </synonym>
+  <location>Constant.ИспользоватьОбособленныеПодразделенияВыделенныеНаБаланс</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Организации.Attribute.ОбособленноеПодразделение</content>
+  <content>Catalog.Организации.Attribute.ГоловнаяОрганизация</content>
+  <content>Document.ПеремещениеТоваров.Attribute.ХозяйственнаяОперация</content>
+  <content>Document.ПеремещениеТоваров.Attribute.ОрганизацияПолучатель</content>
+</mdclass:FunctionalOption>

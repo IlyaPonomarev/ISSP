@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dafc6b7f-b9d6-407a-a62b-4042e5bd3379">
+  <producedTypes>
+    <refType typeId="c332cda2-dd2e-4a4b-b83c-f18059bd41a4" valueTypeId="c95f0791-dc4a-4dbc-96a1-3c731f76a4fa"/>
+    <listType typeId="d86ed6af-150b-4fee-a20d-9ca04017d2aa" valueTypeId="0bb41285-c3af-4234-9927-b1f3d787d955"/>
+    <managerType typeId="c84172eb-734d-426b-8b70-18ded473c17e" valueTypeId="bd82105e-b903-4bba-ae68-3418d1fa5fbf"/>
+  </producedTypes>
+  <name>РежимыОтбораПартий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы отбора партий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6f276518-cccf-4ab4-adec-aaa5b8cef1a1">
+    <name>ПоРеквизитам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По реквизитам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04831952-992c-4c23-b03e-e0cc8f289e9f">
+    <name>ПоОборотам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По оборотам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5eaa25da-e5e0-48b6-af2b-7d0b622506a6">
+    <name>ПоОстаткам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По остаткам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bc64f88d-7f63-40f2-b58d-0d15b6f72962">
+    <name>ПоОтпускамТоваровВОтделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>По отпускам товаров в отделения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

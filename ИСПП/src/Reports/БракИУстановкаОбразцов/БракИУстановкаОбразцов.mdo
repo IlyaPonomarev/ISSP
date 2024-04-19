@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="385067e2-7939-4a41-8e61-aab9f86e67d4">
+  <producedTypes>
+    <objectType typeId="3d0d2954-c047-4d58-8fb5-12630fc24eeb" valueTypeId="fc40827e-89f9-4eda-b498-fd70e562c0f7"/>
+    <managerType typeId="2b548e83-84c9-4201-8476-03fa2797d2d8" valueTypeId="241d6c32-aee1-4056-b929-4702997f15fe"/>
+  </producedTypes>
+  <name>БракИУстановкаОбразцов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Брак и установка образцов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.БракИУстановкаОбразцов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="80640f30-bea4-4c17-97bc-9ff18bc260a3">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
