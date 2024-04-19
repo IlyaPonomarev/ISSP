@@ -396,10 +396,6 @@
       <autoFill>true</autoFill>
     </autoCommandBar>
     <handlers>
-      <event>BeforeAddRow</event>
-      <name>СписокПередНачаломДобавления</name>
-    </handlers>
-    <handlers>
       <event>OnActivateRow</event>
       <name>СписокПриАктивизацииСтроки</name>
     </handlers>
@@ -952,20 +948,8 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>NotificationProcessing</event>
-    <name>ОбработкаОповещения</name>
-  </handlers>
-  <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>OnClose</event>
-    <name>ПриЗакрытии</name>
   </handlers>
   <excludedCommands>Abort</excludedCommands>
   <excludedCommands>Cancel</excludedCommands>

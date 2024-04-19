@@ -1691,60 +1691,6 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <items xsi:type="form:FormField">
-          <name>ТоварыИсточникФинансирования</name>
-          <id>28</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <handlers>
-            <event>OnChange</event>
-            <name>ТоварыИсточникФинансированияПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>ТоварыИсточникФинансированияExtendedTooltip</name>
-            <id>137</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ТоварыИсточникФинансированияКонтекстноеМеню</name>
-            <id>29</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>EnterOnInput</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <dropListButton>false</dropListButton>
-            <choiceButton>true</choiceButton>
-            <choiceButtonRepresentation>ShowInInputField</choiceButtonRepresentation>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
-        </items>
         <autoCommandBar>
           <name>ТоварыКоманднаяПанель</name>
           <id>15</id>
@@ -3439,10 +3385,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <handlers>
-    <event>OnClose</event>
-    <name>ПриЗакрытии</name>
-  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -3649,29 +3591,6 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ЗагрузитьДанныеИзТСД</name>
-    <title>
-      <key>ru</key>
-      <value>Загрузить данные из ТСД</value>
-    </title>
-    <id>2</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Загрузить данные из ТСД</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗагрузитьДанныеИзТСД</name>
-      </handler>
-    </action>
-    <functionalOptions>99ae5823-820a-4907-a683-8767687aa62a</functionalOptions>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>ЗаполнитьФактПоУчету</name>
     <title>
       <key>ru</key>
@@ -3767,29 +3686,6 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ПолучитьВес</name>
-    <title>
-      <key>ru</key>
-      <value>Получить вес</value>
-    </title>
-    <id>7</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Получить вес</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПолучитьВес</name>
-      </handler>
-    </action>
-    <functionalOptions>99ae5823-820a-4907-a683-8767687aa62a</functionalOptions>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>РазбитьСтроку</name>
     <title>
       <key>ru</key>
@@ -3812,27 +3708,6 @@
       </handler>
     </action>
     <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ВыгрузитьДанныеВТСД</name>
-    <title>
-      <key>ru</key>
-      <value>Выгрузить в ТСД</value>
-    </title>
-    <id>9</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Выгрузить данные в ТСД</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ВыгрузитьДанныеВТСД</name>
-      </handler>
-    </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
