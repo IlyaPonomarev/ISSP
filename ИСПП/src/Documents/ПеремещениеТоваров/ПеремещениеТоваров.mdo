@@ -383,74 +383,6 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="50fdd702-9f1a-4000-928a-01337162cff7">
-      <name>Номенклатура</name>
-      <synonym>
-        <key>ru</key>
-        <value>Номенклатура</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Номенклатура</types>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Наименование номенклатурной позиции.</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <choiceParameters>
-        <name>Отбор.ТипНоменклатуры</name>
-        <value xsi:type="core:ReferenceValue">
-          <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
-        </value>
-      </choiceParameters>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="d3848db7-7956-4dbf-bbea-2ab3ccafb7e9">
-      <name>СерияНоменклатуры</name>
-      <synonym>
-        <key>ru</key>
-        <value>Серия номенклатуры</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.СерииНоменклатуры</types>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Серия номенклатуры, если есть.</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <choiceParameterLinks>
-        <name>Отбор.Владелец</name>
-        <changeMode>DontChange</changeMode>
-        <field>Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Номенклатура</field>
-      </choiceParameterLinks>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="b75ad34e-96a6-4cc5-a1c8-ed1f857af2ad">
-      <name>Партия</name>
-      <synonym>
-        <key>ru</key>
-        <value>Партия</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ПартииНоменклатуры</types>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Партия номенклатуры, если есть.</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
     <attributes uuid="fc307492-d8fc-4df8-a61e-fcf4deaee897">
       <name>ЕдиницаИзмерения</name>
       <synonym>
@@ -500,21 +432,134 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="a12fa567-780e-448c-a0ce-79954bc9c1fb">
-      <name>Штрихкод</name>
+    <attributes uuid="50fdd702-9f1a-4000-928a-01337162cff7">
+      <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
-        <value>Штрихкод</value>
+        <value>Номенклатура</value>
       </synonym>
       <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>200</length>
-        </stringQualifiers>
+        <types>CatalogRef.Номенклатура</types>
       </type>
       <toolTip>
         <key>ru</key>
-        <value>Значение штрихкода, не связанного с какой-либо номенклатурой.</value>
+        <value>Наименование номенклатурной позиции.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ТипНоменклатуры</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b75ad34e-96a6-4cc5-a1c8-ed1f857af2ad">
+      <name>Партия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Партия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПартииНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Партия номенклатуры, если есть.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d3848db7-7956-4dbf-bbea-2ab3ccafb7e9">
+      <name>СерияНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия номенклатуры</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СерииНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Серия номенклатуры, если есть.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c19ea080-0a98-4073-a038-503098bd54eb">
+      <name>СтатусУказанияПартий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус указания партий</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Служебный реквизит который определяет состояние ввода партий для строки ТЧ. Формируется автоматически, пользователем не редактируется.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6c764f1a-856a-4eaf-a747-69e470c324be">
+      <name>СтатусУказанияПартийОтправитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус указания партий отправитель</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Служебный реквизит который определяет состояние ввода партий для строки ТЧ. Формируется автоматически, пользователем не редактируется.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="809d6ad7-10c6-41eb-a2c9-f986c0b7a271">
+      <name>СтатусУказанияПартийПолучатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус указания партий получатель</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Служебный реквизит который определяет состояние ввода партий для строки ТЧ. Формируется автоматически, пользователем не редактируется.</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -587,66 +632,40 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="c19ea080-0a98-4073-a038-503098bd54eb">
-      <name>СтатусУказанияПартий</name>
+    <attributes uuid="b9aa67f8-f02b-4186-bc3d-b7f37bce9c43">
+      <name>СуммаФактическихРасходов</name>
       <synonym>
         <key>ru</key>
-        <value>Статус указания партий</value>
+        <value>Сумма факт. расходов</value>
       </synonym>
       <type>
         <types>Number</types>
         <numberQualifiers>
-          <precision>2</precision>
+          <precision>15</precision>
+          <scale>2</scale>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Служебный реквизит который определяет состояние ввода партий для строки ТЧ. Формируется автоматически, пользователем не редактируется.</value>
-      </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="6c764f1a-856a-4eaf-a747-69e470c324be">
-      <name>СтатусУказанияПартийОтправитель</name>
+    <attributes uuid="a12fa567-780e-448c-a0ce-79954bc9c1fb">
+      <name>Штрихкод</name>
       <synonym>
         <key>ru</key>
-        <value>Статус указания партий отправитель</value>
+        <value>Штрихкод</value>
       </synonym>
       <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>2</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
       </type>
       <toolTip>
         <key>ru</key>
-        <value>Служебный реквизит который определяет состояние ввода партий для строки ТЧ. Формируется автоматически, пользователем не редактируется.</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="809d6ad7-10c6-41eb-a2c9-f986c0b7a271">
-      <name>СтатусУказанияПартийПолучатель</name>
-      <synonym>
-        <key>ru</key>
-        <value>Статус указания партий получатель</value>
-      </synonym>
-      <type>
-        <types>Number</types>
-        <numberQualifiers>
-          <precision>2</precision>
-          <nonNegative>true</nonNegative>
-        </numberQualifiers>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Служебный реквизит который определяет состояние ввода партий для строки ТЧ. Формируется автоматически, пользователем не редактируется.</value>
+        <value>Значение штрихкода, не связанного с какой-либо номенклатурой.</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
