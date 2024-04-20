@@ -280,14 +280,6 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.Контрагент</name>
-      <field>0:4971752c-529d-40ae-aa21-bfeca9689a57</field>
-    </choiceParameterLinks>
-    <choiceParameterLinks>
-      <name>Отбор.Организация</name>
-      <field>0:ee9bed8a-e818-444b-aa82-30e545b89f94</field>
-    </choiceParameterLinks>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
@@ -338,10 +330,6 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>0:ee9bed8a-e818-444b-aa82-30e545b89f94</field>
-    </choiceParameterLinks>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>

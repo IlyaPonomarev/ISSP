@@ -744,7 +744,6 @@
   <commonModules>CommonModule.ШтрихкодированиеПечатныхФорм</commonModules>
   <commonModules>CommonModule.ШтрихкодированиеПечатныхФормВызовСервера</commonModules>
   <commonModules>CommonModule.ШтрихкодированиеПечатныхФормКлиент</commonModules>
-  <commonModules>CommonModule.РА_ПечатныеФормы</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsManifest_1_0_0_1</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApplicationExtensionsPermissions_1_0_0_1</xDTOPackages>

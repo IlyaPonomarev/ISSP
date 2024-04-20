@@ -304,11 +304,6 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>ДоговорКонтрагента</name>
-      <changeMode>DontChange</changeMode>
-      <field>0:15f2922f-38d5-4f41-95e1-3c15ac5fdd5b</field>
-    </choiceParameterLinks>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>

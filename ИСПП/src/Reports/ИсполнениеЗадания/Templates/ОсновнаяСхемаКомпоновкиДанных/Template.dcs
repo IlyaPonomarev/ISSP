@@ -375,6 +375,13 @@
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
 					<dcsset:userSettingID>68ae24d7-8962-4232-aa26-e96933c64afa</dcsset:userSettingID>
 				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Склад</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:nil="true"/>
+					<dcsset:userSettingID>bee30d22-9b96-424f-bfef-0edf48b6f47f</dcsset:userSettingID>
+				</dcsset:item>
 			</dcsset:filter>
 			<dcsset:conditionalAppearance>
 				<dcsset:item>
