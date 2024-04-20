@@ -2969,10 +2969,6 @@
             <segments>Объект.СвязанныеЗаявкиПредприятий.Выбрать</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
-          <handlers>
-            <event>OnChange</event>
-            <name>СвязанныеЗаявкиПредприятийВыбратьПриИзменении</name>
-          </handlers>
           <extendedTooltip>
             <name>СвязанныеЗаявкиПредприятийВыбратьРасширеннаяПодсказка</name>
             <id>329</id>
@@ -5169,10 +5165,6 @@
     <handlers>
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
-    </handlers>
-    <handlers>
-      <event>BeforeWrite</event>
-      <name>ПередЗаписью</name>
     </handlers>
     <handlers>
       <event>BeforeWriteAtServer</event>
