@@ -212,10 +212,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <handlers>
-              <event>OnChange</event>
-              <name>КонтрагентПриИзменении</name>
-            </handlers>
             <extendedTooltip>
               <name>КонтрагентРасширеннаяПодсказка</name>
               <id>75</id>
@@ -821,10 +817,6 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Организация</segments>
           </dataPath>
-          <handlers>
-            <event>OnChange</event>
-            <name>ОрганизацияПриИзменении</name>
-          </handlers>
           <extendedTooltip>
             <name>ОрганизацияРасширеннаяПодсказка</name>
             <id>83</id>
@@ -2355,10 +2347,6 @@
   <handlers>
     <event>NotificationProcessing</event>
     <name>ОбработкаОповещения</name>
-  </handlers>
-  <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
   </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
