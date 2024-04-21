@@ -49,6 +49,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="f6e018b2-59e9-4524-879d-2dbdcbf0d3d2">
+    <name>АналитикаУчетаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика учета номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлючиАналитикиУчетаНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Аналитика учета поступившего или реализованного товара.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
   <dimensions uuid="e62636ce-0662-4c48-aacb-3465010e4359">
     <name>Предприятие</name>
     <synonym>
@@ -78,6 +97,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="3fcc8872-5a63-4f2e-a28d-addbbb50ee32">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПартииНоменклатуры</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Партия номенклатуры, хранящейся на складе.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
   <dimensions uuid="bf62b535-5c66-400a-80e9-d67d7ca13e41">
     <name>Номенклатура</name>
     <synonym>
@@ -90,6 +127,20 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="2e289b72-c8bd-43d2-904c-558134a7ff2f">
+    <name>СерияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерииНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
@@ -130,20 +181,6 @@
     </synonym>
     <type>
       <types>CatalogRef.ОбразцыВВСТ</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <useInTotals>true</useInTotals>
-  </dimensions>
-  <dimensions uuid="2e289b72-c8bd-43d2-904c-558134a7ff2f">
-    <name>СерияНоменклатуры</name>
-    <synonym>
-      <key>ru</key>
-      <value>Серия номенклатуры</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.СерииНоменклатуры</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
