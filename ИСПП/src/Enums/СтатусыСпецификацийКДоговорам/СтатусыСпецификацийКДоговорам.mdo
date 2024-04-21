@@ -29,31 +29,38 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="e2b8999e-9003-4205-a2d0-aec5a08c0aef">
-    <name>НеСогласован</name>
+    <name>Проработка</name>
     <synonym>
       <key>ru</key>
-      <value>Не согласован</value>
+      <value>Проработка</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="b34c2b8e-621b-41b2-ab1a-51edf2dc0982">
-    <name>Согласован</name>
+  <enumValues uuid="53bd5e78-0471-483b-89ef-496b80b0de7a">
+    <name>НаУтверждении</name>
     <synonym>
       <key>ru</key>
-      <value>Согласован</value>
+      <value>На утверждении</value>
     </synonym>
   </enumValues>
   <enumValues uuid="aa5fee22-61ec-4cc6-be36-169bbebae745">
-    <name>КВыполнению</name>
+    <name>ВыполненоЧастично</name>
     <synonym>
       <key>ru</key>
-      <value>К выполнению</value>
+      <value>Выполнено частично</value>
     </synonym>
   </enumValues>
   <enumValues uuid="3e8329ea-f765-47e3-a1ac-a5eae1d8f71b">
-    <name>Закрыт</name>
+    <name>Выполнено</name>
     <synonym>
       <key>ru</key>
-      <value>Закрыт</value>
+      <value>Выполнено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b34c2b8e-621b-41b2-ab1a-51edf2dc0982">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

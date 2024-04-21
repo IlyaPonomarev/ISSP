@@ -192,7 +192,7 @@
     <choiceParameters>
       <name>Отбор.Статус</name>
       <value xsi:type="core:ReferenceValue">
-        <value>Enum.СтатусыСпецификацийКДоговорам.EnumValue.НеСогласован</value>
+        <value>Enum.СтатусыСпецификацийКДоговорам.EnumValue.Проработка</value>
       </value>
     </choiceParameters>
     <fillValue xsi:type="core:UndefinedValue"/>
