@@ -17,5 +17,11 @@
     <types>DocumentRef.ПоступлениеТоваров</types>
     <types>DocumentRef.ПеремещениеТоваров</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>DocumentRef.СпецификацияКДоговору</types>
+    <types>DocumentRef.ГЗ</types>
+    <types>DocumentRef.ПроектЗадания</types>
+    <types>DocumentRef.ВходнойКонтроль</types>
+    <types>DocumentRef.КомплектацияНоменклатуры</types>
+    <types>DocumentRef.ИнвентаризацияТоваровНаСкладе</types>
   </type>
 </mdclass:DefinedType>

@@ -1098,6 +1098,7 @@
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
+  <catalogs>Catalog.ВходнойКонтрольПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ГЗПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Грифы</catalogs>
   <catalogs>Catalog.ГруппыБухгалтерскогоУчета</catalogs>
@@ -1116,9 +1117,11 @@
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.Изделия</catalogs>
+  <catalogs>Catalog.ИнвентаризацияТоваровНаСкладеПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.КлассификаторБанков</catalogs>
   <catalogs>Catalog.КлючиАналитикиВидаУчета</catalogs>
   <catalogs>Catalog.КлючиАналитикиУчетаНоменклатуры</catalogs>
+  <catalogs>Catalog.КомплектацияНоменклатурыПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.НаборыДополнительныхРеквизитовИСведений</catalogs>
   <catalogs>Catalog.НастройкиХозяйственныхОпераций</catalogs>
@@ -1146,6 +1149,7 @@
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.СпецификацияКДоговоруПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.СписаниеНедостачТоваровПрисоединенныеФайлы</catalogs>
+  <catalogs>Catalog.СпособыУничтоженияОбразцов</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СценарииОбменовДанными</catalogs>
   <catalogs>Catalog.ТипыНоменклатурыРасширенные</catalogs>
@@ -1154,7 +1158,6 @@
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Центры</catalogs>
-  <catalogs>Catalog.СпособыУничтоженияОбразцов</catalogs>
   <documents>Document.ВходнойКонтроль</documents>
   <documents>Document.ГЗ</documents>
   <documents>Document.ДоверенностьВыданная</documents>

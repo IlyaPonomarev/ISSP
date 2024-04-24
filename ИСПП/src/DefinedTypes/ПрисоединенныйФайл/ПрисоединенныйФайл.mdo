@@ -19,5 +19,8 @@
     <types>CatalogRef.ПередачаТоваровНаСторонуПрисоединенныеФайлы</types>
     <types>CatalogRef.НоменклатураПрисоединенныеФайлы</types>
     <types>CatalogRef.ВерсииФайлов</types>
+    <types>CatalogRef.ВходнойКонтрольПрисоединенныеФайлы</types>
+    <types>CatalogRef.КомплектацияНоменклатурыПрисоединенныеФайлы</types>
+    <types>CatalogRef.ИнвентаризацияТоваровНаСкладеПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>
