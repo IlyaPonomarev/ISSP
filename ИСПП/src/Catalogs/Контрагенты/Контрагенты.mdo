@@ -456,6 +456,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="d1233fab-d407-49e9-b175-5fcbb33cd45a">
+    <name>ФИООтветственного</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИО ответственного</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="bef1c4ec-e33c-4bac-a1b4-667495012deb">
     <producedTypes>
       <objectType typeId="f6de3d4c-ad80-4885-8a1d-86d34924ed1d" valueTypeId="c76fe7fb-f04c-4530-968c-3ffb0283028d"/>
