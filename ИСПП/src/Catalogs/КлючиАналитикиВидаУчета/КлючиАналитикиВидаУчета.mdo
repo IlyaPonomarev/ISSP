@@ -69,10 +69,6 @@
     <name>Parent</name>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>Catalog.КлючиАналитикиВидаУчета.StandardAttribute.Owner</field>
-    </choiceParameterLinks>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -106,6 +102,10 @@
     </pages>
   </help>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ключ аналитики вида учета</value>
+  </objectPresentation>
   <explanation>
     <key>ru</key>
     <value>Служебный справочник</value>
