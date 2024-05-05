@@ -77,13 +77,7 @@
       <value>Группа, в которую входит данный склад.</value>
     </toolTip>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>4b504a2a-3323-48f9-94fd-820474538916.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
-    <choiceParameterLinks>
-      <name>Отбор.Владелец</name>
-      <field>Catalog.Склады.StandardAttribute.Owner</field>
-    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
