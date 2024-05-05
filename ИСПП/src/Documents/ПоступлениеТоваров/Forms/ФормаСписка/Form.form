@@ -695,48 +695,6 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>СкладИспользоватьМестаХранения</name>
-          <id>147</id>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Список.Склад.ИспользоватьМестаХранения</segments>
-          </dataPath>
-          <extendedTooltip>
-            <name>СкладИспользоватьМестаХраненияРасширеннаяПодсказка</name>
-            <id>149</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>СкладИспользоватьМестаХраненияКонтекстноеМеню</name>
-            <id>148</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>CheckBoxField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-        </items>
-        <items xsi:type="form:FormField">
           <name>Ссылка</name>
           <id>18</id>
           <title>
@@ -1148,10 +1106,6 @@
           <autoFill>true</autoFill>
         </autoCommandBar>
         <handlers>
-          <event>BeforeAddRow</event>
-          <name>СписокПередНачаломДобавления</name>
-        </handlers>
-        <handlers>
           <event>OnActivateRow</event>
           <name>СписокПриАктивизацииСтроки</name>
         </handlers>
@@ -1523,6 +1477,10 @@
         <items xsi:type="form:FormField">
           <name>СписокРаспоряженияНаОформлениеТипРаспоряжения</name>
           <id>77</id>
+          <title>
+            <key>ru</key>
+            <value>Тип распоряжения</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1760,6 +1718,10 @@
         <items xsi:type="form:FormField">
           <name>СписокРаспоряженияНаОформлениеДоговор</name>
           <id>83</id>
+          <title>
+            <key>ru</key>
+            <value>Договор</value>
+          </title>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -2309,24 +2271,12 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
-    <event>NotificationProcessing</event>
-    <name>ОбработкаОповещения</name>
-  </handlers>
-  <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
     <event>OnLoadDataFromSettingsAtServer</event>
     <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
   </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>OnClose</event>
-    <name>ПриЗакрытии</name>
   </handlers>
   <excludedCommands>Abort</excludedCommands>
   <excludedCommands>Cancel</excludedCommands>
