@@ -42,7 +42,7 @@
   <content>SessionParameter.ПроводитьБезКонтроляОстатковТоваровПоРегиструСебестоимости</content>
   <content>DocumentJournal.ДокументыПроектов</content>
   <content>DocumentJournal.ДокументыДвиженияМСИ</content>
-  <content>DataProcessor.ПечатьИнвентаризационнаяОписьНФА_0504087</content>
+  <content>DataProcessor.ПечатьИнвентаризационнаяОпись</content>
   <content>DataProcessor.ПечатьИНВ3</content>
   <content>DataProcessor.ПечатьИНВ19</content>
   <content>AccumulationRegister.ТоварыКОформлениюИзлишковНедостач</content>

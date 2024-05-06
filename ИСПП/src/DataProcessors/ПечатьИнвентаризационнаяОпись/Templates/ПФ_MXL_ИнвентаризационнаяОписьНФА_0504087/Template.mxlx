@@ -11181,7 +11181,7 @@
 		<endColumnOffset>30</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>RealSize</pictureSize>
-		<zOrder>0</zOrder>
+		<zOrder>1</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<leftHeader>

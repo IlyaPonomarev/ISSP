@@ -4,7 +4,7 @@
     <objectType typeId="becc59ea-7316-4b2b-acc8-ab895fc14a03" valueTypeId="72088ed7-d198-45b0-b446-4c453a6acbe5"/>
     <managerType typeId="7aabed16-62ad-4200-b59d-52e8aebec04f" valueTypeId="366fec81-3f8e-4739-a941-79324c897a1c"/>
   </producedTypes>
-  <name>ПечатьИнвентаризационнаяОписьНФА_0504087</name>
+  <name>ПечатьИнвентаризационнаяОпись</name>
   <synonym>
     <key>ru</key>
     <value>Печать Инвентаризационная опись НФА (ф. 0504087)</value>
@@ -17,5 +17,12 @@
       <value>Инвентаризационная опись (ф. 0504087)</value>
     </synonym>
     <comment>Инвентаризационная опись (Сличительная ведомость) (ф. 0504087)</comment>
+  </templates>
+  <templates uuid="295c93d2-ad2f-4336-b780-9fd69ffbdd9c">
+    <name>ПФ_MXL_АктИнвентаризации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт инвентаризации</value>
+    </synonym>
   </templates>
 </mdclass:DataProcessor>

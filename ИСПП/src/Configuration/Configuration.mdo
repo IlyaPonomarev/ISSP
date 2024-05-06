@@ -1297,7 +1297,7 @@
   <dataProcessors>DataProcessor.ПечатьВедомостьВыдачиНФА_0504210</dataProcessors>
   <dataProcessors>DataProcessor.ПечатьИНВ19</dataProcessors>
   <dataProcessors>DataProcessor.ПечатьИНВ3</dataProcessors>
-  <dataProcessors>DataProcessor.ПечатьИнвентаризационнаяОписьНФА_0504087</dataProcessors>
+  <dataProcessors>DataProcessor.ПечатьИнвентаризационнаяОпись</dataProcessors>
   <dataProcessors>DataProcessor.ПечатьМ11</dataProcessors>
   <dataProcessors>DataProcessor.ПечатьМ15</dataProcessors>
   <dataProcessors>DataProcessor.ПечатьМ4</dataProcessors>
