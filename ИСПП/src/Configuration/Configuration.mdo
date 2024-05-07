@@ -1271,6 +1271,7 @@
   <reports>Report.ТиповаяФормаЖурналаУчетаОбразцовСИРасширенный</reports>
   <reports>Report.ТоварыКОформлениюИзлишковНедостач</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.СводнаяВедомость</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
   <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>

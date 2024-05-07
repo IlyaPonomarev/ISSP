@@ -1415,7 +1415,7 @@
 	<format>
 		<font>1</font>
 		<width>136</width>
-		<horizontalAlignment>Center</horizontalAlignment>
+		<horizontalAlignment>Left</horizontalAlignment>
 	</format>
 	<format>
 		<font>1</font>
@@ -1428,7 +1428,7 @@
 	<format>
 		<font>2</font>
 		<width>72</width>
-		<horizontalAlignment>Center</horizontalAlignment>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<fillType>Template</fillType>
 	</format>
 	<format>
