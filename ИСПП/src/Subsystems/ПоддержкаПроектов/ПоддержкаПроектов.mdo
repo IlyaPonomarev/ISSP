@@ -57,6 +57,7 @@
   <content>Report.ОтчетПоЗаданиюРасширенный</content>
   <content>Report.ТиповаяФормаЖурналаУчетаОбразцовСИРасширенный</content>
   <content>Report.БракИУстановкаОбразцов</content>
+  <content>Report.СводнаяВедомость</content>
   <subsystems>ПроектыЗаданий</subsystems>
   <subsystems>Поступление</subsystems>
   <subsystems>Выбытие</subsystems>

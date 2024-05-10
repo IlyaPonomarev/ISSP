@@ -7,7 +7,7 @@
   <name>СводнаяВедомость</name>
   <synonym>
     <key>ru</key>
-    <value>Типовая форма журнала учета образцов специальной информации</value>
+    <value>Сводная ведомость</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>Report.СводнаяВедомость.Form.ФормаОтчета</defaultForm>
@@ -53,30 +53,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="f93d8438-bce7-4a94-bea6-b46a3a47a075">
-    <name>ВыводитьГЗ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Выводить ГЗ</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="3cbed6ad-7518-4adc-90f6-a4ee54c43ca1">
-    <name>ВыводитьПЗ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Выводить ПЗ</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="35b1516b-ed8e-46ee-9b53-321fbf61c6af">
     <name>Склад</name>
     <synonym>
@@ -85,6 +61,18 @@
     </synonym>
     <type>
       <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="99302af0-3a9c-4762-b5e0-ec8f7982687d">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
