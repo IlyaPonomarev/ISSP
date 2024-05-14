@@ -113,6 +113,20 @@
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
+  <dimensions uuid="e01a2384-55bb-4488-8dce-b32f63f989ad">
+    <name>Госконтракт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Госконтракт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Госконтракты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
   <dimensions uuid="b7e37779-fa61-4a62-90a9-89ee162d2879">
     <name>Изделие</name>
     <synonym>
@@ -134,6 +148,22 @@
     </synonym>
     <type>
       <types>CatalogRef.ОбразцыВВСТ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="43e1c1e0-90be-41bf-9a73-02dbd57fd78f">
+    <name>СерийныйНомерОбразца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серийный номер образца</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

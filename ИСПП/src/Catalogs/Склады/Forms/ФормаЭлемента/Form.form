@@ -435,7 +435,7 @@
             <name>ГруппаМОЛ</name>
             <id>148</id>
             <items xsi:type="form:FormField">
-              <name>ДО</name>
+              <name>НаименованиеДочернейОрганизации</name>
               <id>191</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -443,10 +443,10 @@
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>Объект.ДО</segments>
+                <segments>Объект.НаименованиеДочернейОрганизации</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ДОРасширеннаяПодсказка</name>
+                <name>НаименованиеДочернейОрганизацииРасширеннаяПодсказка</name>
                 <id>193</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -461,7 +461,7 @@
                 </extInfo>
               </extendedTooltip>
               <contextMenu>
-                <name>ДОКонтекстноеМеню</name>
+                <name>НаименованиеДочернейОрганизацииКонтекстноеМеню</name>
                 <id>192</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -479,6 +479,7 @@
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
+                <extendedEditMultipleValues>true</extendedEditMultipleValues>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>

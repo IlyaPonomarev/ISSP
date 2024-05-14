@@ -48,7 +48,7 @@
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Остаток</v8:content>
+					<v8:content>Остаток Остаток с не уничт. браком</v8:content>
 				</v8:item>
 			</title>
 			<appearance>
@@ -388,7 +388,6 @@
 					<dcsset:use>false</dcsset:use>
 					<dcsset:left xsi:type="dcscor:Field">Склад</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:right xsi:nil="true"/>
 					<dcsset:userSettingID>bee30d22-9b96-424f-bfef-0edf48b6f47f</dcsset:userSettingID>
 				</dcsset:item>
 			</dcsset:filter>

@@ -1158,6 +1158,7 @@
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Центры</catalogs>
+  <catalogs>Catalog.Госконтракты</catalogs>
   <documents>Document.ВходнойКонтроль</documents>
   <documents>Document.ГЗ</documents>
   <documents>Document.ДоверенностьВыданная</documents>

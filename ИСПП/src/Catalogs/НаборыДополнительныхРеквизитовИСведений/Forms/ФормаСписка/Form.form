@@ -748,12 +748,8 @@
       <titleLocation>None</titleLocation>
       <excludedCommands>Change</excludedCommands>
       <excludedCommands>Choose</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
-      <excludedCommands>Create</excludedCommands>
       <excludedCommands>CreateFolder</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
       <excludedCommands>MoveItem</excludedCommands>
-      <excludedCommands>SetDeletionMark</excludedCommands>
       <items xsi:type="form:FormField">
         <name>Представление</name>
         <id>4</id>

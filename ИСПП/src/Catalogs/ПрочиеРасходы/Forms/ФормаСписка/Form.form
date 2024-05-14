@@ -58,11 +58,8 @@
       <titleLocation>None</titleLocation>
       <excludedCommands>Change</excludedCommands>
       <excludedCommands>Choose</excludedCommands>
-      <excludedCommands>Copy</excludedCommands>
       <excludedCommands>CopyToClipboard</excludedCommands>
-      <excludedCommands>Create</excludedCommands>
       <excludedCommands>CreateFolder</excludedCommands>
-      <excludedCommands>Delete</excludedCommands>
       <excludedCommands>HierarchicalList</excludedCommands>
       <excludedCommands>LevelDown</excludedCommands>
       <excludedCommands>LevelUp</excludedCommands>
@@ -71,7 +68,6 @@
       <excludedCommands>MoveItem</excludedCommands>
       <excludedCommands>OutputList</excludedCommands>
       <excludedCommands>Refresh</excludedCommands>
-      <excludedCommands>SetDeletionMark</excludedCommands>
       <excludedCommands>Tree</excludedCommands>
       <items xsi:type="form:FormField">
         <name>СписокСтатейРасходовНаименование</name>

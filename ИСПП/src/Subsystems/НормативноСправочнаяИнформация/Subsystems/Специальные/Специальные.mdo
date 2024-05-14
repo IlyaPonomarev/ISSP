@@ -11,5 +11,6 @@
   <content>Catalog.Центры</content>
   <content>Catalog.ОбразцыВВСТ</content>
   <content>Catalog.Изделия</content>
+  <content>Catalog.Госконтракты</content>
   <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
 </mdclass:Subsystem>

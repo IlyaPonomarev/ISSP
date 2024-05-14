@@ -177,21 +177,6 @@
   <defaultListForm>Catalog.Склады.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Склады.Form.ФормаВыбора</defaultChoiceForm>
   <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
-  <attributes uuid="8e94a2d8-650b-4cc2-90c9-ea1ca7cb8595">
-    <name>ДО</name>
-    <synonym>
-      <key>ru</key>
-      <value>ДО</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Контрагенты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="c4cad094-76cb-4a7d-b1d6-ced9b4f399ef">
     <name>ИспользоватьПартии</name>
     <synonym>
@@ -275,6 +260,26 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61aff2f8-bb01-4aaf-ba01-97b9e8ae3cb1">
+    <name>НаименованиеДочернейОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование дочерней организации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

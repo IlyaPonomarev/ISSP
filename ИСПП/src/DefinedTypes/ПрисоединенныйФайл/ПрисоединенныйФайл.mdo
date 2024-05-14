@@ -9,18 +9,18 @@
     <value>Присоединенный файл</value>
   </synonym>
   <type>
+    <types>CatalogRef.ИнвентаризацияТоваровНаСкладеПрисоединенныеФайлы</types>
     <types>CatalogRef.ДоговорыКонтрагентовПрисоединенныеФайлы</types>
+    <types>CatalogRef.КомплектацияНоменклатурыПрисоединенныеФайлы</types>
     <types>CatalogRef.СпецификацияКДоговоруПрисоединенныеФайлы</types>
     <types>CatalogRef.ЗаявкаПредприятияПрисоединенныеФайлы</types>
     <types>CatalogRef.ГЗПрисоединенныеФайлы</types>
     <types>CatalogRef.ПроектЗаданияПрисоединенныеФайлы</types>
+    <types>CatalogRef.ВходнойКонтрольПрисоединенныеФайлы</types>
     <types>CatalogRef.Файлы</types>
     <types>CatalogRef.СписаниеНедостачТоваровПрисоединенныеФайлы</types>
     <types>CatalogRef.ПередачаТоваровНаСторонуПрисоединенныеФайлы</types>
     <types>CatalogRef.НоменклатураПрисоединенныеФайлы</types>
     <types>CatalogRef.ВерсииФайлов</types>
-    <types>CatalogRef.ВходнойКонтрольПрисоединенныеФайлы</types>
-    <types>CatalogRef.КомплектацияНоменклатурыПрисоединенныеФайлы</types>
-    <types>CatalogRef.ИнвентаризацияТоваровНаСкладеПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

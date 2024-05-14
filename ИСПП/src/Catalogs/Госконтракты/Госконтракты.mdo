@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="778c301a-37d9-438f-8ce8-105143e0672e">
+  <producedTypes>
+    <objectType typeId="14664232-9072-437c-ae9f-cc4fb6a155ea" valueTypeId="8d90e9b9-ebe2-408a-9bf3-aad7d7b53eba"/>
+    <refType typeId="aba2e3ec-0e8f-446c-9e74-d3ad842641c0" valueTypeId="9702fb14-f804-4ad7-a2d1-17c2152d3d55"/>
+    <selectionType typeId="8fb7b4f1-5505-4e4b-997b-1524d8d3aa67" valueTypeId="2b99419f-26f9-4e63-bf22-e30642a334ed"/>
+    <listType typeId="46981aa3-410c-4864-a064-49868a085da1" valueTypeId="b5760334-35a1-4525-9867-00f61bc88d7b"/>
+    <managerType typeId="dc6aaa8a-a06e-4dd7-84eb-b8ed3085a4f6" valueTypeId="5ad42672-b3f6-4cd0-88d5-901c308c741d"/>
+  </producedTypes>
+  <name>Госконтракты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Госконтракты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Госконтракты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f4834dab-6443-4b70-9c0e-42949bdb0b87">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
