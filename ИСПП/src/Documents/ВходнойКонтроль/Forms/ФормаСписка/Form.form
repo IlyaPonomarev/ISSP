@@ -470,9 +470,7 @@
       <name>Ссылка</name>
       <id>43</id>
       <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <userVisible/>
       <dataPath xsi:type="form:DataPath">
         <segments>Список.Ref</segments>
       </dataPath>

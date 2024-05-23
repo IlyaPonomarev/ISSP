@@ -1273,6 +1273,7 @@
   <reports>Report.ТоварыКОформлениюИзлишковНедостач</reports>
   <reports>Report.УниверсальныйОтчет</reports>
   <reports>Report.СводнаяВедомость</reports>
+  <reports>Report.УстановкаВИзделие</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
   <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>

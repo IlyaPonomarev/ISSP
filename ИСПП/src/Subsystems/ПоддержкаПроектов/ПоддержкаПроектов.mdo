@@ -58,6 +58,7 @@
   <content>Report.ТиповаяФормаЖурналаУчетаОбразцовСИРасширенный</content>
   <content>Report.БракИУстановкаОбразцов</content>
   <content>Report.СводнаяВедомость</content>
+  <content>Report.УстановкаВИзделие</content>
   <subsystems>ПроектыЗаданий</subsystems>
   <subsystems>Поступление</subsystems>
   <subsystems>Выбытие</subsystems>

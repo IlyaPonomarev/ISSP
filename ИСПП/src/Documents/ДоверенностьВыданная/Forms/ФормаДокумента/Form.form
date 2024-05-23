@@ -817,6 +817,7 @@
                 <wrap>true</wrap>
                 <choiceListButton>true</choiceListButton>
                 <spinButton>true</spinButton>
+                <listChoiceMode>true</listChoiceMode>
                 <choiceListHeight>15</choiceListHeight>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
@@ -3065,28 +3066,6 @@
       </handler>
     </action>
     <functionalOptions>FunctionalOption.ИспользоватьНоменклатуруПоставщиков</functionalOptions>
-    <modifiesStoredData>true</modifiesStoredData>
-    <currentRowUse>DontUse</currentRowUse>
-  </formCommands>
-  <formCommands>
-    <name>ЗаполнитьНаличныеДС</name>
-    <title>
-      <key>ru</key>
-      <value>Заполнить по расчетам с клиентом</value>
-    </title>
-    <id>5</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Заполнить наличные ДС по расчетам</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ЗаполнитьНаличныеДС</name>
-      </handler>
-    </action>
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
