@@ -648,71 +648,17 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
-    <attributes uuid="0a43c311-e25f-40e4-8968-5bc94bd586ec">
-      <name>Номенклатура</name>
+    <attributes uuid="4460b05a-bcb3-4e20-86ba-afad1d41509a">
+      <name>ID_Госконтракт</name>
       <synonym>
         <key>ru</key>
-        <value>Номенклатура</value>
+        <value>ID госконтракта</value>
       </synonym>
       <type>
-        <types>CatalogRef.Номенклатура</types>
+        <types>CatalogRef.Госконтракты</types>
       </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Наименование номенклатурной позиции.</value>
-      </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <choiceParameters>
-        <name>Отбор.ТипНоменклатуры</name>
-        <value xsi:type="core:ReferenceValue">
-          <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
-        </value>
-      </choiceParameters>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="b9005e2f-d6a4-4208-b3fe-5d4c3201573d">
-      <name>СерияНоменклатуры</name>
-      <synonym>
-        <key>ru</key>
-        <value>Серия номенклатуры</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.СерииНоменклатуры</types>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Серия номенклатуры, если есть.</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
-      <choiceParameterLinks>
-        <name>Отбор.Владелец</name>
-        <changeMode>DontChange</changeMode>
-        <field>Document.УстановкаУничтожениеМСИ.TabularSection.Товары.Attribute.Номенклатура</field>
-      </choiceParameterLinks>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="d165c509-abff-4c10-99a2-d0c4ef3c25bb">
-      <name>Партия</name>
-      <synonym>
-        <key>ru</key>
-        <value>Партия</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ПартииНоменклатуры</types>
-      </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Партия номенклатуры, если есть.</value>
-      </toolTip>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -737,6 +683,20 @@
         <changeMode>DontChange</changeMode>
         <field>Document.УстановкаУничтожениеМСИ.TabularSection.Товары.Attribute.Номенклатура</field>
       </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5c70e136-aa18-4035-8f67-a916340df718">
+      <name>Изделие</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изделие</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Изделия</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -765,21 +725,121 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="e11d6483-12d8-4f7b-9617-8806e5e476ff">
-      <name>Штрихкод</name>
+    <attributes uuid="0a43c311-e25f-40e4-8968-5bc94bd586ec">
+      <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
-        <value>Штрихкод</value>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Наименование номенклатурной позиции.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.ТипНоменклатуры</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ТипыНоменклатуры.EnumValue.Товар</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a5b3930c-c61d-4acf-8dea-85c4111179ff">
+      <name>Образец</name>
+      <synonym>
+        <key>ru</key>
+        <value>Образец</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОбразцыВВСТ</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d165c509-abff-4c10-99a2-d0c4ef3c25bb">
+      <name>Партия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Партия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПартииНоменклатуры</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Партия номенклатуры, если есть.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bfc96afd-8733-4262-9067-cf7e326cee2e">
+      <name>СерийныйНомерОбразца</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серийный номер образца</value>
       </synonym>
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>200</length>
+          <length>50</length>
         </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b9005e2f-d6a4-4208-b3fe-5d4c3201573d">
+      <name>СерияНоменклатуры</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия номенклатуры</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СерииНоменклатуры</types>
       </type>
       <toolTip>
         <key>ru</key>
-        <value>Значение штрихкода, не связанного с какой-либо номенклатурой.</value>
+        <value>Серия номенклатуры, если есть.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <changeMode>DontChange</changeMode>
+        <field>Document.УстановкаУничтожениеМСИ.TabularSection.Товары.Attribute.Номенклатура</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3687a29e-3dfe-42b5-890a-201148538889">
+      <name>СтатусУказанияПартий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус указания партий</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Служебный реквизит который определяет состояние ввода партий для строки ТЧ. Формируется автоматически, пользователем не редактируется.</value>
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -808,82 +868,39 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="3687a29e-3dfe-42b5-890a-201148538889">
-      <name>СтатусУказанияПартий</name>
+    <attributes uuid="09177877-c688-4847-b99b-7190273b8129">
+      <name>СуммаФактРасхода</name>
       <synonym>
         <key>ru</key>
-        <value>Статус указания партий</value>
+        <value>Сумма факт. расхода</value>
       </synonym>
       <type>
         <types>Number</types>
         <numberQualifiers>
-          <precision>2</precision>
-          <nonNegative>true</nonNegative>
+          <precision>15</precision>
+          <scale>2</scale>
         </numberQualifiers>
       </type>
-      <toolTip>
-        <key>ru</key>
-        <value>Служебный реквизит который определяет состояние ввода партий для строки ТЧ. Формируется автоматически, пользователем не редактируется.</value>
-      </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="5c70e136-aa18-4035-8f67-a916340df718">
-      <name>Изделие</name>
+    <attributes uuid="e11d6483-12d8-4f7b-9617-8806e5e476ff">
+      <name>Штрихкод</name>
       <synonym>
         <key>ru</key>
-        <value>Изделие</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Изделия</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="a5b3930c-c61d-4acf-8dea-85c4111179ff">
-      <name>Образец</name>
-      <synonym>
-        <key>ru</key>
-        <value>Образец</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ОбразцыВВСТ</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="4460b05a-bcb3-4e20-86ba-afad1d41509a">
-      <name>ID_Госконтракт</name>
-      <synonym>
-        <key>ru</key>
-        <value>ID госконтракта</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.Госконтракты</types>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="bfc96afd-8733-4262-9067-cf7e326cee2e">
-      <name>СерийныйНомерОбразца</name>
-      <synonym>
-        <key>ru</key>
-        <value>Серийный номер образца</value>
+        <value>Штрихкод</value>
       </synonym>
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>50</length>
+          <length>200</length>
         </stringQualifiers>
       </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение штрихкода, не связанного с какой-либо номенклатурой.</value>
+      </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
