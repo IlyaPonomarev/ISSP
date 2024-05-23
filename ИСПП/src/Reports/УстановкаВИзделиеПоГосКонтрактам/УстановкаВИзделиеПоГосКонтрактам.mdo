@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd74e5dd-2434-4063-9a84-3f6366846552">
+  <producedTypes>
+    <objectType typeId="06ab7eed-0254-4d87-8cfc-db3a76375611" valueTypeId="f49f2990-c620-4a10-9e1d-3fe2ee1fe6cd"/>
+    <managerType typeId="7e0f2b04-5b5e-464b-92dd-d785776c556c" valueTypeId="4db0b29a-48e9-45d4-b720-062ad62996ed"/>
+  </producedTypes>
+  <name>УстановкаВИзделиеПоГосКонтрактам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка в изделие по гос. контрактам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.УстановкаВИзделиеПоГосКонтрактам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="718e5dee-3275-4357-a7fd-3c8c619a0706">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

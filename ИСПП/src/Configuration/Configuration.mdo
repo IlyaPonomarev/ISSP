@@ -1274,6 +1274,7 @@
   <reports>Report.УниверсальныйОтчет</reports>
   <reports>Report.СводнаяВедомость</reports>
   <reports>Report.УстановкаВИзделие</reports>
+  <reports>Report.УстановкаВИзделиеПоГосКонтрактам</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
   <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>

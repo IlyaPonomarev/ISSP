@@ -35,6 +35,9 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Госконтракт</dataPath>
 			<field>Госконтракт</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Изделие</dataPath>
@@ -91,7 +94,8 @@
 	ДетализацияСписанияМСИПоТипамОбороты.Предприятие,
 	ДетализацияСписанияМСИПоТипамОбороты.Образец,
 	ДетализацияСписанияМСИПоТипамОбороты.Изделие,
-	ДетализацияСписанияМСИПоТипамОбороты.КоличествоОборот КАК Количество
+	ДетализацияСписанияМСИПоТипамОбороты.КоличествоОборот КАК Количество,
+	ДетализацияСписанияМСИПоТипамОбороты.Госконтракт
 ИЗ
 	РегистрНакопления.ДетализацияСписанияМСИПоТипам.Обороты(&amp;НачалоПериода, &amp;КонецПериода,,
 		ТипСписания = ЗНАЧЕНИЕ(Перечисление.ВидыАктовСписаний.УстановкаВИзделие)) КАК ДетализацияСписанияМСИПоТипамОбороты</query>
@@ -173,6 +177,9 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Количество</dcsset:field>
 				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Госконтракт</dcsset:field>
+				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:filter>
 				<dcsset:item xsi:type="dcsset:FilterItemComparison">
@@ -214,7 +221,7 @@
 				<dcsset:item xsi:type="dcsset:StructureItemGroup">
 					<dcsset:groupItems>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
-							<dcsset:field>Образец</dcsset:field>
+							<dcsset:field>Госконтракт</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 						</dcsset:item>
@@ -226,12 +233,27 @@
 						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 					</dcsset:selection>
 					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Образец</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							</dcsset:item>
+						</dcsset:groupItems>
 						<dcsset:order>
 							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 						</dcsset:order>
 						<dcsset:selection>
 							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 						</dcsset:selection>
+						<dcsset:item xsi:type="dcsset:StructureItemGroup">
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+						</dcsset:item>
 					</dcsset:item>
 				</dcsset:item>
 			</dcsset:item>
