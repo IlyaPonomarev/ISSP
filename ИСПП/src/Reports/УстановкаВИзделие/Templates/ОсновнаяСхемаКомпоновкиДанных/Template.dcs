@@ -35,6 +35,9 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Госконтракт</dataPath>
 			<field>Госконтракт</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Изделие</dataPath>
@@ -53,6 +56,9 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>СерийныйНомерОбразца</dataPath>
 			<field>СерийныйНомерОбразца</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Номенклатура</dataPath>
@@ -80,7 +86,7 @@
 			<title xsi:type="v8:LocalStringType">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Установлено</v8:content>
+					<v8:content>Количество установленных МСИ</v8:content>
 				</v8:item>
 			</title>
 		</field>
@@ -88,13 +94,14 @@
 		<query>ВЫБРАТЬ
 	ДетализацияСписанияМСИПоТипамОбороты.АналитикаУчетаНоменклатуры.Номенклатура КАК Номенклатура,
 	ДетализацияСписанияМСИПоТипамОбороты.АналитикаУчетаНоменклатуры.СерияНоменклатуры КАК Серия,
-	ДетализацияСписанияМСИПоТипамОбороты.Предприятие,
-	ДетализацияСписанияМСИПоТипамОбороты.Образец,
-	ДетализацияСписанияМСИПоТипамОбороты.Изделие,
-	ДетализацияСписанияМСИПоТипамОбороты.КоличествоОборот КАК Количество
+	ДетализацияСписанияМСИПоТипамОбороты.Предприятие КАК Предприятие,
+	ДетализацияСписанияМСИПоТипамОбороты.Образец КАК Образец,
+	ДетализацияСписанияМСИПоТипамОбороты.Изделие КАК Изделие,
+	ДетализацияСписанияМСИПоТипамОбороты.КоличествоОборот КАК Количество,
+	ДетализацияСписанияМСИПоТипамОбороты.Госконтракт КАК Госконтракт,
+	ДетализацияСписанияМСИПоТипамОбороты.СерийныйНомерОбразца КАК СерийныйНомерОбразца
 ИЗ
-	РегистрНакопления.ДетализацияСписанияМСИПоТипам.Обороты(&amp;НачалоПериода, &amp;КонецПериода,,
-		ТипСписания = ЗНАЧЕНИЕ(Перечисление.ВидыАктовСписаний.УстановкаВИзделие)) КАК ДетализацияСписанияМСИПоТипамОбороты</query>
+	РегистрНакопления.ДетализацияСписанияМСИПоТипам.Обороты(&amp;НачалоПериода, &amp;КонецПериода, , ТипСписания = ЗНАЧЕНИЕ(Перечисление.ВидыАктовСписаний.УстановкаВИзделие)) КАК ДетализацияСписанияМСИПоТипамОбороты</query>
 	</dataSet>
 	<totalField>
 		<dataPath>Количество</dataPath>
@@ -114,6 +121,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.НачалоПериода</expression>
 		<availableAsField>false</availableAsField>
@@ -132,6 +140,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.КонецПериода</expression>
 		<availableAsField>false</availableAsField>
@@ -171,6 +180,12 @@
 					<dcsset:field>Серия</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Госконтракт</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СерийныйНомерОбразца</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Количество</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
@@ -179,7 +194,6 @@
 					<dcsset:use>false</dcsset:use>
 					<dcsset:left xsi:type="dcscor:Field">Предприятие</dcsset:left>
 					<dcsset:comparisonType>Equal</dcsset:comparisonType>
-					<dcsset:right xsi:nil="true"/>
 					<dcsset:userSettingID>67316dd2-be08-4767-a5d8-d96b8a6b9804</dcsset:userSettingID>
 				</dcsset:item>
 			</dcsset:filter>
@@ -203,6 +217,8 @@
 						<dcsset:field>Предприятие</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 					</dcsset:item>
 				</dcsset:groupItems>
 				<dcsset:order>
@@ -217,6 +233,8 @@
 							<dcsset:field>Образец</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 						</dcsset:item>
 					</dcsset:groupItems>
 					<dcsset:order>

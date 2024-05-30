@@ -2529,7 +2529,12 @@
 	<templateMode>true</templateMode>
 	<defaultFormatIndex>8</defaultFormatIndex>
 	<height>59</height>
+	<vgLevels>1</vgLevels>
 	<vgRows>59</vgRows>
+	<vg>
+		<b>29</b>
+		<e>31</e>
+	</vg>
 	<merge>
 		<r>7</r>
 		<c>0</c>

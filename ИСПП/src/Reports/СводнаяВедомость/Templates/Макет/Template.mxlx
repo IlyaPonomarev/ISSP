@@ -18,25 +18,7 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>6</index>
-			<column>
-				<formatIndex>2</formatIndex>
-			</column>
-		</columnsItem>
-		<columnsItem>
-			<index>5</index>
-			<column>
-				<formatIndex>2</formatIndex>
-			</column>
-		</columnsItem>
-		<columnsItem>
-			<index>4</index>
-			<column>
-				<formatIndex>2</formatIndex>
-			</column>
-		</columnsItem>
-		<columnsItem>
-			<index>3</index>
+			<index>1</index>
 			<column>
 				<formatIndex>2</formatIndex>
 			</column>
@@ -48,7 +30,25 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>1</index>
+			<index>3</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>4</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>5</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>6</index>
 			<column>
 				<formatIndex>2</formatIndex>
 			</column>
@@ -159,7 +159,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>ЭКБ ИП являющихся казенными образцами специальной информации поступивших по заданию для АО ВКО "Алмаз-Антей" по состоянию на [ДатаОтчета] с учетом данных входного контроля и подлежащих передачи по договору № ХХ от хх.хх.хххх г.</v8:content>
+							<v8:content>ЭКБ ИП являющихся казенными образцами специальной информации поступивших по заданию № [НомерЗадания] для АО ВКО "Алмаз-Антей" по состоянию на [ДатаОтчета] г.</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -719,46 +719,31 @@
 			<c>
 				<c>
 					<f>35</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
+					<tl/>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>36</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
+					<tl/>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>37</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
+					<tl/>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>38</f>
 					<parameter>РегНомер</parameter>
 					<detailParameter>Номенклатура</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>39</f>
 					<parameter>Наименование</parameter>
 					<detailParameter>АктПриемкиРасшифровка</detailParameter>
 				</c>
@@ -766,96 +751,61 @@
 			<c>
 				<c>
 					<f>35</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
+					<tl/>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>39</f>
+					<f>40</f>
 					<parameter>КоличествоПоступление</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>40</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
+					<f>41</f>
+					<tl/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+					<tl/>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>41</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
+					<tl/>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>40</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>42</f>
+					<f>43</f>
 					<parameter>КоличествоПеремещено</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>42</f>
+					<f>43</f>
 					<parameter>КоличествоСписано</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>36</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>43</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
+					<tl/>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>44</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content/>
-						</v8:item>
-					</tl>
+					<tl/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>45</f>
+					<tl/>
 				</c>
 			</c>
 		</row>
@@ -906,7 +856,7 @@
 		<row>
 			<c>
 				<c>
-					<f>45</f>
+					<f>46</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -947,15 +897,15 @@
 		</row>
 	</rowsItem>
 	<leftHeader>
-		<f>47</f>
+		<f>48</f>
 		<tl/>
 	</leftHeader>
 	<centerHeader>
-		<f>47</f>
+		<f>48</f>
 		<tl/>
 	</centerHeader>
 	<rightHeader>
-		<f>47</f>
+		<f>48</f>
 		<tl>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -964,15 +914,15 @@
 		</tl>
 	</rightHeader>
 	<leftFooter>
-		<f>48</f>
+		<f>49</f>
 		<tl/>
 	</leftFooter>
 	<centerFooter>
-		<f>48</f>
+		<f>49</f>
 		<tl/>
 	</centerFooter>
 	<rightFooter>
-		<f>48</f>
+		<f>49</f>
 		<tl>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -981,7 +931,7 @@
 		</tl>
 	</rightFooter>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>46</defaultFormatIndex>
+	<defaultFormatIndex>47</defaultFormatIndex>
 	<height>15</height>
 	<vgRows>15</vgRows>
 	<merge>
@@ -1108,7 +1058,7 @@
 	</format>
 	<format>
 		<horizontalAlignment>Center</horizontalAlignment>
-		<textColor>#FF0000</textColor>
+		<fillType>Template</fillType>
 	</format>
 	<format>
 		<fillType>Text</fillType>
@@ -1333,6 +1283,7 @@
 		<width>136</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#CCFFCC</backColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Text</fillType>
 	</format>
@@ -1342,6 +1293,7 @@
 		<width>112</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#CCFFCC</backColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Text</fillType>
 	</format>
@@ -1351,6 +1303,7 @@
 		<width>128</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#CCFFCC</backColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Text</fillType>
 	</format>
@@ -1360,6 +1313,17 @@
 		<width>112</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#CCFFCC</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>4</font>
+		<border>0</border>
+		<width>112</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#CCFFCC</backColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 		<format>
@@ -1376,6 +1340,7 @@
 		<width>136</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#CCFFCC</backColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 		<format>
@@ -1391,6 +1356,7 @@
 		<width>72</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#CCFFCC</backColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Text</fillType>
 	</format>
@@ -1401,6 +1367,7 @@
 		<width>72</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#CCFFCC</backColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Text</fillType>
 	</format>
@@ -1410,6 +1377,7 @@
 		<width>112</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#CCFFCC</backColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 		<format>
@@ -1425,6 +1393,7 @@
 		<width>96</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#CCFFCC</backColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Text</fillType>
 	</format>
@@ -1435,6 +1404,7 @@
 		<width>96</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
+		<backColor>#CCFFCC</backColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Text</fillType>
 	</format>

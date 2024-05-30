@@ -60,6 +60,7 @@
   <content>Report.СводнаяВедомость</content>
   <content>Report.УстановкаВИзделие</content>
   <content>Report.УстановкаВИзделиеПоГосКонтрактам</content>
+  <content>Report.СтоимостьФактическихЗатрат</content>
   <subsystems>ПроектыЗаданий</subsystems>
   <subsystems>Поступление</subsystems>
   <subsystems>Выбытие</subsystems>

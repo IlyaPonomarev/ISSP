@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b02bc89-9492-4e7f-9fe8-481d31fa07e7">
+  <producedTypes>
+    <objectType typeId="2908a35b-9d5c-45e0-a1a2-a27956085fbf" valueTypeId="1441c128-33f3-4186-bab4-7b0e61b079b4"/>
+    <managerType typeId="5e778bc7-5290-430d-8011-3ef0ed0b1bb3" valueTypeId="b0662017-01cd-4a4f-8185-51d83d0de3aa"/>
+  </producedTypes>
+  <name>СтоимостьФактическихЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость фактических затрат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.СтоимостьФактическихЗатрат.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="675901a2-87c8-4f0e-bd19-aa624835f1e5">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

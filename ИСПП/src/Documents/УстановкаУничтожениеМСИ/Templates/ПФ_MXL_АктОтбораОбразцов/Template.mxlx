@@ -183,7 +183,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Экз. №[Экземпляр]</v8:content>
+							<v8:content>Экз. №______</v8:content>
 						</v8:item>
 					</tl>
 				</c>
@@ -2417,7 +2417,7 @@
 		<font>0</font>
 		<width>72</width>
 		<horizontalAlignment>Right</horizontalAlignment>
-		<fillType>Template</fillType>
+		<fillType>Text</fillType>
 	</format>
 	<format>
 		<font>0</font>
